@@ -1,3 +1,4 @@
-flask
-chromadb
-sentence-transformers
+flask>=3.1,<4
+chromadb>=1.5,<2
+sentence-transformers>=5.1,<6
+pytest>=8.0,<9

@@ -222,13 +222,19 @@
     let currentConcept = '';
     let seenIds = [];
 
+    function esc(s) {
+      const d = document.createElement('div');
+      d.textContent = s;
+      return d.innerHTML;
+    }
+
     // Fetch concept list on load
     fetch('/concepts').then(r => r.json()).then(data => { allConcepts = data; });
 
     function highlightMatch(text, query) {
       const idx = text.toLowerCase().indexOf(query.toLowerCase());
-      if (idx === -1) return text;
-      return text.slice(0, idx) + '<mark>' + text.slice(idx, idx + query.length) + '</mark>' + text.slice(idx + query.length);
+      if (idx === -1) return esc(text);
+      return esc(text.slice(0, idx)) + '<mark>' + esc(text.slice(idx, idx + query.length)) + '</mark>' + esc(text.slice(idx + query.length));
     }
 
     function showSuggestions(query) {
@@ -297,8 +303,8 @@
         : '';
       return `
         <div class="card">
-          <div class="card-concept">${r.concept}</div>
-          <div class="card-analogy">${r.analogy}</div>
+          <div class="card-concept">${esc(r.concept)}</div>
+          <div class="card-analogy">${esc(r.analogy)}</div>
           ${footerHtml}
         </div>
       `;
@@ -341,8 +347,7 @@
           let html = '<p class="empty-state">No strong matches found for this concept.</p>';
           if (weak.length > 0) {
             html += '<p class="weak-heading">Closest (weak) match:</p>';
-            const r = weak[0];
-            html += renderResult(r, false);
+            html += renderResult(weak[0], false);
           }
           resultsDiv.innerHTML = html;
           return;

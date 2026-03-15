@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask, render_template, request, jsonify
 import chromadb
 from chromadb.utils import embedding_functions
@@ -62,8 +64,8 @@ def search():
             query_texts=[concept],
             n_results=n_results + len(exclude_ids),
         )
-    except Exception as e:
-        return jsonify({"error": f"Search failed: {str(e)}"}), 500
+    except Exception:
+        return jsonify({"error": "Search failed."}), 500
 
     analogies = []
     seen_analogies = set()
@@ -88,4 +90,4 @@ def search():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5002)
+    app.run(debug=os.environ.get("FLASK_DEBUG", "").lower() == "true", port=5002)

@@ -1,0 +1,968 @@
+[
+  {
+    "id": "audio-bitrate-compression-everyday-life",
+    "concept": "Audio bitrate compression",
+    "analogy": "Reducing audio bitrate is like photocopying a photograph. The first copy looks almost identical, but each successive copy loses subtle detail. At 128kbps you've photocopied it a few times \u2014 most people can't tell, but an audiophile notices the missing texture.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "rom-emulation-game-boy-advanc-everyday-life",
+    "concept": "ROM emulation (Game Boy Advance)",
+    "analogy": "A ROM emulator is like a universal translator for old board games. The original Game Boy was the only person who spoke that 'language.' The emulator learns to speak it too, so your modern computer can play those games by translating the instructions in real time.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "zbuffer-rendering-ps1-everyday-life",
+    "concept": "Z-buffer rendering (PS1)",
+    "analogy": "A Z-buffer is like a depth chart that tells the painter what's in front of what. The PS1 had a very crude depth chart \u2014 it rounded distances, so objects at similar depths kept swapping which one appeared 'in front,' causing the jittery, flickering polygons the PS1 is known for.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "browser-extensions-reddit-enh-everyday-life",
+    "concept": "Browser extensions (Reddit Enhancement Suite)",
+    "analogy": "A browser extension is like a custom dashboard you bolt onto your car. The car (browser) works fine on its own, but the dashboard adds gauges and shortcuts tailored to how you drive. RES does this for Reddit \u2014 adding filters, previews, and shortcuts the base site doesn't have.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "hardware-reset-pinhole-switch-sports",
+    "concept": "Hardware reset (pinhole switch)",
+    "analogy": "A pinhole reset is like the emergency stop on a treadmill. When the normal controls stop responding, you press this hidden button to cut power and force a fresh start, clearing whatever glitch had the system frozen.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "rebooting-to-fix-issues-everyday-life",
+    "concept": "Rebooting to fix issues",
+    "analogy": "Rebooting to fix problems is like waking up from a bad dream. While your computer runs, programs leave messy temporary states \u2014 like tangled dream logic. Restarting clears all that out and loads everything fresh from the beginning.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "interrupted-software-updates-construction",
+    "concept": "Interrupted software updates",
+    "analogy": "Interrupting a software update is like leaving a building half-demolished. The old structure is partially torn down and the new one isn't built yet, so nothing works. The system is stuck between two states with no clean version to run.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "wireless-phone-charging-music",
+    "concept": "Wireless phone charging",
+    "analogy": "Wireless charging works like two tuning forks. When you strike one (the charger's coil creates a magnetic field), the nearby fork vibrates in sympathy (the phone's coil converts that field back into electricity). They never touch, but energy transfers through the resonance.",
+    "domain": "music",
+    "audience": "intermediate"
+  },
+  {
+    "id": "wireless-speakers-music",
+    "concept": "Wireless speakers",
+    "analogy": "A wireless speaker is like a radio in reverse. Instead of a station broadcasting music to your radio, your phone becomes the broadcaster, sending audio over Bluetooth or Wi-Fi to the speaker, which acts as a tiny personal radio receiver.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "game-cartridges-cooking",
+    "concept": "Game cartridges",
+    "analogy": "A game cartridge is like a lunchbox with a complete meal inside. You don't need to download or cook anything \u2014 just plug it in and the console reads the chips directly. Faster than loading from a disc, because the data is right there, no spinning required.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "smartphone-camera-technology-everyday-life",
+    "concept": "Smartphone camera technology",
+    "analogy": "A smartphone camera compensates for its tiny lens the way a gifted sketch artist compensates for a small pencil \u2014 through clever technique. Computational photography (stacking multiple exposures, AI processing) makes up for what the small sensor can't physically capture.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "hd-film-remastering-everyday-life",
+    "concept": "HD film remastering",
+    "analogy": "HD remastering old movies is like going back to the original film negatives \u2014 which were always high resolution \u2014 and scanning them with modern equipment. The movie was always sharp; it was the old TVs and projectors that couldn't show all the detail.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "green-screen-chroma-keying-everyday-life",
+    "concept": "Green screen (chroma keying)",
+    "analogy": "A green screen works like a coloring-book stencil. The editor tells the computer 'everywhere you see this exact shade of green, cut it out and paste in the background scene instead.' Green is chosen because it's the color least like human skin tones.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "stereoscopic-3d-in-movies-everyday-life",
+    "concept": "Stereoscopic 3D in movies",
+    "analogy": "3D movies work by showing each eye a slightly different image, just like how your two eyes naturally see the world from slightly different angles. Your brain fuses the two flat images into one image with depth, whether it's real life or a movie screen.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "macos-malware-protection-everyday-life",
+    "concept": "macOS malware protection",
+    "analogy": "macOS having fewer viruses is like a house in a gated community with fewer break-ins. It's not that the house is impenetrable \u2014 it's that burglars (malware authors) target the neighborhood with the most houses (Windows) because the payoff is bigger.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "mms-data-usage-everyday-life",
+    "concept": "MMS data usage",
+    "analogy": "MMS picture messages consume data like postcards cost more postage than letters. The picture is physically larger (more bytes), so the carrier charges more or deducts it from your data allowance, just like heavier mail costs more to ship.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "audiovideo-sync-issues-usb-p-sports",
+    "concept": "Audio-video sync issues (USB playback)",
+    "analogy": "Audio-video desync on USB playback is like two runners starting a race at slightly different times. Video frames take longer to decode than audio samples, so if the TV's processor can't keep up, the audio 'runner' pulls ahead and the lip movements fall behind.",
+    "domain": "sports",
+    "audience": "intermediate"
+  },
+  {
+    "id": "vcr-audio-recording-everyday-life",
+    "concept": "VCR audio recording",
+    "analogy": "A VCR records audio as a magnetic pattern along the edge of the tape, like writing notes in the margin of a book. The main content (video) takes up the full page, and the audio is a thin track running alongside it.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "audio-visualizer--vu-meter-everyday-life",
+    "concept": "Audio visualizer / VU meter",
+    "analogy": "An audio visualizer is like a seismograph for sound. Instead of measuring earthquakes, it measures the intensity and frequency of the music in real time and draws it as bouncing bars \u2014 tall bars for loud, bass-heavy moments, short ones for quiet passages.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "audio-artifacts-and-interferen-everyday-life",
+    "concept": "Audio artifacts and interference",
+    "analogy": "Audio artifacts are like static on a phone call \u2014 unwanted sounds introduced by the equipment or transmission, not the original source. High-pitched beeps in songs are often interference from nearby electronics leaking into the recording chain.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "speaker-waveform-superposition-nature",
+    "concept": "Speaker waveform superposition",
+    "analogy": "A single speaker playing multiple sounds is like a lake surface where several stones are thrown in at once. Each stone creates ripples, and the water surface is the sum of all ripples overlapping. The speaker cone does the same \u2014 it vibrates in one complex pattern that your ear separates back into individual sounds.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "how-speakers-work-music",
+    "concept": "How speakers work",
+    "analogy": "A speaker is like a drum that an electromagnet plays at superhuman speed. Electrical signals push and pull a magnet, which vibrates a cone back and forth. That vibrating cone pushes air molecules, creating the pressure waves your ears hear as sound.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "decibel-scale-nature",
+    "concept": "Decibel scale",
+    "analogy": "The decibel scale is like the Richter scale for sound. Each 10dB increase means the sound is 10 times more intense \u2014 so 70dB isn't just a little louder than 60dB, it's ten times more powerful. That's why a jet engine (140dB) isn't twice as loud as a conversation (60dB) \u2014 it's millions of times more intense.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "sound-attenuation-inverse-squ-nature",
+    "concept": "Sound attenuation (inverse square law)",
+    "analogy": "Sound getting quieter with distance follows the inverse square law, like spraying a garden hose into the air. Close up, the water is concentrated and hits hard. Farther away, the same water spreads over a much larger area, so any one spot gets much less.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "sound-propagation-through-matt-everyday-life",
+    "concept": "Sound propagation through matter",
+    "analogy": "Sound traveling through matter is like a chain of dominoes. Each molecule bumps into the next, passing the vibration along. In a vacuum, there are no dominoes to knock over, so there's no sound. Denser materials (water, steel) are like tightly packed dominoes \u2014 sound travels faster.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "stereo-audio-and-volume-everyday-life",
+    "concept": "Stereo audio and volume",
+    "analogy": "Listening to one earphone at 50% volume versus two earphones is like reading with one eye closed. You still get the content, but you lose the spatial dimension \u2014 stereo creates a sense of left, right, and center that one earphone collapses into a flat, one-sided experience.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "black-holes-nature",
+    "concept": "Black holes",
+    "analogy": "A black hole is like a waterfall in space. Just as a canoe past the point of no return gets swept over the falls no matter how hard it paddles, anything crossing a black hole's event horizon is pulled inward and can never escape \u2014 not even light.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "quantum-entanglement-everyday-life",
+    "concept": "Quantum entanglement",
+    "analogy": "Quantum entanglement is like having a pair of magic coins. You separate them across the world, flip one, and it's heads \u2014 instantly, the other is guaranteed to be tails. They don't communicate; they were linked from the moment they were made. The outcome was undecided until you looked.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "quantum-measurement-problem-cooking",
+    "concept": "Quantum measurement problem",
+    "analogy": "The quantum measurement problem is like opening a box of chocolates where the flavor isn't decided until you bite in. Before measurement, the particle exists in multiple states at once. The act of observing doesn't just reveal the answer \u2014 it forces the answer into existence.",
+    "domain": "cooking",
+    "audience": "intermediate"
+  },
+  {
+    "id": "heisenberg-uncertainty-princip-nature",
+    "concept": "Heisenberg uncertainty principle",
+    "analogy": "The uncertainty principle is like trying to photograph a hummingbird. If you use a fast shutter to freeze its position (sharp photo), you can't tell how fast it's moving. If you use a slow shutter to capture its motion (blurred streak), you lose its exact position. You can't perfectly capture both simultaneously.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "special-vs-general-relativity-everyday-life",
+    "concept": "Special vs general relativity",
+    "analogy": "Special relativity is like the rules of a board game played on a flat table \u2014 it covers objects moving at constant speed in flat spacetime. General relativity is what happens when you warp the table itself \u2014 it extends those rules to curved spacetime, where gravity bends the board.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "spacetime-curvature-and-gravit-sports",
+    "concept": "Spacetime curvature and gravity",
+    "analogy": "Spacetime curvature is like a bowling ball on a trampoline. The heavy ball warps the fabric, and a marble rolled nearby curves toward it \u2014 not because the bowling ball 'pulls' it, but because the surface itself is bent. Massive objects bend spacetime the same way.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "spacetime-expansion-cooking",
+    "concept": "Spacetime expansion",
+    "analogy": "Spacetime expansion is like raisin bread rising in the oven. The raisins (galaxies) aren't moving through the dough \u2014 the dough (space) itself is stretching. Every raisin sees every other raisin moving away, and the farther apart they are, the faster they separate.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "redshift-everyday-life",
+    "concept": "Redshift",
+    "analogy": "Redshift is like the way an ambulance siren drops in pitch as it drives away from you. As a galaxy moves away, its light waves stretch out (shift toward red). The faster it recedes, the more the light stretches \u2014 telling astronomers how fast and far the galaxy is moving.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "stellar-motion-proper-motion-nature",
+    "concept": "Stellar motion (proper motion)",
+    "analogy": "Stars moving relative to each other are like boats drifting on a vast, dark ocean. They're all moving, but the distances are so enormous that from our perspective, the constellation patterns barely change over a human lifetime \u2014 like watching boats from miles away.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "orbital-plane-of-the-solar-sys-cooking",
+    "concept": "Orbital plane of the solar system",
+    "analogy": "The planets orbiting on a flat plane is like pizza dough being spun. The early solar system was a spinning cloud of gas, and rotation flattened it into a disc \u2014 just as spinning dough flattens into a round shape. Gravity pulled planets together within that disc.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "cherenkov-radiation-photonic-nature",
+    "concept": "Cherenkov radiation (photonic boom)",
+    "analogy": "Cherenkov radiation is a sonic boom made of light. When a particle moves through water faster than light travels in water, it creates a shockwave of blue light \u2014 the same principle as a jet breaking the sound barrier, but with photons instead of sound waves.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "superluminal-communication-and-everyday-life",
+    "concept": "Superluminal communication and causality",
+    "analogy": "Faster-than-light communication would break causality like receiving a reply to a letter before you sent it. If information could outrun light, some observers would see effects before their causes \u2014 making time travel paradoxes not just theoretical but inevitable.",
+    "domain": "everyday life",
+    "audience": "advanced"
+  },
+  {
+    "id": "weightlessness-in-space-everyday-life",
+    "concept": "Weightlessness in space",
+    "analogy": "Astronauts feel weightless not because there's no gravity, but because they're in constant free-fall \u2014 like being in an elevator whose cable just snapped. The space station and everyone inside are falling toward Earth together, so there's nothing pushing against your feet.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "space-telescopes-hubble-nature",
+    "concept": "Space telescopes (Hubble)",
+    "analogy": "The Hubble telescope is in space for the same reason you'd move your beach chair past the crashing waves to read a book. Earth's atmosphere distorts and blurs light the way rippling water warps what's below the surface. Above the atmosphere, the view is perfectly still.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "voyager-spacecraft-imaging-everyday-life",
+    "concept": "Voyager spacecraft imaging",
+    "analogy": "Voyager sending images from Neptune is like shouting a description of a painting across a canyon \u2014 word by word, very slowly. The spacecraft transmits data at about 160 bits per second (slower than a 1980s modem), and NASA's giant dish antennas on Earth strain to hear the whisper.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "astronomical-photography-chall-nature",
+    "concept": "Astronomical photography challenges",
+    "analogy": "Photographing distant planets is like trying to photograph a firefly sitting on a lighthouse beam from miles away. The star is billions of times brighter than the planet next to it, so the challenge isn't distance alone \u2014 it's separating a faint speck from overwhelming glare.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "nuclear-fusion-massenergy-eq-everyday-life",
+    "concept": "Nuclear fusion (mass-energy equivalence)",
+    "analogy": "In nuclear fusion, the mass that disappears becomes energy, like two clay balls smashed together that weigh slightly less than the originals \u2014 and the 'missing' clay is converted into a burst of heat and light via E=mc\u00b2. A tiny amount of mass yields enormous energy because c\u00b2 is a gigantic number.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "nuclear-explosion-destructive-nature",
+    "concept": "Nuclear explosion destructive power",
+    "analogy": "A nuclear explosion releases energy like uncorking a bottle that holds a sun's worth of pressure. Splitting or fusing atomic nuclei releases the binding energy that normally holds matter together \u2014 converting a marble-sized amount of mass into a city-leveling blast.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "nuclear-launch-codes-everyday-life",
+    "concept": "Nuclear launch codes",
+    "analogy": "Nuclear launch codes work like a two-key safety deposit box at a bank. No single person can open it. Multiple authenticated officials must simultaneously provide their codes, and the system cross-checks each one. It's a chain of human and technical safeguards designed so no single point of failure can trigger a launch.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "nuclear-testing-environmental-nature",
+    "concept": "Nuclear testing environmental impact",
+    "analogy": "The environmental impact of 1,000+ nuclear tests is like dropping dye into a swimming pool \u2014 even decades later, traces of radioactive isotopes circulate globally in soil, water, and the atmosphere. The tests left a permanent chemical signature in earth's geology.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "uranium-radioactivity-and-half-nature",
+    "concept": "Uranium radioactivity and half-life",
+    "analogy": "Uranium being radioactive for millions of years is like a giant log that burns incredibly slowly. It releases energy at a steady trickle over eons. A shorter half-life material is like kindling \u2014 burns hot and fast, then it's gone. Uranium is dangerous precisely because it smolders almost forever.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "radioactive-halflife-everyday-life",
+    "concept": "Radioactive half-life",
+    "analogy": "A half-life is like a room full of people flipping coins every hour. Each round, roughly half flip tails and leave. After one hour, half remain. After two hours, a quarter. You can't predict which individual leaves when, but the rate of the crowd thinning is perfectly predictable.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "plasma-fourth-state-of-matter-cooking",
+    "concept": "Plasma (fourth state of matter)",
+    "analogy": "Plasma is what happens when you heat a gas so much that electrons rip free from their atoms \u2014 like boiling water until the molecules themselves break apart. It's not solid, liquid, or gas \u2014 it's an energized soup of charged particles. Lightning, the sun, and neon signs are all plasma.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "states-of-matter-soft-solids-construction",
+    "concept": "States of matter (soft solids and gels)",
+    "analogy": "Marshmallows and Jell-O are like the 'in-between' states of matter \u2014 not rigid solids, not flowing liquids. They're networks of molecules (gelatin, sugar) that trap air or water, creating structures that hold their shape loosely but squish under pressure, like a scaffolding filled with water balloons.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "menger-sponge-fractal-geometr-construction",
+    "concept": "Menger sponge (fractal geometry)",
+    "analogy": "A Menger sponge has zero volume because at every step you remove the centers, like a building where every room has its walls, floor, and ceiling removed \u2014 leaving only the frame. Repeat infinitely, and you're left with an infinitely detailed frame that encloses no space at all.",
+    "domain": "construction",
+    "audience": "advanced"
+  },
+  {
+    "id": "fourier-transforms-nature",
+    "concept": "Fourier transforms",
+    "analogy": "A Fourier transform is like a prism splitting white light into a rainbow. You put in a complex, mixed-up signal (white light), and the transform separates it into its individual frequency components (colors), showing you exactly how much of each frequency is present.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "chaos-theory-everyday-life",
+    "concept": "Chaos theory",
+    "analogy": "Chaos theory says that some systems are like a row of dominos set up on a wobbly table. A tiny nudge changes which dominos fall and which don't. The system follows strict rules (physics), but the outcome is wildly sensitive to the starting conditions \u2014 making long-term prediction impossible.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "nature-of-time-nature",
+    "concept": "Nature of time",
+    "analogy": "Time might be like a river \u2014 always flowing forward, carrying everything with it. But in physics, time is more like a dimension (like height or width) that we move through. Why we only move forward in it is one of the deepest unsolved questions in science.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "heat-transfer-over-time-music",
+    "concept": "Heat transfer over time",
+    "analogy": "Heat transfer is like a crowd spreading out from a packed concert exit. Molecules with lots of energy (heat) bump into their cooler neighbors, passing kinetic energy along. Over time, the energy spreads until everything reaches the same temperature \u2014 like the crowd evening out across the parking lot.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "gravitational-force-calculatio-everyday-life",
+    "concept": "Gravitational force calculation",
+    "analogy": "Calculating gravitational force is like measuring the tug between two magnets \u2014 it depends on how strong each magnet is (mass) and how far apart they are. Double the mass, double the pull. Double the distance, the pull drops to a quarter. Newton's formula captures this simple relationship.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "kirchhoffs-current-law-construction",
+    "concept": "Kirchhoff's current law",
+    "analogy": "Kirchhoff's current law is like water flowing through a pipe junction. All the water flowing into the junction must flow out \u2014 none is created or destroyed. Similarly, all current entering a circuit node must exit. What goes in equals what goes out.",
+    "domain": "construction",
+    "audience": "intermediate"
+  },
+  {
+    "id": "voltage-amperes-and-watts-nature",
+    "concept": "Voltage, amperes, and watts",
+    "analogy": "Voltage is water pressure, amperage is the flow rate, and watts are the total power \u2014 like how much work a hose does. High pressure (voltage) through a thin stream (low amps) can equal the same power as low pressure through a fire hose (high amps).",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "electrostatic-attraction-atom-everyday-life",
+    "concept": "Electrostatic attraction (atoms)",
+    "analogy": "Electrons sticking to protons despite opposite charges is like magnets on a fridge \u2014 the attraction pulls them together, but quantum mechanics keeps electrons in orbit rather than collapsing in, like a ball rolling around the inside of a bowl fast enough to never fall to the bottom.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "freezing-point-depression-sal-everyday-life",
+    "concept": "Freezing point depression (salt on ice)",
+    "analogy": "Salt lowers ice's freezing point like adding a bump to a smooth ramp. Pure water molecules slide easily into their crystal formation (ice) at 0\u00b0C. Salt molecules get in the way, disrupting the pattern, so you need even colder temperatures to force the water to freeze.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "fluid-dynamics-laminar-vs-tur-music",
+    "concept": "Fluid dynamics (laminar vs turbulent flow)",
+    "analogy": "Laminar flow is like an orderly marching band \u2014 everyone moves in parallel lines. Turbulent flow is like a mosh pit \u2014 chaotic swirls and eddies. Whether water pours smoothly or splashes depends on speed and the shape of the container, just like whether a crowd walks or stampedes depends on the venue.",
+    "domain": "music",
+    "audience": "intermediate"
+  },
+  {
+    "id": "erosion-grand-canyon-formatio-nature",
+    "concept": "Erosion (Grand Canyon formation)",
+    "analogy": "The Grand Canyon being 18 miles wide from a river is like a tiny drip of water wearing a groove into a stone step \u2014 given millions of years. The Colorado River didn't carve sideways; it carved down while the canyon walls gradually crumbled and weathered outward on both sides.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "sparks-from-metal-compression-everyday-life",
+    "concept": "Sparks from metal compression",
+    "analogy": "Sparks flying from a crushed ball bearing are stored energy being released \u2014 like snapping a glow stick. The metal deforms so violently that tiny fragments break off at extreme temperatures, hot enough to burn in the air and glow white-hot for an instant.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "solar-panels-everyday-life",
+    "concept": "Solar panels",
+    "analogy": "Solar panels convert sunlight to electricity like a turnstile converts a push into a counted entry. Photons (light particles) hit silicon atoms and knock electrons loose, creating a flow of charge. Each photon is a tiny push that frees one electron to move through the circuit.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "electric-and-hybrid-vehicles-sports",
+    "concept": "Electric and hybrid vehicles",
+    "analogy": "A hybrid car is like a cyclist with an electric assist motor. On flat ground (city driving), the motor (battery) does most of the work. On steep hills (highway acceleration), the cyclist's legs (gas engine) kick in. The battery recaptures energy on downhills (regenerative braking) that would otherwise be wasted as heat.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "air-conditioning-and-fuel-econ-sports",
+    "concept": "Air conditioning and fuel economy",
+    "analogy": "AC reducing fuel economy is like running uphill with a backpack. The AC compressor is an extra load on the engine \u2014 it steals some of the power that would otherwise move the car forward, so the engine burns more fuel to maintain the same speed.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "protein-types-in-the-human-bod-construction",
+    "concept": "Protein types in the human body",
+    "analogy": "Proteins in your body are like specialized LEGO kits. Some are structural beams (collagen), some are tiny machines (enzymes that speed up reactions), some are messengers (hormones), and some are security guards (antibodies). All built from the same 20 amino acid building blocks, folded into different shapes for different jobs.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "proteins-scientific-definitio-everyday-life",
+    "concept": "Proteins (scientific definition)",
+    "analogy": "A protein is like an origami crane folded from a very long strip of paper. The strip is a chain of amino acids, and the specific sequence determines how it folds into a 3D shape. That shape determines its function \u2014 change one fold and the crane might become a boat.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "biology-of-aging-everyday-life",
+    "concept": "Biology of aging",
+    "analogy": "Aging is like a photocopy machine that gradually degrades. Each time your cells divide, the copies get slightly less perfect \u2014 DNA accumulates errors, telomeres shorten, and repair mechanisms slow down. Over decades, the accumulated imperfections show as wrinkled skin, slower healing, and weaker systems.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "antibiotic-resistance-sports",
+    "concept": "Antibiotic resistance",
+    "analogy": "Antibiotic resistance is like a war where you use the same battle plan every time. Eventually the enemy adapts. The few bacteria that survive an antibiotic course are the ones with natural resistance \u2014 they multiply, and now you're fighting an army that already knows your playbook.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "antibacterial-resistance-999-nature",
+    "concept": "Antibacterial resistance (99.9%)",
+    "analogy": "The 0.1% surviving bacteria are like the one cockroach that survives the exterminator. The label says 99.9% because a tiny fraction naturally has traits that resist the disinfectant. Given food and time, that survivor can repopulate \u2014 but in practice, your immune system mops up the stragglers.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "cancer-surgery-limitations-everyday-life",
+    "concept": "Cancer surgery limitations",
+    "analogy": "Cutting out cancer isn't always simple because cancer cells spread like spilled glitter. You can scoop up the main pile, but microscopic specks scatter into crevices you can't see. If even a few cells remain in lymph nodes or blood, the cancer can regrow elsewhere.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "organ-donor-compatibility-everyday-life",
+    "concept": "Organ donor compatibility",
+    "analogy": "Organ compatibility is like a lock-and-key system on your cells. Everyone's cell surfaces have a unique molecular 'lock pattern' (HLA markers). A transplanted organ with a different pattern triggers your immune system to attack it as foreign \u2014 even a parent's pattern is only a half-match to their child's.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "nerve-regeneration-in-transpla-nature",
+    "concept": "Nerve regeneration in transplants",
+    "analogy": "Nerves regrowing into a transplanted organ is like tree roots finding water. Nerve cells send out growth cones \u2014 tiny exploratory tendrils \u2014 that follow chemical signals released by the transplanted tissue. It's slow (about 1mm/day) and not all connections are perfectly restored.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "dementia-everyday-life",
+    "concept": "Dementia",
+    "analogy": "Dementia is like a library where the card catalog is slowly being scrambled. The books (memories) are still on the shelves, but the index that helps you find them is deteriorating. Sometimes you stumble on a book by accident (a flash of lucidity), but systematic retrieval becomes increasingly unreliable.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "cold-and-flu-symptoms-mechani-nature",
+    "concept": "Cold and flu symptoms (mechanism)",
+    "analogy": "Cold symptoms are mostly friendly fire from your own immune system. A runny nose is your body flushing out invaders. Fever raises your temperature to slow virus replication. Fatigue forces you to rest so energy goes to fighting. The virus lights the match, but your immune response is the fire.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "gluten-allergy-vs-celiac-disea-cooking",
+    "concept": "Gluten allergy vs celiac disease",
+    "analogy": "Celiac disease is like a security system with a faulty sensor. Gluten (a harmless protein) triggers the immune system to attack the intestinal lining, like a smoke alarm going off because of burnt toast and then spraying the whole kitchen with the fire suppression system.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "cat-purring-mechanism-music",
+    "concept": "Cat purring mechanism",
+    "analogy": "A cat purrs using muscles in its larynx that rapidly twitch (25-150 times per second), opening and closing the vocal cords as the cat breathes in and out. It's like strumming a guitar string at a steady rhythm \u2014 the vibration of the cords produces that low, continuous rumble.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "biological-mimicry-everyday-life",
+    "concept": "Biological mimicry",
+    "analogy": "Biological mimicry is like a con artist wearing a police uniform. A harmless hoverfly evolves to look like a wasp, scaring predators without needing actual venom. The disguise works because predators can't afford to test whether each encounter is the real thing.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "marine-mammal-breathing-sports",
+    "concept": "Marine mammal breathing",
+    "analogy": "Dolphins breathing as mammals is like a diver using a snorkel \u2014 they must surface regularly for air. Unlike fish, they have lungs, not gills. They evolved to hold massive amounts of oxygen in their blood and muscles, allowing long dives, but they'll always need to come up eventually.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "genetic-trait-skipping-generat-cooking",
+    "concept": "Genetic trait skipping generations",
+    "analogy": "Traits skipping a generation is like carrying a recipe you never cook. A parent can carry a recessive gene (like blue eyes) without expressing it. If both parents pass their hidden copy to a child, the trait appears \u2014 seemingly skipping from grandparent to grandchild while the parents showed no sign.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "plant-pest-resistance-vs-gmos-everyday-life",
+    "concept": "Plant pest resistance vs GMOs",
+    "analogy": "Non-GM plants not developing pest resistance as fast as GMOs is like a class trying to learn by random guessing versus being given the answer key. Evolution is slow trial-and-error over many generations. GMOs skip the line by inserting a known defense gene directly.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "grass-winter-survival-nature",
+    "concept": "Grass winter survival",
+    "analogy": "Grass survives winter like a bear hibernating. It retreats underground \u2014 the roots store energy, the visible blades die back. Under the snow (which actually insulates like a blanket), the roots stay just warm enough to survive until spring triggers regrowth.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "knockout-concussion-mechanis-everyday-life",
+    "concept": "Knockout (concussion) mechanism",
+    "analogy": "Getting knocked out is like a snow globe being shaken. A sudden blow rotates the skull, and the brain \u2014 floating in fluid \u2014 slams against the inside. This rapid acceleration disrupts the electrical signaling across neurons, causing a temporary system shutdown.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "reaction-time-improvement-nature",
+    "concept": "Reaction time improvement",
+    "analogy": "Improving reaction time is like wearing a trail into a forest. The first time you walk through, you push through branches and guess the path. With practice, the neural pathway becomes a clear, fast trail \u2014 your brain recognizes the stimulus and fires the response with less hesitation each time.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "sleep-debt-vs-sleep-surplus-everyday-life",
+    "concept": "Sleep debt vs sleep surplus",
+    "analogy": "You can't bank sleep because sleep is like digestion, not like a savings account. You can't eat a week's worth of meals on Monday and skip eating until Sunday. Your brain needs sleep regularly to clear waste products and consolidate memories \u2014 it's a process, not a reservoir.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "muscle-memory-cycling-everyday-life",
+    "concept": "Muscle memory (cycling)",
+    "analogy": "Muscle memory for cycling is stored in your cerebellum \u2014 like saving a file to a different hard drive than your regular memories. Procedural skills are encoded through repetition into a part of the brain that resists forgetting, which is why you can ride again after years without practice.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "memory-retrieval-delay-everyday-life",
+    "concept": "Memory retrieval delay",
+    "analogy": "A 15-second memory retrieval delay is like searching for a file on a cluttered desk. Your brain knows it stored the information, but it's checking through associations and neural pathways. The 'aha' moment comes when it finally follows the right chain of connections to the stored memory.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "longterm-music-memory-music",
+    "concept": "Long-term music memory",
+    "analogy": "Remembering song lyrics from years ago is because music activates multiple brain regions simultaneously \u2014 rhythm, emotion, language, melody \u2014 creating a web of associations. It's like remembering a smell that instantly brings back a whole scene. The more hooks a memory has, the harder it is to forget.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "formula-memorization-nature",
+    "concept": "Formula memorization",
+    "analogy": "Memorizing formulas works because repetition strengthens neural connections \u2014 like water deepening a channel through rock. Each time you recall the formula, the pathway gets a little smoother. Eventually the recall becomes nearly automatic, even though the underlying math may feel abstract.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "speech-errors-tip-of-the-tong-everyday-life",
+    "concept": "Speech errors (tip of the tongue)",
+    "analogy": "Speech errors happen when your brain's 'word retrieval' system glitches \u2014 like a vending machine that knows it has your snack but the coil gets stuck. The thought is fully formed, the mouth muscles are ready, but the link between concept and the specific word temporarily misfires.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "falling-asleep-consciousness-everyday-life",
+    "concept": "Falling asleep (consciousness transition)",
+    "analogy": "You don't notice falling asleep because consciousness fades gradually \u2014 like a dimmer switch, not an on-off toggle. Your brain's awareness systems progressively quiet down, and the moment of transition is inherently unobservable, because the observer (your conscious mind) is the thing shutting off.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "phosphenes-pressure-on-closed-music",
+    "concept": "Phosphenes (pressure on closed eyes)",
+    "analogy": "The colors you see when pressing on closed eyes (phosphenes) are like a piano making sound when you slam the lid. Your retinal cells are designed to respond to light, but mechanical pressure also triggers them. Your brain interprets any retinal signal as visual, so pressure creates false 'light' patterns.",
+    "domain": "music",
+    "audience": "intermediate"
+  },
+  {
+    "id": "eye-rotation-vestibuloocular-everyday-life",
+    "concept": "Eye rotation (vestibulo-ocular reflex)",
+    "analogy": "Your eyes counter-rotating when you turn your head is the vestibulo-ocular reflex \u2014 like a camera gimbal stabilizing footage. Your inner ear senses head rotation and sends signals to eye muscles that rotate your eyes the opposite direction, keeping the image steady.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "vestibular-system-spotting-wh-sports",
+    "concept": "Vestibular system (spotting while spinning)",
+    "analogy": "Dancers 'spotting' (snapping focus between two points) reduces dizziness by giving the vestibular system clean stop-start signals instead of continuous spinning input. It's like resetting a compass needle between each rotation instead of letting it spin freely and getting confused.",
+    "domain": "sports",
+    "audience": "intermediate"
+  },
+  {
+    "id": "joint-cracking-satisfaction-everyday-life",
+    "concept": "Joint cracking satisfaction",
+    "analogy": "Cracking joints releases gas bubbles dissolved in the synovial fluid \u2014 like opening a soda can. The pop is a cavity collapsing. The satisfaction likely comes from a brief stretch of the joint capsule and a mild pressure release, sending a pleasing sensory signal to the brain.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "shock-handtomouth-reflex-nature",
+    "concept": "Shock hand-to-mouth reflex",
+    "analogy": "Covering your mouth in shock is likely a vestigial protective reflex \u2014 like flinching from a loud noise. It may have evolved to prevent screaming (alerting predators) or to guard the vulnerable face. Today it persists as an involuntary gesture of surprise or horror.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "foot-arch-anatomy-construction",
+    "concept": "Foot arch anatomy",
+    "analogy": "Your foot's arch works like a suspension bridge. The arch shape distributes your body weight across the foot, and the tendons act like bridge cables under tension. This design absorbs impact when walking \u2014 a flat structure would transmit every shock directly up your skeleton.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "how-smell-works-olfaction-everyday-life",
+    "concept": "How smell works (olfaction)",
+    "analogy": "Smelling something means actual molecules from that object have floated through the air into your nose. Each molecule fits into specific receptors like keys in locks. Your brain identifies the combination of triggered receptors as 'coffee' or 'roses' \u2014 you're literally breathing in tiny bits of everything you smell.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "freshly-cut-grass-smell-nature",
+    "concept": "Freshly cut grass smell",
+    "analogy": "The fresh-cut grass smell is a chemical distress signal \u2014 the plant equivalent of screaming. When blades are severed, they release volatile organic compounds (green leaf volatiles) that evolved to attract predators of the insects eating them. We just happen to find the scent pleasant.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "fivesecond-rule-food-safety-everyday-life",
+    "concept": "Five-second rule (food safety)",
+    "analogy": "The five-second rule is a myth \u2014 bacteria transfer to food on contact, like ink on a stamp. One second or five, if the surface has bacteria, some will stick. However, the number transferred does increase slightly with time, and dry foods on dry surfaces pick up less than wet foods on wet surfaces.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "bvitamins-and-anxiety-everyday-life",
+    "concept": "B-vitamins and anxiety",
+    "analogy": "B-vitamins help with anxiety because they're cofactors in producing neurotransmitters \u2014 like the oil that keeps a machine running smoothly. Serotonin and GABA (calming chemicals) need B-vitamins to be synthesized. If you're deficient, production slows and anxiety can increase.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "skin-irritation-from-friction-construction",
+    "concept": "Skin irritation from friction",
+    "analogy": "Friction irritation happens because repeated rubbing damages the top layer of skin faster than it can repair \u2014 like sandpaper wearing through a coat of paint. Moisture makes it worse by softening the skin (less resistance) and increasing the friction coefficient.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "strep-throat-pain-mechanism-everyday-life",
+    "concept": "Strep throat pain mechanism",
+    "analogy": "Strep throat makes swallowing painful because the bacterial infection inflames your throat tissue, causing it to swell. Swallowing presses inflamed surfaces together \u2014 like squeezing a bruise. The pain is your body's warning signal that damaged tissue is being aggravated.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "antiaging-products-construction",
+    "concept": "Anti-aging products",
+    "analogy": "Most anti-aging creams work like polishing a scratched table \u2014 they smooth the surface temporarily (moisturize, reduce fine line appearance) but don't actually reverse the underlying wood damage (cellular aging). Retinoids are an exception \u2014 they genuinely stimulate collagen production, like refinishing the wood itself.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "acid-corrosion-chemistry-construction",
+    "concept": "Acid corrosion chemistry",
+    "analogy": "Acid burns because it donates hydrogen ions that aggressively react with proteins and fats in your skin \u2014 like tiny molecular wrecking balls dismantling the chemical bonds holding your tissue together. The stronger the acid, the more wrecking balls it releases per drop.",
+    "domain": "construction",
+    "audience": "intermediate"
+  },
+  {
+    "id": "goo-gone-solvent-chemistry-cooking",
+    "concept": "Goo Gone (solvent chemistry)",
+    "analogy": "Goo Gone works because 'like dissolves like.' Adhesive residue is an oil-based substance, and Goo Gone's citrus-based solvents dissolve it the way hot water dissolves sugar \u2014 the solvent molecules surround and pull apart the adhesive molecules, letting you wipe them away.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "plastic-yellowing-uv-degradat-nature",
+    "concept": "Plastic yellowing (UV degradation)",
+    "analogy": "White plastic yellowing over time is like a sunburn on molecules. UV light breaks chemical bonds in the plastic (usually ABS), creating new compounds that absorb blue light and reflect yellow. It's the same process as paper yellowing \u2014 irreversible photochemical damage.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "noble-gas-solubility-xenon-everyday-life",
+    "concept": "Noble gas solubility (Xenon)",
+    "analogy": "Xenon dissolves more than other noble gases because its larger electron cloud makes it 'stickier' \u2014 like a big fluffy towel absorbing more water than a thin one. Larger atoms have more surface area for weak intermolecular attractions (van der Waals forces) with water molecules.",
+    "domain": "everyday life",
+    "audience": "advanced"
+  },
+  {
+    "id": "paper-water-absorption-everyday-life",
+    "concept": "Paper water absorption",
+    "analogy": "Paper gets mushy in water because paper is a web of cellulose fibers with tiny gaps. Water molecules creep into these gaps through capillary action \u2014 like water climbing up a sponge \u2014 weakening the hydrogen bonds between fibers until the structure collapses.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "tattoo-ink-gradients-everyday-life",
+    "concept": "Tattoo ink gradients",
+    "analogy": "Tattoo gradients work by varying how densely ink dots are placed \u2014 like newspaper halftone printing. Dense dots look dark, sparse dots look lighter as skin shows through. The tattoo artist is essentially a biological printer, controlling shade through dot spacing.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "bioelectricity-electric-eels-everyday-life",
+    "concept": "Bioelectricity (electric eels)",
+    "analogy": "Electric eels generate electricity like a stack of batteries wired in series. Each electrocyte cell produces a small voltage (0.15V), but thousands stacked together sum to 600+ volts \u2014 enough to stun prey. It's the same principle as stacking AA batteries end to end.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "pistol-shrimp-cavitation-nature",
+    "concept": "Pistol shrimp cavitation",
+    "analogy": "A pistol shrimp's snap doesn't boil the surrounding water because cavitation is extremely localized. The collapsing bubble reaches thousands of degrees in a space smaller than a pinhead for a fraction of a microsecond \u2014 like a tiny supernova that's gone before it can heat anything around it.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "microwave-oven-evolution-everyday-life",
+    "concept": "Microwave oven evolution",
+    "analogy": "Modern microwaves work on the same fundamental principle as 1980s models \u2014 a magnetron generating 2.45GHz waves that vibrate water molecules. The improvements are in controls, sensors, and inverter technology (smoother power levels) \u2014 like a car whose engine is the same but the dashboard got much better.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "bladeless-fan-dyson-air-multi-everyday-life",
+    "concept": "Bladeless fan (Dyson Air Multiplier)",
+    "analogy": "A Dyson bladeless fan actually has a blade \u2014 it's hidden in the base. The base pulls air in with a small impeller, then pushes it through a thin slit in the ring. This fast stream of air drags surrounding air along with it (inducement), multiplying the airflow like a funnel amplifying your voice.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "wagon-wheel-effect-aliasing-everyday-life",
+    "concept": "Wagon wheel effect (aliasing)",
+    "analogy": "Wheels appearing to spin backward is an aliasing effect \u2014 like a strobe light catching a fan blade at just the wrong rate. If the wheel rotates almost one full spoke-gap between each frame your eye captures, it looks like the spokes moved backward slightly rather than forward a lot.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "squarecube-law-miniaturizati-nature",
+    "concept": "Square-cube law (miniaturization)",
+    "analogy": "The square-cube law means a person shrunk to ant-size would be incredibly strong relative to their weight \u2014 like how an ant carries 50x its weight. Volume (and mass) drops with the cube of size, but muscle cross-section only drops with the square, so the strength-to-weight ratio skyrockets.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "habitable-zone-criteria-cooking",
+    "concept": "Habitable zone criteria",
+    "analogy": "Scientists look for Earth-like conditions because water is the only solvent we know that supports the chemistry of life. The habitable zone is the 'Goldilocks distance' from a star \u2014 not too hot (water boils), not too cold (water freezes), just right for liquid water to exist on the surface.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "underwater-welding-construction",
+    "concept": "Underwater welding",
+    "analogy": "Underwater welders don't get shocked because the welding arc is surrounded by a gas bubble that pushes water away. It's like welding inside a tiny air tent on the ocean floor \u2014 the electricity flows through the arc and into the metal, not through the water to the welder.",
+    "domain": "construction",
+    "audience": "intermediate"
+  },
+  {
+    "id": "railway-track-switching-nature",
+    "concept": "Railway track switching",
+    "analogy": "A railway switch works like a Y-shaped fork in a river with a movable gate. The switch rail (a tapered piece of track) slides left or right to guide the wheels down one path or the other. The wheels' flanges follow whichever rail is aligned, making the choice mechanical and reliable.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "exoskeleton-technology-construction",
+    "concept": "Exoskeleton technology",
+    "analogy": "An exoskeleton works like a wearable scaffold that mirrors your movements. Sensors detect when you bend your knee or lift your arm, then motors or hydraulics amplify the force \u2014 like power steering for your whole body, letting you lift heavier loads or walk when your muscles can't.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "inflation-from-money-printing-cooking",
+    "concept": "Inflation from money printing",
+    "analogy": "Printing more money causes inflation like adding water to a soup. The same amount of real goods (ingredients) is now chased by more dollars (water). Each dollar buys less \u2014 the soup gets thinner. The total 'bowl' looks bigger, but each spoonful has less substance.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "coupon-redemption-economics-everyday-life",
+    "concept": "Coupon redemption economics",
+    "analogy": "When you use a coupon, the store sends it to a clearinghouse that bills the manufacturer. It's like a rebate system \u2014 the manufacturer subsidizes your discount because they'd rather sell at a lower margin than lose the sale entirely. The store gets reimbursed, so they're not taking the loss.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "facial-recognition-human-abil-everyday-life",
+    "concept": "Facial recognition (human ability)",
+    "analogy": "Humans excel at recognizing faces because we have a dedicated brain region (fusiform face area) that processes faces holistically \u2014 like a specialist mechanic who identifies a car model at a glance, rather than checking each part. This is why a tiny change (shaved beard) can momentarily fool you, but you still recognize thousands of faces effortlessly.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "change-blindness-familiar-fac-everyday-life",
+    "concept": "Change blindness (familiar faces)",
+    "analogy": "A sibling's appearance not seeming to change is change blindness \u2014 your brain updates its mental model so gradually that you never notice the transition. It's like watching the hour hand on a clock \u2014 it's always moving, but you can never catch it in the act.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "mirror-blind-spots-everyday-life",
+    "concept": "Mirror blind spots",
+    "analogy": "You can't see in a dark mirror because mirrors reflect light, not generate it. A mirror in a dark room is like a window at night \u2014 there's nothing on the other side to see. Your eyes need reflected photons to form an image, and in darkness, there are none to reflect.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "visible-light-spectrum-percept-everyday-life",
+    "concept": "Visible light spectrum perception",
+    "analogy": "The visible spectrum appears cyclic (red wrapping back to violet through purple) because our eyes have three color sensors that overlap. Purple stimulates both the red and blue sensors simultaneously \u2014 a combination that doesn't exist as a single wavelength, but our brain invents it to close the loop.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "engine-rpm-and-sound-everyday-life",
+    "concept": "Engine RPM and sound",
+    "analogy": "An engine idling at 3K RPM sounds alarming because most engines idle at 600-1000 RPM. At 3K, every component is spinning 3-5x faster than designed for idle \u2014 the sound is louder, more strained, and higher-pitched, like a fan running at triple speed. Something is likely wrong with the idle control.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "car-top-speed-vs-speed-limits-cooking",
+    "concept": "Car top speed vs speed limits",
+    "analogy": "Cars going faster than the speed limit is like knives being sharper than needed for butter. Extra engine power serves acceleration, hill climbing, overtaking, and safety margins. Limiting top speed to exactly the speed limit would mean no power left for merging onto a highway or climbing a steep grade.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "metric-vs-imperial-system-construction",
+    "concept": "Metric vs imperial system",
+    "analogy": "The metric system is easier because everything scales by 10 \u2014 like our number system. Imperial units are like a house where every room uses a different measuring tape: 12 inches in a foot, 3 feet in a yard, 1,760 yards in a mile. Metric is one ruler for the whole house.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "freezing-to-eliminate-odors-cooking",
+    "concept": "Freezing to eliminate odors",
+    "analogy": "Freezing reduces smells because odor-causing bacteria go dormant in cold \u2014 like hitting pause on their activity. The cold doesn't kill most bacteria, but it slows their metabolism so much that they stop producing the waste compounds we smell. Thawing may bring the smell back.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "beer-foam-physics-sports",
+    "concept": "Beer foam physics",
+    "analogy": "Tilting the glass reduces foam because it decreases the distance beer falls and the angle of impact. Pouring straight down is like cannonballing into a pool \u2014 maximum splash (CO2 release). Pouring along the side is like sliding in gently \u2014 less turbulence, less gas escaping as foam.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "midcentury-photography-clarit-everyday-life",
+    "concept": "Mid-century photography clarity",
+    "analogy": "Photos from the late 1950s-60s look remarkably sharp because that era used large-format film and excellent glass lenses. Film doesn't have a fixed 'resolution' like pixels \u2014 a large negative holds tremendous detail. What makes old photos look old is usually fading and damage, not the original capture quality.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "cable-tv-business-model-cooking",
+    "concept": "Cable TV business model",
+    "analogy": "Cable TV bundles are like an all-you-can-eat buffet. You pay one price for everything, even channels you never watch. The popular channels subsidize the niche ones. Streaming unbundled this \u2014 letting you pay for individual dishes \u2014 which is why cable lost customers to a la carte services.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "music-streaming-copyright-everyday-life",
+    "concept": "Music streaming copyright",
+    "analogy": "Music streaming copyright works like renting vs buying an apartment. Streaming services license songs (rent), paying per play. If the license expires, the song disappears \u2014 like a lease ending. Buying a download or CD is owning \u2014 it's yours permanently regardless of any deal between labels.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "music-video-monetization-cooking",
+    "concept": "Music video monetization",
+    "analogy": "Before internet ads, music videos were promotional tools, not profit centers \u2014 like free samples at a grocery store. Labels spent money making videos to drive album sales. MTV played them for free because videos attracted viewers, who attracted advertisers. Everyone profited indirectly.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "ptsd-as-cultural-construct-everyday-life",
+    "concept": "PTSD as cultural construct",
+    "analogy": "PTSD being 'cultural' doesn't mean it's fake \u2014 it means how trauma manifests depends partly on cultural context, like how grief looks different across cultures but the underlying pain is universal. The brain's stress response is biological, but the specific symptoms and triggers are shaped by the person's social world.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "english-ph-spelling-greek-o-everyday-life",
+    "concept": "English 'ph' spelling (Greek origins)",
+    "analogy": "English uses 'ph' for the 'f' sound because those words came from Greek, where phi (\u03a6) was originally an aspirated 'p' sound (a puff of air), not an 'f.' Latin scholars transliterated it as 'ph,' and the spelling stuck even after the pronunciation shifted to 'f' over centuries.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  }
+]

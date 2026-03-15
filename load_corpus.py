@@ -29,8 +29,6 @@ def load():
             {
                 "concept": e["concept"],
                 "analogy": e["analogy"],
-                "domain": e["domain"],
-                "audience": e["audience"],
             }
             for e in entries
         ],

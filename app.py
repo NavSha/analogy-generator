@@ -33,6 +33,16 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/concepts")
+def concepts():
+    collection = get_collection()
+    if collection is None:
+        return jsonify([])
+    all_meta = collection.get()["metadatas"]
+    names = sorted(set(m["concept"] for m in all_meta))
+    return jsonify(names)
+
+
 @app.route("/search", methods=["POST"])
 def search():
     collection = get_collection()
@@ -44,38 +54,25 @@ def search():
     if not concept:
         return jsonify({"error": "Please provide a concept."}), 400
 
-    domain = data.get("domain", "")
-    n_results = min(data.get("n_results", 5), 10)
-
-    where_filter = {"domain": domain} if domain else None
+    n_results = min(data.get("n_results", 5), 20)
+    exclude_ids = set(data.get("exclude_ids", []))
 
     try:
         results = collection.query(
             query_texts=[concept],
-            n_results=n_results,
-            where=where_filter,
+            n_results=n_results + len(exclude_ids),
         )
-    except Exception:
-        # If filtered query fails (e.g., no entries in that domain),
-        # retry without the domain filter
-        if where_filter:
-            try:
-                results = collection.query(
-                    query_texts=[concept],
-                    n_results=n_results,
-                )
-            except Exception as e:
-                return jsonify({"error": f"Search failed: {str(e)}"}), 500
-        else:
-            return jsonify({"error": "Search failed."}), 500
+    except Exception as e:
+        return jsonify({"error": f"Search failed: {str(e)}"}), 500
 
     analogies = []
     seen_analogies = set()
     if results["ids"] and results["ids"][0]:
         for i, doc_id in enumerate(results["ids"][0]):
+            if doc_id in exclude_ids:
+                continue
             meta = results["metadatas"][0][i]
             distance = results["distances"][0][i]
-            # Deduplicate by analogy text
             analogy_text = meta["analogy"]
             if analogy_text in seen_analogies:
                 continue
@@ -84,8 +81,6 @@ def search():
                 "id": doc_id,
                 "concept": meta["concept"],
                 "analogy": analogy_text,
-                "domain": meta["domain"],
-                "audience": meta["audience"],
                 "distance": round(distance, 4),
             })
 
@@ -93,4 +88,4 @@ def search():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5002)

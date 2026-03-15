@@ -51,13 +51,8 @@
       margin-bottom: 2rem;
     }
 
-    .input-row {
-      display: flex;
-      gap: 0.75rem;
-    }
-
     input[type="text"] {
-      flex: 1;
+      width: 100%;
       padding: 0.6rem 0.85rem;
       border: 1px solid var(--border);
       border-radius: 8px;
@@ -68,16 +63,6 @@
 
     input[type="text"]:focus {
       border-color: var(--accent);
-    }
-
-    select {
-      padding: 0.6rem 0.85rem;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-size: 0.95rem;
-      background: var(--card-bg);
-      outline: none;
-      cursor: pointer;
     }
 
     button {
@@ -118,21 +103,28 @@
       font-size: 0.95rem;
       line-height: 1.65;
       color: var(--text);
-      margin-bottom: 0.75rem;
     }
 
-    .card-tags {
+    .card-footer {
       display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
+      justify-content: flex-end;
+      margin-top: 0.75rem;
     }
 
-    .tag {
-      font-size: 0.75rem;
-      padding: 0.2rem 0.6rem;
+    .btn-another {
+      padding: 0.35rem 0.85rem;
       background: var(--tag-bg);
-      border-radius: 100px;
       color: var(--text-muted);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .btn-another:hover {
+      background: var(--border);
+      color: var(--text);
     }
 
     .empty-state {
@@ -158,6 +150,48 @@
       font-size: 0.9rem;
       padding: 0.5rem 0;
     }
+
+    /* Autocomplete */
+    .autocomplete-wrap {
+      position: relative;
+    }
+
+    .ac-list {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-top: none;
+      border-radius: 0 0 8px 8px;
+      max-height: 260px;
+      overflow-y: auto;
+      z-index: 10;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .ac-list.open { display: block; }
+
+    .ac-item {
+      padding: 0.5rem 0.85rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+
+    .ac-item:hover,
+    .ac-item.active {
+      background: #eff6ff;
+      color: var(--accent);
+    }
+
+    .ac-item mark {
+      background: none;
+      color: var(--accent);
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
@@ -166,17 +200,9 @@
     <p class="subtitle">Enter a concept and find an analogy that makes it click.</p>
 
     <form class="search-form" id="searchForm">
-      <div class="input-row">
-        <input type="text" id="conceptInput" placeholder="e.g. recursion, caching, load balancing..." autofocus>
-        <select id="domainSelect">
-          <option value="">Any domain</option>
-          <option value="everyday life">Everyday life</option>
-          <option value="cooking">Cooking</option>
-          <option value="sports">Sports</option>
-          <option value="music">Music</option>
-          <option value="construction">Construction</option>
-          <option value="nature">Nature</option>
-        </select>
+      <div class="autocomplete-wrap">
+        <input type="text" id="conceptInput" placeholder="e.g. recursion, caching, load balancing..." autofocus autocomplete="off">
+        <div class="ac-list" id="acList"></div>
       </div>
       <button type="submit" id="searchBtn">Search</button>
     </form>
@@ -187,31 +213,115 @@
   <script>
     const form = document.getElementById('searchForm');
     const input = document.getElementById('conceptInput');
-    const domainSelect = document.getElementById('domainSelect');
     const btn = document.getElementById('searchBtn');
     const resultsDiv = document.getElementById('results');
+    const acList = document.getElementById('acList');
+
+    let allConcepts = [];
+    let acIndex = -1;
+    let currentConcept = '';
+    let seenIds = [];
+
+    // Fetch concept list on load
+    fetch('/concepts').then(r => r.json()).then(data => { allConcepts = data; });
+
+    function highlightMatch(text, query) {
+      const idx = text.toLowerCase().indexOf(query.toLowerCase());
+      if (idx === -1) return text;
+      return text.slice(0, idx) + '<mark>' + text.slice(idx, idx + query.length) + '</mark>' + text.slice(idx + query.length);
+    }
+
+    function showSuggestions(query) {
+      acIndex = -1;
+      if (!query || query.length < 1) { acList.classList.remove('open'); return; }
+      const q = query.toLowerCase();
+      const matches = allConcepts.filter(c => c.toLowerCase().includes(q)).slice(0, 7);
+      if (matches.length === 0) { acList.classList.remove('open'); return; }
+      acList.innerHTML = matches.map((m, i) =>
+        `<div class="ac-item" data-index="${i}">${highlightMatch(m, query)}</div>`
+      ).join('');
+      acList.classList.add('open');
+    }
+
+    function selectSuggestion(text) {
+      input.value = text.replace(/<\/?mark>/g, '');
+      acList.classList.remove('open');
+      seenIds = [];
+      form.requestSubmit();
+    }
+
+    input.addEventListener('input', () => showSuggestions(input.value.trim()));
+
+    input.addEventListener('keydown', (e) => {
+      const items = acList.querySelectorAll('.ac-item');
+      if (!acList.classList.contains('open') || items.length === 0) return;
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        acIndex = Math.min(acIndex + 1, items.length - 1);
+        items.forEach((el, i) => el.classList.toggle('active', i === acIndex));
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        acIndex = Math.max(acIndex - 1, 0);
+        items.forEach((el, i) => el.classList.toggle('active', i === acIndex));
+      } else if (e.key === 'Enter' && acIndex >= 0) {
+        e.preventDefault();
+        selectSuggestion(items[acIndex].textContent);
+      } else if (e.key === 'Escape') {
+        acList.classList.remove('open');
+      }
+    });
+
+    acList.addEventListener('click', (e) => {
+      const item = e.target.closest('.ac-item');
+      if (item) selectSuggestion(item.textContent);
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.autocomplete-wrap')) acList.classList.remove('open');
+    });
+
+    async function doSearch(concept, excludeIds) {
+      const body = { concept, n_results: 5, exclude_ids: excludeIds };
+      const res = await fetch('/search', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+      return res.json();
+    }
+
+    function renderResult(r, hasMore) {
+      const footerHtml = hasMore
+        ? `<div class="card-footer"><button class="btn-another" onclick="explainAnotherWay()">Explain another way</button></div>`
+        : '';
+      return `
+        <div class="card">
+          <div class="card-concept">${r.concept}</div>
+          <div class="card-analogy">${r.analogy}</div>
+          ${footerHtml}
+        </div>
+      `;
+    }
 
     form.addEventListener('submit', async (e) => {
+      acList.classList.remove('open');
       e.preventDefault();
       const concept = input.value.trim();
       if (!concept) return;
+
+      // Reset seen IDs if concept changed
+      if (concept !== currentConcept) {
+        seenIds = [];
+        currentConcept = concept;
+      }
 
       btn.disabled = true;
       btn.textContent = 'Searching...';
       resultsDiv.innerHTML = '';
 
       try {
-        const body = { concept };
-        const domain = domainSelect.value;
-        if (domain) body.domain = domain;
-
-        const res = await fetch('/search', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(body),
-        });
-
-        const data = await res.json();
+        const data = await doSearch(concept, seenIds);
 
         if (data.error) {
           resultsDiv.innerHTML = `<p class="error">${data.error}</p>`;
@@ -219,7 +329,7 @@
         }
 
         if (!data.results || data.results.length === 0) {
-          resultsDiv.innerHTML = '<p class="empty-state">No matching analogies found. Try a different concept or remove the domain filter.</p>';
+          resultsDiv.innerHTML = '<p class="empty-state">No matching analogies found. Try a different concept.</p>';
           return;
         }
 
@@ -228,36 +338,20 @@
         const weak = data.results.filter(r => r.distance > DISTANCE_THRESHOLD);
 
         if (strong.length === 0) {
-          let html = '<p class="empty-state">No strong matches found for this concept';
-          if (domain) html += ' in the "' + domain + '" domain. Try "Any domain"';
-          html += '.</p>';
+          let html = '<p class="empty-state">No strong matches found for this concept.</p>';
           if (weak.length > 0) {
-            html += '<p class="weak-heading">Closest (weak) matches:</p>';
-            html += weak.slice(0, 3).map(r => `
-              <div class="card weak">
-                <div class="card-concept">${r.concept}</div>
-                <div class="card-analogy">${r.analogy}</div>
-                <div class="card-tags">
-                  <span class="tag">${r.domain}</span>
-                  <span class="tag">${r.audience}</span>
-                </div>
-              </div>
-            `).join('');
+            html += '<p class="weak-heading">Closest (weak) match:</p>';
+            const r = weak[0];
+            html += renderResult(r, false);
           }
           resultsDiv.innerHTML = html;
           return;
         }
 
-        resultsDiv.innerHTML = strong.map(r => `
-          <div class="card">
-            <div class="card-concept">${r.concept}</div>
-            <div class="card-analogy">${r.analogy}</div>
-            <div class="card-tags">
-              <span class="tag">${r.domain}</span>
-              <span class="tag">${r.audience}</span>
-            </div>
-          </div>
-        `).join('');
+        const best = strong[0];
+        seenIds.push(best.id);
+        const moreAvailable = strong.length > 1 || weak.length > 0;
+        resultsDiv.innerHTML = renderResult(best, moreAvailable);
       } catch (err) {
         resultsDiv.innerHTML = `<p class="error">Something went wrong. Is the server running?</p>`;
       } finally {
@@ -265,6 +359,34 @@
         btn.textContent = 'Search';
       }
     });
+
+    async function explainAnotherWay() {
+      resultsDiv.innerHTML = '<p class="empty-state">Finding another way...</p>';
+
+      try {
+        const data = await doSearch(currentConcept, seenIds);
+
+        if (!data.results || data.results.length === 0) {
+          resultsDiv.innerHTML = '<p class="empty-state">No more analogies for this concept.</p>';
+          return;
+        }
+
+        const DISTANCE_THRESHOLD = 0.6;
+        const strong = data.results.filter(r => r.distance <= DISTANCE_THRESHOLD);
+
+        if (strong.length === 0) {
+          resultsDiv.innerHTML = '<p class="empty-state">No more analogies for this concept.</p>';
+          return;
+        }
+
+        const best = strong[0];
+        seenIds.push(best.id);
+        const moreAvailable = strong.length > 1;
+        resultsDiv.innerHTML = renderResult(best, moreAvailable);
+      } catch (err) {
+        resultsDiv.innerHTML = `<p class="error">Something went wrong.</p>`;
+      }
+    }
   </script>
 </body>
 </html>

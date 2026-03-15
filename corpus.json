@@ -1,0 +1,1535 @@
+[
+  {
+    "id": "api-everyday-001",
+    "concept": "API (Application Programming Interface)",
+    "analogy": "An API is like a waiter in a restaurant. You don't go into the kitchen yourself \u2014 the waiter takes your order, brings it to the kitchen, and returns with your food. Similarly, an API takes your request to a system and brings back the response, without you needing to know how the kitchen works.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "api-cooking-001",
+    "concept": "API (Application Programming Interface)",
+    "analogy": "An API is like a recipe card that only lists what ingredients you need to provide and what dish you'll get back. You don't need to know the chef's techniques \u2014 just follow the interface.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "api-sports-001",
+    "concept": "API (Application Programming Interface)",
+    "analogy": "An API is like the scoreboard at a stadium. It gives you the information you need (score, time, stats) without requiring you to understand how the timing systems, sensors, and databases behind it work.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "recursion-everyday-001",
+    "concept": "Recursion",
+    "analogy": "Recursion is like standing between two mirrors facing each other. Each mirror reflects the other, creating an infinite series of reflections \u2014 each one a smaller version of the same image. Recursion works the same way: a function calls itself, each time with a slightly smaller problem, until it hits a base case (like the mirrors getting too small to see).",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "recursion-cooking-001",
+    "concept": "Recursion",
+    "analogy": "Recursion is like a recipe that says 'to make lasagna, make a smaller lasagna and put another layer on top.' You keep making smaller lasagnas until you reach the base case: a single layer. Then you build back up.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "recursion-nature-001",
+    "concept": "Recursion",
+    "analogy": "Recursion is like a fern leaf. If you look at a single branch of a fern, it looks like a miniature version of the whole fern. Each sub-branch repeats the same pattern at a smaller scale \u2014 that's recursion in nature.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "recursion-sports-001",
+    "concept": "Recursion",
+    "analogy": "Recursion is like a tournament bracket. To find the champion, you need the winner of two semi-finals. To find each semi-final winner, you need the winners of quarter-finals. You keep breaking it down until you reach individual matches \u2014 the base case.",
+    "domain": "sports",
+    "audience": "intermediate"
+  },
+  {
+    "id": "cache-everyday-001",
+    "concept": "Cache",
+    "analogy": "A cache is like keeping your most-used kitchen tools on the counter instead of in a deep drawer. It takes longer to dig through the drawer, so you keep the things you reach for most often within arm's reach.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "cache-cooking-001",
+    "concept": "Cache",
+    "analogy": "A cache is like a mise en place \u2014 pre-measured, pre-chopped ingredients laid out before cooking. Instead of going back to the fridge and cutting board every time, everything you need is already prepared and at hand.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "cache-sports-001",
+    "concept": "Cache",
+    "analogy": "A cache is like a quarterback's pre-snap read. Instead of analyzing every defender after the snap, they memorize key formations beforehand. When they see a familiar setup, they already know where to throw \u2014 no need to recalculate.",
+    "domain": "sports",
+    "audience": "intermediate"
+  },
+  {
+    "id": "encryption-everyday-001",
+    "concept": "Encryption",
+    "analogy": "Encryption is like sending a letter in a locked box. Anyone can see the box being delivered, but only the person with the right key can open it and read the letter inside.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "encryption-music-001",
+    "concept": "Encryption",
+    "analogy": "Encryption is like writing a song in a made-up language. Anyone can hear the melody, but only someone who knows the language can understand the lyrics. The 'key' is knowledge of that language.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "encryption-cooking-001",
+    "concept": "Encryption",
+    "analogy": "Encryption is like a secret family recipe where the ingredients are written in code. 'Add 3 cups of sunshine' might mean '3 cups of lemon juice.' Without the decoder, no one can replicate the dish.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "db-index-everyday-001",
+    "concept": "Database index",
+    "analogy": "A database index is like the index at the back of a textbook. Instead of reading every page to find where 'photosynthesis' is mentioned, you look it up in the index and jump straight to the right pages.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "db-index-construction-001",
+    "concept": "Database index",
+    "analogy": "A database index is like labeling every drawer and shelf in a warehouse. Without labels, workers search every shelf. With them, they go straight to the right spot. The labels cost a little space and upkeep, but massively speed up retrieval.",
+    "domain": "construction",
+    "audience": "intermediate"
+  },
+  {
+    "id": "load-balancing-everyday-001",
+    "concept": "Load balancing",
+    "analogy": "Load balancing is like a grocery store opening new checkout lanes when lines get long. Instead of everyone waiting in one lane, customers are distributed across multiple lanes so everyone gets served faster.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "load-balancing-sports-001",
+    "concept": "Load balancing",
+    "analogy": "Load balancing is like a basketball coach distributing minutes across players. If one player plays the entire game, they'll burn out. By rotating players in and out, the team maintains performance throughout the game.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "load-balancing-cooking-001",
+    "concept": "Load balancing",
+    "analogy": "Load balancing is like a head chef assigning dishes across multiple line cooks. If one cook gets all the orders, the kitchen slows down. By distributing orders evenly, food comes out faster and more reliably.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "version-control-everyday-001",
+    "concept": "Version control",
+    "analogy": "Version control is like Google Docs' version history, but much more powerful. You can see every change ever made, who made it, go back to any previous version, and even create parallel 'what if' versions of the document without affecting the original.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "version-control-construction-001",
+    "concept": "Version control",
+    "analogy": "Version control is like keeping every revision of architectural blueprints. If a new design causes structural problems, you can pull out the previous revision and see exactly what changed. You can even have two teams working on different blueprint variations simultaneously.",
+    "domain": "construction",
+    "audience": "intermediate"
+  },
+  {
+    "id": "ml-training-cooking-001",
+    "concept": "Machine learning model training",
+    "analogy": "Training a machine learning model is like learning to cook by taste-testing. You make a dish, taste it (evaluate), adjust the seasoning (update parameters), and try again. Over hundreds of iterations, you learn what combination of ingredients produces the best result \u2014 without anyone giving you the exact recipe.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "ml-training-sports-001",
+    "concept": "Machine learning model training",
+    "analogy": "Training a model is like a basketball player practicing free throws. Each shot gives feedback \u2014 too far left, too short. Over thousands of shots, they adjust their form until they consistently score. The player doesn't memorize each exact shot; they develop an intuition (a model) for the right motion.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "ml-training-music-001",
+    "concept": "Machine learning model training",
+    "analogy": "Training a model is like learning to play guitar by ear. You hear a note, try to match it, hear the difference, and adjust your fingers. Over time, you develop the ability to play songs you've never heard before \u2014 you've learned the patterns, not just memorized specific songs.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "tcp-handshake-everyday-001",
+    "concept": "TCP/IP handshake",
+    "analogy": "A TCP handshake is like a phone call. You dial (SYN), the other person says 'Hello?' (SYN-ACK), and you say 'Hi, it's me' (ACK). Only after this three-step exchange do you start the actual conversation. If any step fails, you hang up and try again.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "tcp-handshake-sports-001",
+    "concept": "TCP/IP handshake",
+    "analogy": "A TCP handshake is like the pre-game coin toss ritual. The referee flips the coin (SYN), one captain calls it (SYN-ACK), and the referee confirms the result (ACK). Only after this agreed-upon exchange does the game begin.",
+    "domain": "sports",
+    "audience": "intermediate"
+  },
+  {
+    "id": "dns-everyday-001",
+    "concept": "DNS (Domain Name System)",
+    "analogy": "DNS is like the contacts app on your phone. You don't memorize your friend's phone number (192.168.1.1) \u2014 you just tap their name (google.com) and your phone looks up the number for you. DNS does the same thing for the internet.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "dns-construction-001",
+    "concept": "DNS (Domain Name System)",
+    "analogy": "DNS is like a building directory in a lobby. You don't need to know that Acme Corp is on floor 14, suite 1402. You look up the company name in the directory and it tells you where to go. DNS translates human-friendly website names into the actual server addresses.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "containerization-everyday-001",
+    "concept": "Containerization (Docker)",
+    "analogy": "A container is like a shipping container. Before shipping containers, loading a ship was chaotic \u2014 every item was a different shape and size. Shipping containers standardized everything: pack your goods in a standard box, and it works on any ship, truck, or train. Docker does the same for software \u2014 package your app with everything it needs, and it runs the same everywhere.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "containerization-cooking-001",
+    "concept": "Containerization (Docker)",
+    "analogy": "A container is like a meal kit delivery box. Instead of hoping the chef's kitchen has the right ingredients and tools, the meal kit comes with everything pre-measured and included. No matter whose kitchen it lands in, the result is the same dish.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "git-branching-nature-001",
+    "concept": "Git branching",
+    "analogy": "Git branching is like a tree growing new branches. The trunk is your main code. When you want to try something new, you grow a branch off to the side. If the branch bears fruit (the feature works), you graft it back onto the trunk. If not, you prune it \u2014 the trunk is unaffected.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "git-branching-cooking-001",
+    "concept": "Git branching",
+    "analogy": "Git branching is like splitting a batch of soup into two pots. You experiment with new spices in one pot while keeping the original untouched. If the experiment tastes great, you use that recipe going forward. If not, you still have the original.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "overfitting-sports-001",
+    "concept": "Overfitting in machine learning",
+    "analogy": "Overfitting is like a tennis player who only practices against one opponent. They learn every quirk and habit of that opponent and dominate them \u2014 but lose to everyone else. They memorized one opponent instead of learning general tennis skills.",
+    "domain": "sports",
+    "audience": "intermediate"
+  },
+  {
+    "id": "overfitting-cooking-001",
+    "concept": "Overfitting in machine learning",
+    "analogy": "Overfitting is like memorizing one specific recipe so precisely that you measure ingredients to the milligram \u2014 but you can't improvise or adapt when an ingredient is missing. You learned the recipe, not how to cook.",
+    "domain": "cooking",
+    "audience": "intermediate"
+  },
+  {
+    "id": "overfitting-music-001",
+    "concept": "Overfitting in machine learning",
+    "analogy": "Overfitting is like a musician who can play one song perfectly note-for-note but can't jam or improvise. They memorized the recording instead of learning the underlying music theory.",
+    "domain": "music",
+    "audience": "intermediate"
+  },
+  {
+    "id": "middleware-everyday-001",
+    "concept": "Middleware",
+    "analogy": "Middleware is like airport security between the check-in desk and the gate. Every passenger (request) has to pass through it. Security doesn't handle flights or check-ins \u2014 it just inspects, validates, and either lets you through or stops you. Middleware sits between the request and your application, doing similar inspection and processing.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "middleware-cooking-001",
+    "concept": "Middleware",
+    "analogy": "Middleware is like a food taster in a royal kitchen. Every dish passes through the taster between the chef and the king. The taster doesn't cook or eat the meal \u2014 they just check it and pass it along (or reject it). Middleware inspects and processes requests before they reach your main application.",
+    "domain": "cooking",
+    "audience": "intermediate"
+  },
+  {
+    "id": "rate-limiting-everyday-001",
+    "concept": "Rate limiting",
+    "analogy": "Rate limiting is like a bouncer at a club who only lets in 10 people per minute. Even if 100 people show up at once, the bouncer controls the flow to prevent overcrowding. If you've already entered too many times tonight, you're told to come back later.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "rate-limiting-nature-001",
+    "concept": "Rate limiting",
+    "analogy": "Rate limiting is like a dam on a river. The river might surge after heavy rain, but the dam controls how much water flows downstream at any given time, preventing floods. Rate limiting does the same for server requests.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "in-the-human-body-there-are-se-everyday-life",
+    "concept": "In the human body there are several different types of proteins",
+    "analogy": "Think of it like Legos. Imagine you go to a toy store and see a school built out of Legos. You buy it as is, but when you get home, you break it apart into the individual lego subunits. You instead build a hospital using the Legos that were once a school. The Legos in this instance are like amino acids, the subunits of proteins. The proteins like are the school and hospital. Your body does the same thing with proteins from foods you eat. It takes that whole protein and breaks it down into the subunits (again, the Legos blocks in my analogy) in order that you can build the protein you need.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "what-impact-haswill-the-detona-sports",
+    "concept": "What impact has/will the detonation of the 1000+ nuclear bombs detonated during",
+    "analogy": "Imagine you are in a big ball pit just like the one in this picture _URL_0_. Then you do a wee wee in the ball pit. Imagine that the wee wee is nuclear fallout. Now imagine that some other kids get in the ball pit. Do they even notice that you did a wee wee in there? Probably not. That is what all the nuclear bombs detonated in the Cold War are like. Just a drop in the ocean. Environment doesn't even notice it. In fact, there is probably more nuclear stuff from the sun/outer space than all the bombs that people have dropped ever.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "when-a-digital-picture-is-resi-everyday-life",
+    "concept": "When a digital picture is resized to be smaller in resolution",
+    "analogy": "When you shrink down a digital picture in the computer, the computer turns lots of pixels into less pixels by guessing what would fit best in its place. Here's a crude example: let's say you have two pixels: [20] and [10] then the computer can replace those two by [15] there ya go you've made your picture twice as small. It's a bit more complicated than that but you get the picture. Pun intended.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-difference-between-protein-nature",
+    "concept": "the difference between Protein in a scientific context",
+    "analogy": "Simply put, proteins (in a scientific context) are a type of biological molecules with a wide array of objectives. These proteins are made of something called \"amino acids\", just like a necklace is made of several pearls (for the analogy, let's say that the pearls are of different colors). The proteins you ingest when you eat food are the same proteins that I explained earlier, except that they come from the plant or the animal you're eating. During digestion, those proteins are broken down into their amino acids, which are absorbed by your body and then rebuilt into new human proteins.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "the-visible-light-spectrum-app-everyday-life",
+    "concept": "the visible light spectrum appear cyclic to the human eye if the spectrum is bas",
+    "analogy": "Just to add something extra to the excellent explanation already provided... Our color vision is usually a matter of our vision system interpolating between the colors detected by our three flavours of cones in our retina. Think of it like a triangle, with red, green and blue in the corners and all the other colors somewhere in the middle. But then consider that a small percentage of human females are \"tetrachromats\". For them, there are 4 types of color receptors in their retina. For them, the perceived color is interpolated between 4 different points. You have to imagine this in 3d now, like a 3 sided pyramid with 4 point of detected color, and some interpreted color point somewhere in the 3d space of the pyramid. Tetrachromats may be able to distinguish 100 million colors ... _URL_0_",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "we-making-higher-capacity-hdds-nature",
+    "concept": "we making higher capacity HDDs year over year while keeping them the same size (",
+    "analogy": "Don't think of it like storing water in a bucket - water is a physical thing that has a more or less fixed size. We aren't storing a physical thing, we're storing data. Data is abstract and in theory doesn't have any density or size in physical dimensions. Because of this data doesn't have to be stored in a fixed-sized container. It's like writing. When I write out 'Hello, Dave' I'm not storing a physical entity on the paper, I'm storing the thought. Since it's just symbols I don't actually lose anything by writing it as this size^or^this^size As long as it can be read by my reader - so in this case I can see it myself - it's the same amount of data stored in different amounts of space. HDD technology is allowing for smaller 'fonts' that can still be read by the HDD.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "when-do-we-observe-red-shift-nature",
+    "concept": "When do we observe red shift",
+    "analogy": "RobusEtCaleritas is right. You can imagine it this way:  Imagine you're standing in the ocean at the beach, a short distance from the shore. Waves move toward you at a constant pace. Let's say you are hit by one swell every 10 seconds. If you start running towards the shore, you will be hit by less and less waves, maybe once every 20 seconds. The frequency of waves has decreased (redshift). If you run back out to the ocean, the frequency that you are hit by a wave will increase. Maybe once every 5 seconds. This is blueshift.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "a-quantam-entanglement-everyday-life",
+    "concept": "a quantam entanglement",
+    "analogy": "Let's say you have two pieces of chocolate. You know that one of them has caramel inside and one has nougat inside, but they look the same and there's no way to tell the difference. You give one to your friend. Your friend takes it on a trip far away. Later you bite into your chocolate and find out that it has caramel inside. You instantly know, without needing to communicate, that your friend's chocolate has nougat inside. Correct me if I'm wrong but I think this is essentially what quantum entanglement is about.",
+    "domain": "everyday life",
+    "audience": "advanced"
+  },
+  {
+    "id": "explain-quantum-entanglement-t-everyday-life",
+    "concept": "Explain Quantum Entanglement to me like I'm 5",
+    "analogy": "When you flip a coin, you know that whenever you see a heads come up, the bottom of the coin is tails. Similarly, when you see a tails come up, the bottom of the coin is heads. Similar to how you know the two sides of a coin have opposite faces showing, physicists can make two particles that have opposite properties (such as spin). We refer to these pairs of particles as \"entangled\" - they aren't free to take on any value they'd like to. Just like the bottom of a coin can't be tails if the top is, the spin of one particle can't be clockwise if the other particle is spinning that way too.",
+    "domain": "everyday life",
+    "audience": "advanced"
+  },
+  {
+    "id": "some-physical-traits-able-to-s-everyday-life",
+    "concept": "some physical traits able to skip through a generation",
+    "analogy": "You have two copies of each gene, one set from your father, one from your mother. Each copy is called an _allele_. Alleles can be recessive or dominant. If you have one dominant allele from one parent and one recessive from the other, the dominant allele will be expressed. Only if you have two recessive alleles will that version of the gene be expressed. So, it's easy for some traits to skip a generation if they're recessive, since there are more ways for a dominant allele to take effect. Let's say you have the a recessive big nose gene. The dominant allele is N and the recessive one is n. Mother - N, father - N = NN, a small nose Mother - N, father - N = Nn, a small nose Mother - n, father - N = nN, a small nose Mother - n, father - n = nn, big nose",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "a-half-life-everyday-life",
+    "concept": "a half-life",
+    "analogy": "Imagine it like this. Lets say a radioactive material exposes 100 units of 'energy' or 'danger'. This gets weaker with time. Half-time is the time it takes to half it, to 50. From there on, it takes the same amount of time to reduce to 25. 12.5, 6.75. It always gets reduced by 50%, but the time frame stays the same. You get the pattern. And as you can see, it will never reach zero.  So in your example: After lets say 400,000 years (half-time) still half of the amount is left. Frightening, isn't it?",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "at-t-giving-customers-unlimite-construction",
+    "concept": "AT & T giving customers unlimited streaming mean a \"war on an open internet\"",
+    "analogy": "It starts creating walled gardens of the internet. With a limited data cap, it hurts any streaming service that's not covered under their unlimited streaming plan. Why watch Netflix when Hulu doesn't use up data? With zero rating programs like this, it's like every *other* service is penalized. Imagine if 10 companies did things like this. Now, any service who doesn't want to lose customers worried about a data cap has to negotiate and/or pay 10 different companies to compete equally. The idea of an open internet is that everything is treated the same. You shouldn't have to pay extra for a \"Youtube package\"; you should get equal access to everything.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "it-about-overheating-that-is-b-everyday-life",
+    "concept": "it about overheating that is bad for computer parts",
+    "analogy": "Simple, Heat causes things to expand very slightly. Lets say you have a microchip that's just been soldered onto a circuit board, and it runs very hot. The circuit board around it doesn't run hot since it's a circuit board, which means the microchip expands, putting STRESS on those solder joints. Those can eventually crack and disconnect.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "how-hard-is-it-to-create-a-sof-everyday-life",
+    "concept": "How hard is it to create a software that zooms in on pictures without loosing to",
+    "analogy": "Imagine you made a painting out of little colored plastic squares (a mosaic). To zoom in on the picture would be just getting closer to it. Would you see more detail? No, the individual squares would just be bigger and easier to distinguish from each other. There is no more information to gain by looking closer.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "black-holes-ive-watched-lots-o-everyday-life",
+    "concept": "Black holes. Ive watched lots of videos",
+    "analogy": "Imagine standing on the surface of Sun. We have to pretend it has a solid surface and you don't burn immediately, unrealistic I know but just bare with me. If you weighed 200 pounds on Earth, you would weigh over 5000 pounds on the Sun!  Now try and jump. It's not going to happen; the force of gravity is just too strong! In other words, you're stuck on the surface of the sun, and nothing you can do will get you out of it General Relativity says that gravity affects light, too. A black hole is a collection of so much mass that it's force of gravity is too much for even light to jump away from. Because light can't get out of a black hole, well, it's black.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "whats-the-difference-in-amps-a-nature",
+    "concept": "What's the difference in amps and volts? What do they do",
+    "analogy": "Analogy: Voltage (measured in volts) is similar to pressure in a pipe, and the current (measured in amperes) is the flow of water in the pipe. Reality: The voltage pushes electric charge. All materials have some charge (such as electrons) -- and in a *conductive* material the charges can move around easily. When charges move, they are called a current.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "how-come-when-you-pour-water-o-construction",
+    "concept": "how come when you pour water out of some glasses it pours smooth",
+    "analogy": "Water tends to want to \"stick\" to glass, and other surfaces. This is called adhesion. This is one of the forces acting to turn the water as it pours. The faster you pour, the more force that is required to turn the liquid to keep it attached to the glass. At some point, the water is moving too fast for the adhesive force to turn it, and it detaches from the surface. Here's a kind of similar analogy... Imagine you're running down a hall with a hardwood floor in socks, and there is a corner you want to turn around at the end. If you're running slowly, you can probably stay close to the wall. If you're sprinting, you're either going to slip or you have to take a wider turn and \"detach\" from the wall.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-grand-canyon-be-18-miles-w-nature",
+    "concept": "the Grand Canyon be 18 miles wide in some areas when it was only carved up by wa",
+    "analogy": "It's like this, It starts off with the small 10 foot river, slowly over time that gets deeper. The deeper that goes the more potential wind erosion. Think of it like dragging your finger through the sand. At first you make a fine line, then as you do it more and more in the same spot, the sand on the side of the crevice falls into it, thus widening the gap. So gravity just slowly pulls the pebbles on the sides of the canyon and the water takes it away. Now understand this is not the entire reason for this, it could also be wind or rain, there are so many factors in nature that its extremely difficult to predict any future for any said landscape.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "if-i-use-one-earphone-at-50-vo-music",
+    "concept": "If I use one earphone at 50% volume",
+    "analogy": "Imagine your house is deathly quiet, and you can hear some things: a faucet dripping in the bathroom, the cat scratching her post, something walking around in the attic (uh, ignore that one). Then, you turn on the TV, and you can't hear them any more. It's not that the sound of those things aren't reaching your ears, it's just that your brain isn't really processing them. They seem quieter because now your brain is comparing them to the louder television. In the same way, in contrast to everything else around you, the music in your left ear sounds much louder. When you put the other bud in, the sound in your left ear seems diminished a bit because its volume is being \"compared\" to the volume in your right. So, it seems quieter, when in fact, it is not. The decibel level hasn't changed.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "overloading-websites-music",
+    "concept": "Overloading websites",
+    "analogy": "Now Johny, when you access a website, you ask for it to give you something. Lets pretend its a submarine sandwich. You like those, right? Now, when the website is transferring it back to you and others, it has to travel across the internet on their bandwidth. Lets imagine that their bandwidth is like a cylindrical slide. You can only fit so many sandwiches through the slide at one time, which will cause the transfer to slow down. When the transfers get so bogged down, sometimes they will break and crash to the ground. Now, the reason that bigger sites can handle more sandwiches is because they either have smaller sandwiches (less data to transfer), their slide is much bigger and better built, or both. Now eat your vegetables.",
+    "domain": "music",
+    "audience": "intermediate"
+  },
+  {
+    "id": "how-public-and-private-key-enc-everyday-life",
+    "concept": "How public and private key encryption works",
+    "analogy": "A lot of people has here explained why/how it works. But if you're still wondering how can something be \"irreversible\"... Lets say we take 2 large prime numbers. Like, the primes that are 12 digits long. Now multiply the two. That'll be a very long number! Now imagine that very long number is your public key, and the pair of 2 primes is your private key. If someone has your public key, it is VERY hard for computers (will take hundreds of years!) to figure out the 2 primes that were multiplied to make it. ...That is part of how RSA works.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "actually-happening-inside-your-everyday-life",
+    "concept": "actually happening inside your body that causes common cold/flu symptoms",
+    "analogy": "I don't know all of it but things like runny nose, sneezing, coughing, and other such things are your immune system reacting to the bateria or virus and trying to get it out of your body. That's why common allergy symptoms are similar to cold symptoms, it's your body reacting in the same way but in the case of allergies you aren't actually sick.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "mimicry-happen-amongst-lower-o-nature",
+    "concept": "mimicry happen amongst lower organisms",
+    "analogy": "Pretty much the same way evolution does. There is species a and species b. Species b is poisonous. Species c hunts down both species. When it eats species b it dies. Species c notices that b is harmful. When species a is born, it can have different looks, for simplicity's sake let's assume there are 2: similar to species b and dissimilar. When species c sees the former it is afraid of eating those, because it resembles harmful species b, so 80% of those similar to species b survive, while those dissimilar commonly get hunted down. Survivors pass on their genes, resulting in the whole species being similar to another. Which we call kimicry.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "an-android-phone-show-the-wifi-everyday-life",
+    "concept": "an Android phone show the WiFi icon for a few seconds even after the router's tu",
+    "analogy": "> I think it's just a delay in the OS's process to update the display And you are almost correct. It's not the display (which can be updated immediately), it's the OS that takes a little time trying to reconnect to the network before deciding it is really down. Your roommate doesn't know what he/she is talking about - radio waves don't \"hang around in the air\". Radio waves travel at the speed of light, so they all go through the room pretty quickly, just like when you turn off the light switch in the room, the light goes out instantaneously.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "what-gives-acid-a-burning-prop-cooking",
+    "concept": "What gives acid a burning property like Sulfuric Acid",
+    "analogy": "They do. The acid in lemon juice and vinegar can trigger the same chemical reactions as sulfuric acid, but they're much weaker and the reactions aren't nearly as intense. Lemon juice can be used to make a battery, can cause mild burns on sensitive parts of your skin, and can even \"cook\" food in ways very similar to weak sulfuric acid. The sour taste of lemons and vinegar is a sign of the acid in them. I accidentally got a taste of dilute sulfuric acid once: it tasted like the sourest lemon you could possibly imagine. (Do not try this at home, obv.)",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "speakers-work-where-does-the-s-nature",
+    "concept": "speakers work? Where does the sound come from",
+    "analogy": "When you set a cup down on a table, it causes the table to vibrate. That vibration moves the air around the table a little bit, which causes all the air in the room to move a little bit (like when you throw a rock into a still pond, and the ripples spread out across the water). Hearing is just that air vibration pushing on your ear drums a little bit.  Speakers produce sound by moving forward and backwards, which pushes on the air in the room, and makes it move in the same way that setting a cup on a table does. The speaker moves, the air around the speaker moves, and then the air moves your eardrums, and you perceive the sound.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "apple-products-supposedly-have-everyday-life",
+    "concept": "apple products supposedly have better malware/virus protection",
+    "analogy": "I like to explain this all the time with this analogy. Imagine you are a serial killer. You have access to a deadly virus (one that is alive) that you can release into the air, and hope to do as much damage as possible. Would you then chose to go release it at, say, an international airport with thousands of people going to different countries, or would you release it in a small park with a few people? Its just a matter of market share, if you want to \"contaminate\" as many computers as possible, you would go Windows, because it would result in more potential users downloading your virus, which in turns means more users getting their CC info stolen and/or having their computer destroyed.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "how-much-particles-are-needed--everyday-life",
+    "concept": "how much particles are needed for sound to travel",
+    "analogy": "That's an awkward question. Sound is a group of particles hitting your eardrums. The less particles you have, the quieter the sound will be. Sound in our atmosphere works by something (let's say a speaker) hitting the air surrounding it, making it vibrate. That air hits more air in the same way and so on and so forth until some air hits your eardrums.  If you wanted to hear something really far away in space, like the sound of the Sun or a supernova you would need a gas between here and there. That's the next problem, you need to cover space with gas. Space is big and gas likes to flow out to the least crowded areas, we only get an atmosphere because it's not too hot the gravity near our planet is strong. To cover all of space you need an infinite amount of gas.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "before-internet-ad-revenue-how-music",
+    "concept": "before internet ad revenue how did music videos generate enough profit to justif",
+    "analogy": "Music video were advertisement for the album, just like singles. TV stations like MTV and VH1 used to play primarily music videos. Back in the day MTV was basically just the radio with picture. The shows on it were pretty much just a host who introduced videos, interviewed artists, and talk about some music news occasionally.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "when-you-press-on-your-closed--everyday-life",
+    "concept": "When you press on your closed eyes",
+    "analogy": "You see (detect light) only because nerve cells in your eyes produce a neural impulse when exposed to light. We interpret this as a picture. Just like any other nerve cell, they can also be stimulated to produce a response by mechanical force like pressing. When you press your eyes, you stimulate these cells and this is indistinguishable from the stimulation you get from light, so you still see things",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-in-most-computer-calculati-everyday-life",
+    "concept": "Why in most computer calculations 1/(0",
+    "analogy": "The problem is that it's doing the calculations in binary and can only store a limited number of digits. 0.1 can't be stored exactly in binary, in the same way as 1/3 can't stored exactly in decimal. You get rounding errors similar to the problem you'd have dealing with 1/3 in decimal: 1 - 0.333333 - 0.333333 - 0.333333 = 0.000001",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "hd-re-releases-of-old-movies-w-everyday-life",
+    "concept": "HD re-releases of old movies work",
+    "analogy": "Movies were shot on film, which is higher res than the vhs they distributed to you. But as long as they have the matters they can now convert that more closely to hd. Its like if 8 years ago on vacation you took a 2 megapixel picture of the mona lisa but this year you took your iphone and shot a 10 mega pixel photo of it.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "juniper-and-why-is-everyone-fr-everyday-life",
+    "concept": "Juniper and why is everyone freaking out because it has a back door",
+    "analogy": "Juniper is a hardware manufacturer that makes networking equipment. The internet relies on equipment like this to function. A backdoor is an intentional hole in a security system that allows someone to get in when they shouldn't be able to. Think of a robber slipping in the backdoor of your house because you never lock it. Juniper announced that it found a backdoor into its systems that it didn't place there. To continue my analogy above, imagine one day you found a new door into your house that you never knew existed, and that you don't even have a key for. There is speculation that the NSA was responsible for putting this backdoor into Juniper's system, but nothing concrete yet.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "tiny-phone-cameras-take-such-g-everyday-life",
+    "concept": "tiny phone cameras take such good pictures",
+    "analogy": "Sensor technology has progressed greatly in the last three or so years, allowing small CMOS sensors to capture images with really nice clarity. In addition, most cell phones in the higher price range have very nice optics...usually at an f2 or similar to allow a large amount of light to enter the lens and strike the sensor, giving better images in low light Additionally, the software that interprits what the sensor \"sees\" is vastly improved with greater processing power, allowing the software to improve the raw sensor data before you ever see the picture, fixing issues you never knew were there",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-didnt-the-non-gm-plants-ge-nature",
+    "concept": "Why didn't the non-GM plants get resistant to pests when they've been exposed to",
+    "analogy": "Maybe as the plants evolved resistance, the pests were evolving to overcome that resistance. In the same way that bacteria learn to circumvent the effects of antibiotics. I imagine that, given time, the pests will develop a work around against GMO's, and the GMO's will have to be updated. It's a never ending battle.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "parents-not-automatic-organ-do-everyday-life",
+    "concept": "parents not automatic organ donor matches for their children",
+    "analogy": "Because blood types are more complicated than that. Let's say you have a mom with an A blood type (she has AO, as in, the gene for A and the gene for O, and A is dominant over O), and a father with a B blood type (he has BO, and B is also dominant over O). There is now the possibility that the child will be A, or B, or AB, or O. And with blood types, O is the universal donor, and AB is the universal recipient, but A and B also can't mix. You can Google the specifics of this, but that's the gist of how it works.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "it-so-hard-to-kill-the-remaini-everyday-life",
+    "concept": "it so hard to kill the remaining .1% of bacteria with disinfecting wipes",
+    "analogy": "These companies don't advertise 100% bacterial elimination because they are protecting themselves against litigation.  Let's say you have this super rare, super resistant bacteria that you introduce to a surface. You then use the anti-bacterial wipe to disinfect the surface. Then, you purposefully wipe that bacteria that you absolutely know was not killed onto your skin, and become mildly or even gravely ill because of it. If the advertisements said **100% of bacteria will be killed**, then you've got a lawsuit that could potentially be worth millions of dollars. Advertising **99%** instead removes the ability for people to sue based on super-resistant bacteria.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "time-and-has-it-always-existed-everyday-life",
+    "concept": "time, and has it always existed",
+    "analogy": "Time is what differentiates events occurring a the _same point in space_. It's the fourth dimension of spacetime - the other three being the three spatial dimensions you know. To ask if time \"has always existed\" is not too meaningful, since to determine if something has always existed, one must use the concept of time. You cannot use terms like \"before big bang\" when talking about time - it is _meaningless_. To give you an analogy - it's like asking if the concepts of left and right exist to the left of the three dimensions of space. Time itself began at the big bang; there is no \"before\" big bang.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "grass-survive-the-winter-with--nature",
+    "concept": "grass survive the winter with months of snow cover",
+    "analogy": "Grass goes into a dormant state as the weather changes, similar to how trees shed their leaves and go dormant. With the lowered state of metabolism, among other augmented processes, these plants can survive a winter. Imagine a car operating with 2 of its 4 cylinders disabled. It will still run, although at a low performance, and will consume FAR less gas. When the grass is back in full on summer mode it needs a consistent supply of energy and nutrients to stay alive. Nutrients and water it can retrieve from the ground, but the light from the sun needed for photosynthesis (making plant food) has been blocked by your cooler. At this point your grass, which is running with all 4 cylinders, has no gas. The grass will die.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-i-can-memorize-complicated-everyday-life",
+    "concept": "Why I can memorize complicated formulas",
+    "analogy": "The alphabet is stored inside your memory in a way similar to how you store complicated formulas. Have you ever tried to write down a formula backwards from memory without recalling the formula? Or have you tried rewriting the formula solving for one variable without writing out the original formula first? We've learned how to parse through these formulas a certain way so they stick. If we try and parse them differently, it's much more difficult. With training, it's much easier to recall the alphabet (imagine if you have to file things alphabetically all day). However, if you don't have to do it too often, your mind is not as trained to compare letters.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "how-some-animals-like-eels-are-nature",
+    "concept": "How some animals like eels are able to send electric discharges",
+    "analogy": "electric eels arnt really eels, but knifefish. electric fish have a specialized organ similar to muscle or nervous tissue, and builds/releases charge the same way your nervous system relays signals- moving charged ions across cell membranes, mainly sodium. a nervous signal to these cells triggers a rapid change in charge , resulting in the discharge. in an electric eel, each cell can produce around 0.15 v. stack two thousand of these in series, you get 300V. the electric eel can produce a 2 millisecond pulse at ~860V and 1A. not really lethal unless youre hugging the thing against your chest, but quite painful. place the cells in parallel to increase amperage. adjust arrangement depending on if you are a salt or fresh water fish.  _URL_0_ _URL_2_ _URL_1_",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "trains-change-tracks-everyday-life",
+    "concept": "Trains change tracks",
+    "analogy": "The contact between the rail and the wheel hub is on top of the rail. The flanges on the inside of the wheel are there to keep the axle and wheel from sliding off of the track.  When a switch is encountered it can allow the hub to pass through gaps in the switch and continue on in the direction it was going. Or the switch can gently push the wheel off the original rail, and onto the siding by using that flange to push/slide/force the wheel over.  It's like imagine you have a car on a 2 lane road that cant turn the steering wheel, and there are channels or grooves cut into the road that force the car in the left hand lane to drift to the right, until it's in the right hand lane. Except that you could block off those channels so the car could keep going straight if you wanted it to.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "free-ram-wasted-ram-everyday-life",
+    "concept": "free RAM wasted RAM",
+    "analogy": "If you have RAM that isn't doing anything then you have one of the fastest storage places in your computer sitting there doing nothing. If, instead, you preloaded data from the slow hard drive that predict might be used in the future then you can avoid having to load it in the future when it's actually needed. If it turns out you didn't need that data it's really easy to just throw away the pre-loaded data and load what you actually need. Think of it like having an empty desk in your office but you keep having to go into the warehouse to get new files whenever you change tasks. You might as well use that empty desk to store your most commonly used files.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-whole-verizon-vs-netflix-f-everyday-life",
+    "concept": "The whole Verizon vs. Netflix fight in a less technical language",
+    "analogy": "Verizon is, collectively, a dick and wants more money. They implement a \"toll system\" on their \"roads\". Cars, internet data, have to pay money to go on the faster highway rather than slower side roads.  Something hilarious about this analogy is that, just like a normal highway, if ISP's keep refusing to upgrade their infrastructure, even their highways will be congested.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "warping-of-space-time-explain--everyday-life",
+    "concept": "warping of space-time explain gravity holding us to the Earth",
+    "analogy": "The exact same way. We fall into the spacetime \"divot\" that is formed by the Earth.  Think of it like this: _URL_0_ Even though remember it pulls towards the center of the Earth, not beneath it, but our understanding of dimensions makes it very difficult to make a visual aid for that.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "turning-it-off-and-turning-t-b-sports",
+    "concept": "\u201cturning it off and turning t back on\u201d fix so many problems in IT",
+    "analogy": "Every complex system has something called 'state' - the current status of all the various elements in a system. Consider a chess match. When you begin a chess match, it's in a fixed state - all the pieces nicely lined up in a specific order on their side of the border. As the chess match proceeds, the state becomes more and more muddled - until you finally reach a state where one side is no longer able to make a legal move. Computer systems can also work the same way. They can potentially work themselves into a state where there are no valid moves to make. Just like with the chess match, starting over changes the state into a known good state from which operation can continue.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "super-luminal-data-transfertra-everyday-life",
+    "concept": "super luminal data transfer/travel violate causality",
+    "analogy": "Lets put this in the form of a picture. Imagine you are on Mars and someone where to point a telescope and see you sitting there. Next thing you know a portal opens up, you walk through standing right next to the person who is currently viewing you on Mars. What they would currently see are two \"images\" of yourself, one right next to you and the other on Mars. Now ask yourself how is this possible, you are in two separate places at once. While this explanation has very little to do with causality, you can imagine information information being delivered before it is being sent from your perspective.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "a-movie-out-of-sync-when-playe-everyday-life",
+    "concept": "a movie out of sync when played through a USB onto my TV yet is completely fine",
+    "analogy": "If I remember correctly it's all about the format. HDMI merely sends your computer's display to the television, where a movie played through USB requires the TV to use it's own processor, which is normally far too outdated to project over 5-10 minutes of moving picture. But, I'm a criminology major, so a second opinion could hurt. If you don't agree, yeah, well, that's just like, your opinion man.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "please-explain-how-the-fuck-th-everyday-life",
+    "concept": "Please explain how the fuck the Internet works (like I'm five)",
+    "analogy": "First of all young man, 5 year old shouldn't talk like that. :) Just as you and grandma can have a conversation on the phone where you talk and hear her, the internet allows the same thing. Your computer doesn't speak English of course. Instead, the computer translates everything into a language it understands. This includes the instructions to display the video which is just a bunch of pictures shown really fast it appears to move just like those flipbooks you make. the other difference is that the computer can send the same info to many 5-year olds. You know like when we call your Aunt Martha and we patch Grandma in on the phone line even though she lives so far away.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "this-thingy-that-bounces-when--music",
+    "concept": "this thingy that bounces when music is played",
+    "analogy": "Imagine a group of singers in a line arranged by pitch. The singers with the lowest voices are to the left. The singers with the highest voices are to the right. Each time a singer sings a note, they raise their hands into the air. The louder they sing, the higher they raise their hands. This is essentially what these bars represent. The bars are arranged by sound frequency, with the lower frequencies to the left (usually). A taller bar means that that particular frequency range is being played louder. If there are two sets of bars, like in your picture, each one represents a different sound channel (one for your left ear, one for your right).",
+    "domain": "music",
+    "audience": "intermediate"
+  },
+  {
+    "id": "if-i-compress-an-audio-file-do-everyday-life",
+    "concept": "If I compress an audio file down to 128kbps",
+    "analogy": "This is easier to visualize with photographs but works in much the same way. Photographs at a very basic level use tons of small dots of different colors to build a picture. If I lower the resolution I reduce the number of dots used to draw the picture. So if I reduce the quality by a factor of 10 that means where I used to have 10 pixels to represent a given space I now have 1. So downsizing will average the color of all 10 pixels and save a single pixel. If I then up-scale the photo I'll again have 10 pixels to store the information but I have lost the original 10 values so the computer will just save the same color 10 times instead of the 10 different colors that were in the original photo.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "if-the-decibel-level-of-a-pers-nature",
+    "concept": "If the decibel level of a person shouting is 65 decibels",
+    "analogy": "Sound is a pressure wave traveling through air (or anything really). If you have multiple sources of sound, the waves add up. Just like water waves. If you have 1 wave source (like a rock dropping into a pond) or 10 wave sources, you will get larger waves with 10. The waves also cancel out in certain areas. Here is a picture showing how waves add or subtract _URL_0_ The sounds you will hear will be as loud or louder than 1 person.  Also, \"drowning out\" a sound doesn't mean you are actually reducing it. It just means that the new sound is so loud that your ear's can't make out the original sound anymore. Like having a small, dim light and then suddenly adding a huge light behind or next to it. You won't see the small light anymore, but not because it has been reduced.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "data-being-transferred-through-construction",
+    "concept": "data being transferred through the air (wifi, phone etc)",
+    "analogy": "Let's say you have a flashlight. You can turn the flashlight on and off in a pattern in order to tell someone across the room something, kinda like Morse code. There are two main differences between this and how WiFi works. 1. WiFi has the flashlight turn on and off much faster than you can do with your hand in order to communicate more data faster, and 2. WiFi uses radio waves, which are just like light except they can actually pass through walls and you can't see them.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-cant-you-build-up-a-sleep--everyday-life",
+    "concept": "Why can't you build up a sleep surplus in the same way that you do with sleep de",
+    "analogy": "Let's say you stay up for 12 hours and you need 6 hours to recharge. After those 6 hours, your sleep debt is gone. It's like, if you just ran a mile, why can't you rest by watching TV for 28 hours, and then next time you run a mile, you won't have to rest. Sleeping does give you sleep juice that can be used, sleep just repairs you. You can't over-repair a machine so that next time you don't have to repair it. Sleeping is reseting to full energy mode. There is no extra juice stored for OVER full energy mode. Does that make sense...? EDIT: Basically, sleeping doesn't give you energy juice that can be stocked for later, think of it like: sleeping gets rid of the (awake) anti-energy juice, it does not add energy juice",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "is-the-5-second-rule-true-cooking",
+    "concept": "Is the 5 second rule true",
+    "analogy": "No. The easiest analogy for bacteria on the floor is to think of it as a layer of ketchup. You drop your Oreo on the floor, it lands in ketchup. No matter how quickly you pick up the cookie, it is coated with ketchup. Bacterial contamination is just like that.",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "overclocking-your-pc-mean-what-music",
+    "concept": "overclocking your PC mean? What does this do and how does it effect performance",
+    "analogy": "Let's say you have a band, and you play your hit song at 120 beats per minute. You could probably also play it at 130 bpm, maybe even 140 or 150. But at some point, it would just be too fast, and you would start to make mistakes. Computer works the same way, only a lot faster. Each on is designed with an internal clock that runs at a particular speed, and you can typically make it run a little faster, at the cost of heat, power, and durability. But if you make it go too fast, it will eventually make a mistake and crash.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "xenon-more-soluble-than-other--sports",
+    "concept": "Xenon more soluble than other noble gases",
+    "analogy": "Lets say you can fly, you're 100 metres in the air and you're holding a ball. You see a basketball net below. The chances of you shooting the ball and getting it in the net is pretty low.  Now imagine below you, there're 1000 basket ball nets. Now the chances of you getting the ball in one of them is higher. Terrible analogy. xD  The noble gases have a \"full shell\". It's hard to dissolve them because there isn't a place to bond with them. Helium has 2 electrons so it's super hard to find a place to bond with it. Xenon has 54 electrons, so the chances of one of the electrons moving out of place and another atom bonding with it is higher. Over-simplified to the max, but that's the basic concept.",
+    "domain": "sports",
+    "audience": "intermediate"
+  },
+  {
+    "id": "knocking-a-person-out-work-nature",
+    "concept": "knocking a person out work",
+    "analogy": "Not a doctor, not a scientist, but it's an overload. When trauma occurs to the brain like that, certain things happen. All of your senses more or less are stimulated by the impact to the tissue of the brain. It's like when you get hit in the nose ans see white for a second, when you get dizzy from spinning around...imagine all of these happening at once. it's a protective measure of your brain to \"shut off,\" a bit like tripping a breaker, but it can reset itself.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "ptsd-is-a-cultural-product-wha-everyday-life",
+    "concept": "\"PTSD is a cultural product\" what does that mean",
+    "analogy": "If I understand this correctly, what its saying is that PTSD only exists as a recognised disorder because of the ability we have to study it. It never used to be recognised. In wars, for example, people would get it and be labelled as cowards, because it wasn't understood what the sufferers were going through. I think its similar to our modern day view of depression. Maybe back in the day, depressed people were seen as someone who just needs to harden up, a bit of a downer all the time. Now, though, we realise its a proper disorder that the patient can't control, as opposed to a voluntary sadness. In the same way, now that we have studying PTSD and its effects, we can recognise it as a disorder, not just someone being anxious and touchy and aggressive.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "we-make-cars-that-easily-go-wa-everyday-life",
+    "concept": "we make cars that easily go way faster than the speed limit",
+    "analogy": "Well, all countries have different rules, the same goes for speed limits! The best example is Germany, they are known to have roads with NO speedlimit, meaning you can go as fast as your car (and your bravery) will take you!. That also explains why there are many sports cars in that country too. How about other countries with speed limits?, well to be honest. People who buy such cars just do it because....well they can! Think of it as a show of status rather than practicality. Its like why people buy virtual clothes or cosmetics. Theres no advantage to getting them, the only difference is that you are now seen as a richer person!",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "i-pay-a-monthly-fee-for-cable--sports",
+    "concept": "I pay a monthly fee for cable TV",
+    "analogy": "You may a monthly fee for the cable company to hook you up to their data-distribution network. Ads exist to pay for individual programs. And movies are censored because the channel that broadcasts them want to censor them. If it's not being broadcast over the air, they aren't *required* to censor them, but may choose to do to to maximize the size of their audience. If you want an analogy to the \"paying for cable\" vs \"ads\" thing, it's like the fact that you have to pay for an Internet connection, but you still also have to pay for things like some music streaming services or online game subscriptions.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "grooveshark-and-why-is-it-bein-music",
+    "concept": "Grooveshark and why is it being sued",
+    "analogy": "It's similar to pandora, though I don't know what kind of arrangements they have in terms of paying licensing fees. They allow for a more specific selection of music, and allow you to create playlists as if their entire library was your own. Think of it as a cloud-based napster. They have a desktop app as well as a web app, so they're really accessible. They're being sued probably for not paying enough/any/the right kinds of licensing fees to the music industry to have the right to distribute content in the way they do.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "do-cats-purr-on-purpose-everyday-life",
+    "concept": "Do cats purr on purpose",
+    "analogy": "I read somewhere that cats purr 24/7 but there are cases wherein they are purring louder than the usual. Its like when they are satisfied with the current situation or happy.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-dont-winners-of-award-show-construction",
+    "concept": "Why don't winners of award shows like the Oscars and the Grammy's get leaked",
+    "analogy": "For the Oscars, votes are tallied by the auditing firm [PricewaterhouseCoopers](_URL_1_). Very few people are involved in the tallying process, they are people that both the Academy of Motion Picture Arts & Sciences and PWC can trust, and they are paid a lot to keep their mouths shut. Also non-disclosure agreements. Grammy votes are counted by [Deloitte Touche Tohmatsu](_URL_0_), another auditing company. Secrecy is kept the same way.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "we-magically-remember-the-lyri-music",
+    "concept": "we magically remember the lyrics to songs we haven't heard in forever",
+    "analogy": "It is stored into our long term memory. The tune of the song triggers that memory/path in the brain and it recalls it.  It's like when someone asks you a question and you have no idea, but they prompt you with a small detail and suddenly you remember everything about it, like you just learned it. Something triggers that memory, and everything is stored in that file.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "sunday-considered-to-be-a-week-construction",
+    "concept": "Sunday considered to be a weekEND even though in some countries it is the first",
+    "analogy": "The beginning of the week is also one end; Sunday is at the front end and Saturday is at the back end.  Imagine the week as a ruler, with Sunday at one end of the ruler and Saturday at the other end. See how they're both on the end of the ruler?  I had thought that in most English-speaking countries, the week was structured the same way. Perhaps there's a bit of a language barrier going on here? If so, please do let me know if it would be helpful for me to clarify!  EDIT: I see three responses in this thread, but only two are visible. Commenter who is not u/hoffmania1, you should check to see if you're shadowbanned!",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "we-randomly-stutter-or-horribl-construction",
+    "concept": "we randomly stutter or horribly mispronounce words we know even thought we have",
+    "analogy": "Our brains are hardwired in a way where each cell (neuron) is connected to many other cells. It's like a computer where one wire connects to other ports and wires to create a while computer. Once in a while, a neuron will fire when we are speaking but will go down a little different path which our brains are not used to. This will cause some lag just like a computer program that was not used in a while. This can ultimately lead to a stutter. To my knowledge, this occurs randomly and unpredictably.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-majority-of-cartoon-charac-everyday-life",
+    "concept": "the majority of cartoon characters only have 4 fingers",
+    "analogy": "Drawing hands are HARD. If you try to draw a hand and it's not perfect, it looks SO WRONG and distracting to people. Instead, they don't even try. Hell, they try hard to make the hands look fake (wrong number of fingers). This way it's so wrong it doesn't annoy people. It's like when robots are made to look as realistic as possible, but they just end up looking weird and creepy. But robot-looking computer bots made of metal look fine to us; they're so far away from looking like a person, we don't compare them to real people.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "i-always-hear-the-metric-syste-everyday-life",
+    "concept": "I always hear the metric system is so much easier",
+    "analogy": "Let's say you have a meter. What's a centimeter? 1/100th of a meter. What's a millimeter? 1/1000th of a meter. What's a kilometer? 1000 meters. Pretty simple stuff, right? It's quite easy to move between the units, because they're all base 10. Let's say you have a foot. What's the next smallest unit? An inch. Well okay, that's 1/10th of a foot, right? No, that's 1/12th of a foot. Well okay. What's the next biggest unit from a foot? A yard. Well, that's 10 feet, right? Oh no, that's 3 feet. Well, what's a really big unit? A mile. That's 1000 feet, right? Oh no, that's 5280 feet. It's simply easier to move between units and do conversions in metric (and don't get me started on 5/8, 3/4, and all of the other imperial fractions...).",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "what-exactly-went-wrong-when-y-sports",
+    "concept": "What exactly went wrong when you have to use the pinhole reset switch on an MP3",
+    "analogy": "There are times when software gets confused and lost. When it is lost it doesn't know how to get back to home, and home the only place it knows how to \"be an mp3 player\". Pressing the reset button is like having a GPS tracker on someone who's lost - when you press it, you swoop in, pick the software up and plunk it back home. In technicalities, pressing the reset button usually triggers a circuit that forces the microcontroller in the mp3 players to reset just like it would have if you removed and replaced the batteries. The circuit can be outside the micro or it can be a dedicated pin on the microcontroller. No matter where the software gets lost, resetting the micro always starts it over from the beginning where hopefully it won't get lost again.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "a-siblings-appearance-not-seem-everyday-life",
+    "concept": "a sibling's appearance not seem to change from my point of view",
+    "analogy": "Take a picture of a cloud, then wait a couple minutes and take another picture of the same cloud. You think it will look the same, after all it doesn't look like its changing as you stare at it. But you will find that there is a noticeable difference between the 2 photos. It's just such a gradual and constant change that you don't notice any particular \"moment of change\". Every moment is so similar to the last that it might as well be staying the same.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "freezing-say-a-blender-bottle--sports",
+    "concept": "freezing, say, a blender bottle, get rid of the smells that accumulate in it",
+    "analogy": "The mini fridge you see in greys anatomy is actually called an autoclave and it does the opposite of a fridge. It goes up to about 250 degrees farenheit and uses high pressure steam to clean and sterilize the instruments. The reason why the fridge works is because some bacteria are only able to live in certain Temperature zones. Just like humans don't live in Antarctica without something to protect them otherwise they would die. Bacteria that cause the stench are the same way. They either die off or hibernate when you put them into the freezer. Usually the stench comes from gases that those bacteria release. So no more bacteria farting, means that it won't stink anymore once it airs out.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "when-you-use-a-coupon-at-a-gro-construction",
+    "concept": "when you use a coupon at a grocery store what does the grocery store do with tha",
+    "analogy": "If it is a coupon from the manufacturer of the product, they collect and send them in, and the manufacturer pays them.  Large companies use coupon clearing houses to process the coupons, so the manufacturer actually pays more than the face value, to reimburse the store and the coupon processor.    In the case of coupons issued by the store (or double-coupon promotions), the store absorbs the cost, just like when they have lower sale prices.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "it-when-i-get-strep-throat-it--cooking",
+    "concept": "it when I get strep throat it hurts to swallow my own saliva",
+    "analogy": "First thought would be that with saliva you are swallowing a very small thing forcing your throat to contract more than it would with a pile of food or a mouthful of fluid. Edit for analogy: A toothpaste tube is your throat. Squeezing out the toothpaste is swallowing. Much easier to push out the toothpaste when there is a decent amount still in the tube. Swallowing a bit of spit is like trying to squeeze out that last little bit. Now imagine the tube is sore. Poor tube :(",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "using-ac-reduce-fuel-economy-everyday-life",
+    "concept": "using AC reduce fuel economy",
+    "analogy": "Your engine is attached, by a belt, to the air conditioning pump. When your a/c is on, the pump becomes difficult to turn, and requires a fair bit of power to turn it. This puts a load on your engine, in exactly the same way that driving up a hill puts a load on your engine. And, just like driving up a hill, you have to increase the amount you press the accelerator (gas pedal) if you want to maintain the same speed, resulting in using more fuel.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "we-get-satisfaction-from-crack-everyday-life",
+    "concept": "we get satisfaction from cracking our fingers, toes, neck, back, etc",
+    "analogy": "there is just a bit of pressure inbetween your joints. you crack them and the pressure equalizes. its like when your ears pop on a plane. your body adapts to the pressure change.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "what-makes-the-freshly-mown-gr-construction",
+    "concept": "what makes the 'freshly mown grass' smell",
+    "analogy": "The blades of grass are emitting a distress signal as well as calling beneficial insects for help through chemicals released in the air. Let's say there is a fire at your school. Remember the red \"FIRE\" alarm on the wall that you are not supposed to touch? You would break the glass or pull the level to signal the fire alarm. This fire alarm creates a really loud noise. This noise tells other students to get out of the school. It also acts as a call for help to the fire department and police. The fire alarm sound that you triggered is similar to the chemical that a blade of grass emits which is giving a warning to get out or stay away, while calling for help.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "poorly-wiping-after-a-bowel-mo-cooking",
+    "concept": "poorly wiping after a bowel movement cause so much irritation",
+    "analogy": "Think of it as cleaning dishes. When you don't get all the grime off it goes mouldy now picture your ass. Leaving poop on it promotes bacteria and when you wipe sometimes you may have wiped too hard and take a layer of skin off, this is when some irritations occur and you end up with your so called 'Chapped ass'",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "my-eyes-rotate-music",
+    "concept": "my eyes rotate",
+    "analogy": "It's just another component of the visual stabilisation system that works in concert with the vestibular system in your ear to determine the direction of gravity and give you a useful and accurate picture of the world around you\\*. The \"roll\" angle of the eyes is mainly controlled by muscles that approach the eye from its \"noseward\" side, one of them by [looping through a small cartilage pulley called the trochlea](_URL_0_). Because these muscles have less range to work with than the ones that control left/right and up/down (pitch and yaw, in aviation terms) angular range is much less in this direction but it's definitely there.  *: Under the assumption you're on Earth/in conditions similar to the ones primates evolved in, naturally.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "wifi-travel-through-walls-construction",
+    "concept": "wifi travel through walls",
+    "analogy": "Wifi uses radio waves. Radio waves are a form of electromagnetic waves, in the same way that light is made up of electromagnetic waves. Depending on the frequencies of the waves, different electromagnetic waves can pass through different things. Visible light, for example, can pass through glass, air, and to some extent, water. And waves of the frequency used by wifi can travel through walls to some extent - although just like light passing through water, there's a limit to how many walls or how thick they are.",
+    "domain": "construction",
+    "audience": "intermediate"
+  },
+  {
+    "id": "it-so-difficult-to-get-clear-p-everyday-life",
+    "concept": "it so difficult to get clear photos of planets, stars",
+    "analogy": "Have you tried using your phone's camera to take a picture of the moon? Now imagine taking a photo of something a billion times farther. It isn't that hard, but needs some very potent equipment, like the Hubble telescope.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-hubble-telescope-need-to-b-everyday-life",
+    "concept": "the Hubble telescope need to be in space",
+    "analogy": "So that there isn't an atmosphere between the telescope and what its observing that can interfere with the imagine. If it needs to take a picture of something, and the Earth is in the way, they will just take pictures of other things until the Earth isn't in the way.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "compressing-video-or-audio-sac-everyday-life",
+    "concept": "compressing video or audio sacrifice quality",
+    "analogy": "Because it uses a technique called lossy compression. Imagine you had a book, and took out all the vowels. It would wind up shorter, bt y cld prbbl stll rd t. It would be harder to read, and there might be places where it is ambiguous, but you could probably still puzzle out the meaning. Lossy video and audio compression work the same way, only more complex. They are designed to leave out details that humans usually won't hear, but if you turn the compression up too high, eventually you are going to notice.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "a-green-screen-work-does-it-ha-everyday-life",
+    "concept": "a green screen work? Does it have to be green",
+    "analogy": "It can be also blue. It's a very simple concept. Imagine a picture (not a movie, for the sake of simplicity). You have a picture of you dressed in a black suit standing in the middle of a black screen. It's very difficult to distinguish you from the background. Now the background changes to green. It's much easier, even for a computer, tell the differences between your body and the screen. So, a computer program can take out only your body and paste it into another image. The same goes for your skin, since green and blue are two colors very different from any skin tone, it's very easy to pull out only your body and change the background with a computer program.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-significance-of-logarithms-everyday-life",
+    "concept": "The significance of logarithms in Time Complexity (of computer algorithms)",
+    "analogy": "Mathematically, if log(n) = x, that means that 10^x = n. It's related to other powers as well, so you can also use log(n) to describe something like 2^x.  This comes up a lot for binary searches, where you find a number on a sorted list, by checking the middle number and cutting the list in half based on whether the number you are looking for is greater or less than the middle number. Let's say you have a list of 16 numbers. You will need to check 4 numbers to complete the search. First check cuts the list down to 8, second one down to 4, third one down to 2 and fourth one down to 1. If you double the size of the list, that only requires one extra check. If x is the number of numbers to check and n is the size of the list, you can say 2^x = n, which you can rearrange into log n.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "b-vitamins-decrease-anxiety-everyday-life",
+    "concept": "B-vitamins decrease anxiety",
+    "analogy": "Some people who feel icky much of the time may just be low on a certain chemical in their head called \"serotonin.\" These people sometimes opt to take a pill that increases the amount of serotonin in their head. Sometimes, they feel much better after taking this pill. Serotonin is also made by your body. When you're building a race car out of Legos, you usually start with the wheels and build up the race car around them. Pretend that serotonin is the finished race car and Vitamin B6 are the wheels. Your body needs to first go get the wheels from the Lego bin before it can build the racecar. In the same way, It needs Vitamin B6 before it can build sertonin. Some people just don't have enough wheels in the Lego bin to build all the racecars they need, and this makes them sad.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "fire-i-thought-everything-was--everyday-life",
+    "concept": "fire? I thought everything was solid, liquid or a gas",
+    "analogy": "Fire isn't a \"thing\". Fire is a *process*. It's a self-sustaining chemical reaction, where a fuel heats up enough to break apart oxygen molecules in the air and combine with the oxygen atoms itself. This results in more energy being released than was required to start the fire, so it keeps spreading to more fuel as long as there is heat and oxygen available. The visible flame is actually composed of microscopic particles of soot (fuel that wasn't completely burned) that are so hot that they glow, just like when you heat up metal it can glow red-hot.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "arent-all-stars-moving-in-rela-everyday-life",
+    "concept": "Aren't all stars moving in relation to one another",
+    "analogy": "Stars don't move very fast, and these stars are millions of light years away. Even if they moved a great distance away, they would have to move really far for somebody with a normal telescope to notice. It's like when you see an airplane in the sky, it might be moving really fast, but it still looks slow. Stars, however, are much much farther away than airplanes.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "can-someone-eli5-fourier-serie-everyday-life",
+    "concept": "Can someone ELI5 Fourier Series and Transforms",
+    "analogy": "This may be LI4, but: Say you want to make 11, but you only have a 4s and 1s. You would take two 4s and three 1s and add them together, right. Now say you have a crazy function (curvy line on a graph), that's your \"11\". It turns out that you can take a bunch of sine and cosine functions (these are your 4s and 1s), and add them together just like we did with the 4s and 1s to get your curvy line. A little more complex: constructing a given function (your curvy line) takes a precise combination of the right sine and cosine functions. And just like we took **two** 4s and **three** 1s, we add those sines and cosines with different *weights* or *coefficients*. Say the given function is more like sin(x) than cos(x), we will add a large sin(x) to a small cos(x).",
+    "domain": "everyday life",
+    "audience": "advanced"
+  },
+  {
+    "id": "voltage-ampere-watts-nature",
+    "concept": "Voltage, Ampere, Watts",
+    "analogy": "The best way I've found to understand it is the water analogy.  Current is the flow (Amps). Think of it as how much water (or electrons) pass. It's the difference between a brook and a mighty river.  Voltage is the push; Like water pressure. The difference between a cup of water poured from a pitcher and the same cup of water blasted through a pressure washer.  Watts is a rate of work and is the first two multiplied by each other. Think of the water analogy again. It's important to know if you're talking about a cup of water or a bucket of water, but also if that water is being poured or jetted.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "if-uranium-is-radioactive-for--everyday-life",
+    "concept": "If uranium is radioactive for millions of years",
+    "analogy": "think of it like burning wood vs burning cordite(gunpowder). One is a raw material which releases its chemical energy slowly, the other is a well refined, chemically similar product (carbon) which burns very quickly. Uranium decaying naturally releases its energy very slowly. Refined into nuclear fuel it releases its energy much faster (though still in a controllable way, unlike in a nuclear weapon) Whilst theoretically possible, there is a very low chance of finding naturally-occuring uranium which wouldn't need refinement. Similar to the unlikelihood of finding naturally occurring cordite. TL:DR, We make the Uranium get \"burnt\" much faster than would happen naturally.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "kirchoffs-current-law-everyday-life",
+    "concept": "Kirchoff's current law",
+    "analogy": "**Current law**: Amount of current entering a junction (the place where two or more wires meet) is the same as the amount of current leaving the junction.  **Analogy**: Think of a busy traffic intersection where many roads meet. On any given day, the total number of cars that have arrived at the intersection will be equal to the total number of cars that have left the intersection. **Volatge law**: Amount of voltage being generated in a closed network (a bunch of wires forming a loop) is the same as the amount of voltage being lost by all the components in the network.  **Analogy**: Imagine a closed circuit as a waterslide in which you end up where you started. Now, the total amount of upslope that you climb will be equal to the total amount of downslope that you slide.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "practically-every-psxps1-games-sports",
+    "concept": "practically every PSX/PS1 games appears to have problems with the depth/z-buffer",
+    "analogy": "The PS1 didn't *have* a depth-buffer. It was essentially all software-rendered, so it was up to the developers to deal with it. I imagine on such basic hardware that the bandwidth and memory cost of implementing it would be too much. 3D games probably used something similar to the BSP polygon-sorting or scanline culling approach also used in Quake, Wolfenstein, etc to implement hidden surface removal.",
+    "domain": "sports",
+    "audience": "intermediate"
+  },
+  {
+    "id": "-hyperbaric-welding-underwater-sports",
+    "concept": "- Hyperbaric welding / Underwater Welding - How does the welder not get shocked",
+    "analogy": "Electric current flows from areas of high potential to areas of low potential via the path of least resistance. In this case, you've got an area of high potential (the electrode) and an area of low potential (the thing you're welding), and the path of least resistance is the place where those two things touch. The path of least resistance is *not* through the water around those things \u2026\u00a0just like when the guys on *The A Team* weld in a shed somewhere, the path of least resistance isn't through the air around them. In other words, it's the same basic reason why you can hold a cup of water with a hole in the bottom, and the water won't climb up the sides of your cup and get your hand wet. It's only going to flow through the path of least resistance, which is out the hole on the bottom.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-ball-bearing-when-crushed--everyday-life",
+    "concept": "the ball bearing, when crushed by the hydraulic press, give out so many sparks",
+    "analogy": "Steel burns, but is usually either not hot enough, or in too big a bit for the oxygen to get at. Crushing it adds a lot of energy, so it gets very hot but it's also brittle, so it shatters. The tiny hot fragments are very similar to the particles thrown off when grinding, and burn in the same way.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "white-plastic-yellow-over-time-cooking",
+    "concept": "white plastic yellow over time? Is it true for all white plastic",
+    "analogy": "UV light and oxygen can both cause plastic to yellow over time. I'm not sure how UV light changes it, though I imagine it's similar to sun burn. Oxygen is a very reactive chemical and causes a lot of things to change over time (plastics, iron, food).",
+    "domain": "cooking",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-os-know-what-ram-is-in-use-everyday-life",
+    "concept": "the OS know what RAM is in use by which programs",
+    "analogy": "Imagine I'm the owner of a security deposit vault. You want to store some stuff in my vault, so you ask if I have a couple of spare boxes. I check my records and find that yes, I have some spare boxes. I tell you which ones they are, and update my records to show that those boxes belong to you. I also make sure you don't use any boxes which aren't yours. And I keep my records in one of the boxes. In this analogy, the vault is RAM, and each box is a chunk of memory. I am the operating system, using some of my RAM to keep track of which bit of RAM is owned by each program. And you are a program, asking me for a bit of RAM and then using what I allocate to you.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-cant-cancerous-tumours-be--sports",
+    "concept": "Why can't cancerous tumours be simply cut out",
+    "analogy": "It was explained to me sort of like this in hospital: It's like dropping ink into water, if you get there quick enough, the cancer is just in one place, and you can scoop it out. But when the cancer spreads, that ink diffuses through the water, and it's virtually impossible to get every trace of it out. Your only option at that point is to attack the whole thing and hope you can kill it all. It's not a perfect analogy, obviously, and even those that get there quick enough to have the tumor simply be removed will possibly need chemo/radiation to kill cells around the effected area, but it helped me to understand how if you have colon cancer that has spread to the liver, or lungs, or both, that just 'removing the cancer' is near impossible.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "history-channel-still-labeling-everyday-life",
+    "concept": "History channel still labeling sci-fi shows \"documentary\" even after Discovery C",
+    "analogy": "I would imagine it's similar to what happens to MMO's when they change the balance too much. Your old user-base moves on and you get stuck with whoever didn't mind the change. If you try to change back or appeal to the old group again it generally makes more people leave instead of join so you are stuck in a cycle of pandering to who's left. With the Discovery Channel, they used to be known as a great source of solid information. Once they started going soft, all the people interested in real info left to find a new source and then the only financially beneficial types of shows are the ones catering to the conspiracy theorists or reality show addicts.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "there-a-stereotype-in-moviesga-everyday-life",
+    "concept": "there a stereotype in movies/games/books that if someone/something is huge it ca",
+    "analogy": "Because its true. Its like a car. A small car can turn within a smaller circle and do it quicker. Imagine in a roundabout. A truck on the other hand has to do it slower. Why? Because its bigger. When something is big, it takes more work to make it change direction. This gets harder the larger you are. A bicycle is small and can change its direction with very low force. A car is bigger and needs more power. A truck needs an even greater amount. An airplane needs a ton of it.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "an-engine-idling-at-3k-rpms-so-everyday-life",
+    "concept": "an engine idling at 3K rpms sound like it will explode soon",
+    "analogy": "Lets make an analogy. If you lift a hundred pounds, your arms generate a certain amount of force, right? It takes a lot of energy to lift that weight. Now imagine using the same amount of force-however many joules of energy that was- and just wildly flailing your arms. Youd injure yourself flailing around. Simply put, an engine is doing the same thing-all that power isnt being usefully directed, its just flailing around causing issues.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "file-compression-work-rar-zip-everyday-life",
+    "concept": "file compression work? (.rar, .zip)",
+    "analogy": "Ok, say you have some file whose content is (way simplified) AAAAAAAABBBBBBBBCCCCCCCCDDDDDDDD. This takes 32 characters to represent. Compression works by compressing it into 8A8B8C8D. This takes only 8 characters to represent. This is an incredibly simplified compression algorithm though. Most work by replacing common strings (lets say \"the\") with one character like 'a'. They must also append a decompression dictionary (because the most common word in one file isn't the same as another) which tells winzip/winrar how to decompress the file. This is why you can never get a file to be smaller than a certain size, no matter how much you compress it.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "what-happens-when-i-power-off--construction",
+    "concept": "What happens when I power off or unplug my computer while it's installing an upd",
+    "analogy": "I like to think of it like this: Lets say you are fixing a roof on a house (you are the only one that can do this), right after you tear off the roof, but before you you start rebuilding the roof, you get shot. Damn no one can use that house, as you are the only one that could fix the roof. * \"You\" -- Update Program * \"house\" -- The computer * \"roof\" -- A Program or other thing being updated with in the computer (OS or otherwise) * \"get shot\" -- Power turned off If there is luck involved, you might turn into a zombie and finish the roof. Thus the house can be used again. But most of the time you are in the ground, and the house has no roof. * \"Zombie\" -- Update program restarting itself upon reboot.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "you-have-to-send-a-ziprar-file-construction",
+    "concept": "you have to send a ZIP/rar file through the internet instead of sending a folder",
+    "analogy": "Because a folder isn't a thing. The only thing that exists on your hard drive is files. What is sent back and forth on the internet is files.  All a folder is, is a file structure marker. When you open lets say the pictures folder, the hard drive scans all the files the picture folder points to and displays those ignoring all the rest.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "what-states-of-matter-are-mars-everyday-life",
+    "concept": "What states of matter are marshmallows, flesh, bread and Jell-O? Why",
+    "analogy": "They are all solids (or, because they're so complex, *mostly made up of solids with some moisture*), because they do not change shape to fill out a container they're in.  Let's say you have a substance, X. You put X in a jar with a cover.  If X just sits there and doesn't change shape, it's a solid. If X spreads out along the bottom, it's a liquid. If X expands to fill up the entire container, it's a gas. Marshmallows, flesh, bread, and Jello would just sit there, not changing shape, therefore they're all solids--or items that are comprised mostly of solid but a large amount of liquid.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "a-photonic-boom-nature",
+    "concept": "a photonic boom",
+    "analogy": "Light traveling through some medium must always move at the speed of light through that medium. But particles are not constrained by this rule. Just like when something moves faster than the speed of sound, there's a sonic boom. When a particle moves through some medium faster than the speed of light though that medium, there is [Cherenkov radiation](_URL_0_). Some people call it a \"photonic boom,\" but it's not a common term.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-i-get-significantly-less-d-everyday-life",
+    "concept": "Why I get significantly less dizzy when spinning if I snap my focus between two",
+    "analogy": "It does have to do with your inner ear. Imagine a large tall wine glass. if you continually swirl it eventually you can really get the liquid going. so much that it will ride way up the glass and when you stop will continue to swirl for along time.  Now swirl that glass just once quickly. yes the liquid will slosh but settle quickly.  Similar to your inner ear, if you continually swirl it you build up energy that doesn't immediately dissipate when you stop (making you dizzy). but snapping our head to fixed positions breaks up the continuous motion and helps keep the energy in the liquid down.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-scientists-look-for-earth--construction",
+    "concept": "Why scientists look for earth-like conditions to declare whether or not a planet",
+    "analogy": "We have one instance of life that we know of. Can there be other types of life? Maybe, even probably.  However, we don't *know* that. It's like looking at a box and saying \"is that a computer?\" If there's no input or output, probably not. However, you could build a tablet with wireless charging and no ports, so it's possible. With the screen off it would just look like a box.  The point is - science is expensive. Generally they're not saying its uninhabitable for *all life,* just life as we know it, and that's the only type of life we know about, so the rest is speculation. Just like AskScience, real life science is pretty strict about speculation.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "old-school-gameboy-screenscalc-sports",
+    "concept": "old-school gameboy screens/calculators/digital watches display a picture without",
+    "analogy": "Paintings produce a picture without producing any light. They rely on ambient light around them for you to see it. a Gameboy's screen is an LCD just like your phone. Instead of a backlight in the background it uses a reflective surface that the ambient light bounces off of. Both screens have a film over them with a liquid crystal matrix on it, when electricity passes through a cell in the LCD matrix it changes from opaque to transparent or the other way around.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-dont-i-end-up-at-the-back--everyday-life",
+    "concept": "Why don't I end up at the back of the airplane if I jump straight up in the air",
+    "analogy": "Inertia.  Because you are travelling *with* the plane, you inherit its speed/momentum. Just like when you sit in a car, all the passengers get carried along with it. So when you jump, you continue to travel at the same speed.  If you could somehow do really, really, really long jumps, then you might slow down marginally (because you're not receiving the continual engine thrust that the rest of the plane is), but not sufficiently for you to end up all the way at the back.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "in-words-like-prophet-why-use--everyday-life",
+    "concept": "in words like \"Prophet\", why use \"ph\" instead of \"f\". Profet",
+    "analogy": "Most words with a ph in English have Greek origin as the letter 'phi' (\u03c6). In ancient Greek, phi was pronounced pretty much with how you'd imagine a ph would sound - a \"p\" with a strong outward breath, similar to the letter p at the beginning of \"**p**aint\". This was rendered in the Latin alphabet (which English uses) as \"ph\". But since that time, its usage in both Greek and Latin shifted to something similar to the modern \"f\", and it's that pronunciation that was picked up by English. But since we took the word from Latin, we kept the Latin spelling as 'ph'. TL;DR: Spelling changed more slowly than pronunciation did, as is typical in a society that has written language but not sound recordings.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "i-only-download-picture-messag-everyday-life",
+    "concept": "I only download picture messages",
+    "analogy": "picture messages use a technology called MMS, multimedia messaging system. It is similar to SMS, short messaging system, better known as texting.  MMS and SMS are part of the mobile phone standard. They work with the way that the cell phone tower talks to the phone. They go through a system that is owned by the phone service companies. They don't use the internet so they can't go through wifi. Just in case you or someone else reading this doesn't realize, wifi is a standard that lets you connect to the internet which is a system of connected computers. It is a public system that thousands of different companies have connections too.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "whats-the-biological-explanati-everyday-life",
+    "concept": "What's the biological explanation behind aging",
+    "analogy": "If someone has a better answer, I'll delete...but...your DNA is constantly copying and dividing over and over and over. With each copy, you lose a little bit on the end (telomeres - junk DNA.) Each copy, you end up with a little less than you started with. Then there are a million other literal variables like mutation, disease, and the like that can interfere and mess things up a bit. In a sense, you can almost think of it like having an original copy and photocopying it. It's a pretty close representation...mostly indistinguishable. Then you photocopy the copy. Then you photocopy the copy you made from the copy...and, once you do that enough times...it looks a lot different than the original.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "if-dolphins-and-whales-are-mam-nature",
+    "concept": "If dolphins and whales are mammals who don't have gills and need to frequently c",
+    "analogy": "Imagine an astronaut having spent one year in space. Despite all the exercise to maintain his strength in a zero-G environment, his heart will have shrunk by two third, his bone mass will have reduced dramatically and its muscles will have followed the same path. Back on Earth, the astronaut will be carried out of the capsule straight onto a wheelchair, and it will take weeks before he can get back on his feet. Life in the sea is like living in zero-g. But now, consider these mammals having spent their WHOLE LIFE in that environment, following millions of years of evolution inside that environment, without having trained their body to support their weight on land... You can now picture the disaster their body will face once on land.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "a-menger-sponge-have-no-volume-construction",
+    "concept": "a menger sponge have no volume",
+    "analogy": "Because you're talking in terms of infinities. As the surface area approaches infinity, the volume approaches zero. The point of the sponge is that you're removing mass from the sponge, so the volume wouldn't remain the same, for the same reason that if you took a cube of wood and drilled a hole in it, the volume would change. To continue the cube analogy, imagine repeatedly drilling holes through a block of wood in such a way that none of the holes intersect. Eventually you'd end up with paper thin walls which give you a lot of surface area, but not a lot of actual mass. Now continue that forever. And you can see how the surface area increases at the expense of volume.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-downloading-is-so-much-fas-music",
+    "concept": "Why downloading is so much faster than uploading",
+    "analogy": "The internet connection to your house has a limit to how much data it can transfer, called *bandwidth*. Bandwidth is measured in megabits per second (Mbps). So let's say you have a 10 Mbps connection. You could split it in half, and devote 5 Mbps for uploads and 5 Mbps for downloads. But most people download a *lot* more than they upload...it would be kind of a waste to be waiting through a big download with that 5 Mbps upload connection unused. So a lot of providers split the connection unevenly, say, 8 Mbps down and 2 Mbps up. You are getting 60% more download capacity, at the cost of slower uploads. For most people, that is a big win.",
+    "domain": "music",
+    "audience": "intermediate"
+  },
+  {
+    "id": "quantum-physics-experiments-su-music",
+    "concept": "Quantum physics experiments suggest that reality doesn't exist until it is measu",
+    "analogy": "Observed does not mean by a sentient being. Observed simply means interaction in this context. Here's an analogy: Say you're measuring the temperature of water with a thermometer that starts off with a temperature, say 20C, and the water you're measuring has a temperature of 50C. If you're measuring a pool, it doesn't matter. If you're measuring a tiny droplet of water, the heat of the thermometer will effect the temperature of the water! It's like that for quantum particles. In order to measure them, we have to interact with them, which then collapses the waveform. Note that the Heisenberg uncertainty principle has nothing to do with this.",
+    "domain": "music",
+    "audience": "advanced"
+  },
+  {
+    "id": "if-spacetime-is-expanding-are--sports",
+    "concept": "If spacetime is expanding, are we also expanding",
+    "analogy": "As i understand it, over short distances such as those in our bodies, the fundamental forces such as the \"strong force\" keep us together even as the universe expands. The frequent analogy for 'everywhere is expanding' is to imagine dots on an inflating balloon. Instead imagine the the earth and the sun (or you and me) are stickers on an expanding balloon. The space around you is expanding and pulling the stickers away from one another, but the forces holding the sticker together is likely strong enough to keep it from stretching or tearing.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "one-speaker-vibrate-to-play-mu-everyday-life",
+    "concept": "one speaker vibrate to play multiple sounds at the same time",
+    "analogy": "I'll repeat an answer I gave earlier: Let's say we have two speakers that produce two different simple tones. What happens then? The two tones get mixed in together to make a more complicated sound. This can be hard to picture but if you look at [this image](_URL_0_) you can see a bit more easily how ups and downs mix together to give the more complicated shape. And if a speaker would makes the bottom soundwave instead of using two speakers you would experience the same sound.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "going-on-when-my-brain-takes-f-nature",
+    "concept": "going on when my brain takes fifteen to twenty seconds to remember something",
+    "analogy": "No filing cabinets... Ok, imagine each memory is a clearing at the end of branching paths through a forest. FOr memories you access often, you know the correct path without having to think about it, and you arrive at the memory without trouble. Sometimes, you may forget a path to a memory, and you have to spend some time backtracking through different paths, or maybe just standing there scratching your head. Best analogy I can think of without getting into brain anatomy.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "it-that-paper-cups-get-mushy-construction",
+    "concept": "it that paper cups get mushy",
+    "analogy": "Paper cups are coated with a waterproof layer on the inside, but not on the outside. When they contain hot drinks, the liquid is touching this impermeable barrier, so doesn't get the paper wet. However, a cold drink cools its container, making water vapour from the atmosphere condense on the outside - that's why your ice water glass \"sweats\" on a hot day: the water forming on the outside is not seeping through the glass, but rather condensing out of the air, just like when you breathe on a mirror and it fogs up.  However, the paper cup only has a waterproof barrier on the inside. This condensation on the outside of the cup can soak into the paper and make it go soggy.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "anti-aging-products-work-if-th-construction",
+    "concept": "anti-aging products work (if they work at all)",
+    "analogy": "A key to understanding this is that \"anti-aging\" is an incorrect label, it is not really what these products do. They are more like \"anti-aging effects.\" They don't stop the actual aging process, they treat the superficial symptoms of aging. It's like having an old house with structural problems, water damage in the walls, and peeling paint on the outside. You can strip the paint off the outside and slap a new coat of paint on, and now it looks as new as the day it was made. But you have not stopped the aging process of the structure, and you have certainly not addressed any of the fundamental problems that will make the house unlivable soon. You only treated the surface. That is what \"anti-aging\" products do. They can't actually reverse the true effects of aging.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "tilting-your-cup-to-the-side-r-everyday-life",
+    "concept": "tilting your cup to the side reduce the amount of head when pouring a beer",
+    "analogy": "Think of it like a playground slide. If you just jumped off the top of it onto the ground, it would hurt (large impact, large amount of force). If you jumped down the slide portion and slid down, it would be more comfortable (less impact, less force). Just like with soda, there is CO2 in your beer. When you shake (cause impact to) the beer/soda, the CO2 is released. So by \"sliding\" the beer down, you put less impact/force on the beer, giving you less bubbles.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "what-happens-when-you-add-salt-nature",
+    "concept": "What happens when you add salt to ice",
+    "analogy": "The salt competes with the water to bond to water molecules. Normally, water molecules form loose hydrogen bonds where the positive side of the water sticks to the negative side of another molecule, making water \"sticky\", which means it has a relatively high freezing point. Since they already stick together very well, it takes more energy to melt it. Salt molecules are polar, just like water molecules. There's a positive side and a negative side to the salt molecule. So the salt also wants to stick to the water molecules in the same way. The salt gets in and sticks to the water, getting in the way of the water sticking to itself. That makes it easier to melt the water, lowering the melting point so water will stay liquid even at or below 0 degrees C.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "car-wheels-look-like-theyre-sl-nature",
+    "concept": "car wheels look like they're slowly moving backwards sometimes when a car is mov",
+    "analogy": "It's called the wagon wheel effect, and it's because your visual processing system isn't realtime, it in fact snaps many photos per second. Imagine your neighbor drives down your street every day at 7pm. If you capture one video frame every day at 7pm, he'll appear to be in the same place for the whole video. Now imagine you start taking a picture at 7pm, then 6:59pm, then 6:58pm. He'll appear to be going *backwards* down your street, when in fact all that's happened is you've changed the frequency with which you take pictures.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "how-exactly-do-exo-suits-work-everyday-life",
+    "concept": "How exactly do exo suits work",
+    "analogy": "Imagine a strong, hollow robot. You can control it with your thoughts or movements from the inside, but it's ultimately the one doing all the work. It's powered by electricity (or fusion, or combustion, or whatever) just like any robot would need to be, so its motors or hydraulics are stronger and faster than you are. Since you're piloting it from the inside, it's moving you around with it, functionally increasing your otherwise only-human capabilities. We don't have many powered exoskeletons on the market just yet, but there are a lot in development. I wonder how far they'll go!",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "how-to-programmers-sports",
+    "concept": "How to programmers",
+    "analogy": "Here's an analogy: Imagine a game developer is a painter. They've just got brand new, state of the art brushes, paints and canvases. They're a bit different to what they're used to, but they still manage to make a painting that looks pretty good. In doing that painting, they've learnt a bit about their new tools. How they're different to the old ones, what they're good at, what they're not so good at. So knowing that, they do another painting, and it looks better. The tools haven't changed, but their ability to use them has improved. With game development there's an extra factor. The next game is built from the old one. So when making their next game, they have more time to improve what they already have instead of having to make it from scratch.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-cant-i-see-in-a-mirror-everyday-life",
+    "concept": "Why can't I see in a mirror",
+    "analogy": "When you say the image is all in the same plane, you're probably thinking of a mirror as being in some way similar to a television or computer monitor. That's not the case -- a monitor or television produces its own picture by **emitting** light, whereas a mirror is merely a device for **reflecting** light that originates somewhere else. That means that when you're looking at your wife's reflection when she's standing 6 feet beind the mirror, the light from her face is travelling all the way to the mirror. It then reflects off and travels a further couple of inches to your eyes. So in total the light has travelled 6 feet + a few inches, and as far as your eye's lens is concerned it's the same as looking at your wife standing that distance away.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "you-only-know-an-electrons-pos-everyday-life",
+    "concept": "you only know an electron's position if you give up on knowing its momentum",
+    "analogy": "Imagine you wanted to take a detailed and clear photo of a mosquito buzzing around your room. You'd have to zoom in really close to get such a picture. Imagine then that you've zoomed in far enough so as to be able to clearly see the mosquitoes features and decide to snap a photo. What do you see? A mosquito stuck in time. How can you possibly tell from that still picture where the mosquito will fly to next or even at what speed its flying at. The same is true for the opposite. To be able to see the mosquitoes movements and speed you'd have to zoom out, but then the mosquito becomes a small insect buzzing around the room and you've lost any sense of detail and picture quality.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "why-people-cover-their-mouth-w-everyday-life",
+    "concept": "Why people cover their mouth with hand in scary, shock situations",
+    "analogy": "I think the mouth-gape is a natural reaction, however, covering it with your hands is a cultural thing. It is considered not polite to leave your mouth open wide, so people cover it out of habit, just like when you're yawning or coughing.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "i-assume-that-being-allergic-t-nature",
+    "concept": "I assume that being allergic to gluten is an actual allergy people have been fac",
+    "analogy": "Theoretically your tolerance for gluten is on a spectrum. You can compare it to lactose intolerance. Some people will have a full-on auto-immune response to milk. Others will just shit water. Others will just get acne or nasty farts.  In the same way, some people have Celiacs disease while others \"just\" have a gluten sensitivity. The argument that's driving the fad is that many people have a sensitivity to gluten but it's below a threshhold where they immediately realize it as such. Just like lactose intolerance.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "reaction-time-develop-or-impro-nature",
+    "concept": "reaction time develop or improve",
+    "analogy": "The same way any skill or ability does. Imagine a bucket with a hole in the bottom. If you pour a gallon of water into the bucket, it'll take a minute to drain. That's your average, lazy, unattuned, slow-reaction-time brain.  As you do things that require quick reactions, you start to poke more holes in the bottom of the bucket. It might have taken a full minute to drain a gallon of water with one hole, but with 10, it only takes a few seconds. That's what your brain and muscles do - they develop more(and more efficient) neural pathways which allow you to process inputs faster, and thus, react faster.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "what-exactly-are-we-smelling-b-cooking",
+    "concept": "What exactly are we smelling (breathing in) when we smell an odor/fragrance etc",
+    "analogy": "Imagine inside your nose there are millions of tiny \"slots\" or \"keyholes.\" Only certain types of molecules will fit just right. When a molecule fits, it registers a certain smell. There are only seven different types of \"base\" smells and every thing you smell is basically a mixture of these seven smells. Kind of similar to how you can make thousands of different colors just by mixing primary colors. In order to smell something it has to be chemically volatile, which simply means there is some kind of chemical breakdown spewing molecules into the air. When you're cooking, there is a large amount of heat (energy) involved which means the molecules which break free during the cooking process have a lot of speed and can travel farther than other smells.",
+    "domain": "cooking",
+    "audience": "intermediate"
+  },
+  {
+    "id": "ive-heard-that-roller-coaster--everyday-life",
+    "concept": "I've heard that Roller Coaster Tycoon is coded \"in assembly\"",
+    "analogy": "Assembly language is the language the processor speaks directly. Typically when writing code, you use a higher level language. To use an analogy, if I want to \"code\" you to go buy groceries, I'll say \"Go pick up groceries. There's a list on the counter\". That would be the sort of language that computer programmers usually use. In assembly language, it would be something like \"Go find the counter. Search for a piece of paper. Put the paper in your pocket. Grab your car keys. Get in the car. Start the engine. ...\" Well, you get the idea. As you can probably imagine, coding in assembly is time consuming, difficult, and hard to maintain. But, you can sometimes optimize the way the computer works, making it faster than a higher level language.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-relationship-between-heat--nature",
+    "concept": "The relationship between heat and time",
+    "analogy": "Heat flows from areas of high concentrations to areas of low concentrations and in controlled environments (e.g. no energy input) it never flows back, it's a law of thermodynamics. Heat continues to flow until it is evenly distributed throughout an entire system. While heat is flowing, we are able to assign a direction to the flow of time because heat flow a one-way street.  The way you can relate this to the pendulum analogy is to imagine that the energy you put into the pendulum to swing it can represent heat in a system. Over time, the pendulum will slow down due to air resistance, the energy you put into the pendulum spreads out into the environment. The amount of time that passes is directly proportional to the amount of energy that the pendulum has lost to the environment.",
+    "domain": "nature",
+    "audience": "advanced"
+  },
+  {
+    "id": "machine-learning-algorithms-sports",
+    "concept": "machine-learning algorithms",
+    "analogy": "At the most basic level, instead of telling a computer what to do, you give it the tools to learn from what it has done. For example, imagine a tic-tac-toe game. Instead of telling it what to do, you give it the ability to remember games; and whether or not it won the game. then, when it has to make a move, it looks at previous games, and sees which moves resulted in wins, in loses, and in ties; and picks the move that has the best result, on average. For more complicated problems, you make things work differently; but the same general idea is in effect: you set the computer up to keep track of what goes well, and what goes badly; and take action that is most likely to go well.",
+    "domain": "sports",
+    "audience": "intermediate"
+  },
+  {
+    "id": "phones-and-computers-transfer--construction",
+    "concept": "phones and computers transfer audio to headphones",
+    "analogy": "Sound is transmitted as a voltage signal through wires. The voltage changes just like the soundwave, and this goes into tiny magnets in headphones, or speakers, or telephones. The magnets shake the speaker back and forth as the voltage changes, and this movement makes pressure waves on the air. The pressure waves we hear as sound. The whole process works in reverse too, and that's how microphones work. This also means that if you look at a soundwave picture (or wave form), you are actually also looking at a [graph over time](_URL_0_) of the in and out movement of the speaker you're listening to.",
+    "domain": "construction",
+    "audience": "intermediate"
+  },
+  {
+    "id": "nuclear-explosion-create-so-mu-everyday-life",
+    "concept": "nuclear explosion create so much damage",
+    "analogy": "The really small scale world works very differently than our human sized world, so don't feel bad if it doesn't seem to make intuitively sense. Atoms make up stuff, like Lego blocks make stuff. Except imagine that the Lego blocks are held together by rubber bands. If you break a large Lego structure, the rubber bands snap and it hurts your fingers a bit. Separating two blocks is relatively easy, but when you try to break a single block in half, it gets much more difficult. But we figured out we actually can do that, and it turns out that if you break a single Lego block, it's like the single block is being held together by a billion rubber bands, and when you snap them all at once, they hurt like a motherfuck.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "audio-work-with-vcr-tapes-construction",
+    "concept": "audio work with VCR tapes",
+    "analogy": "The tape has several tracks that run along the length. One is for video, one for audio, one for control. [Here is a picture.](_URL_0_) The blue is the video, yellow are audio and control.  The audio itself works pretty much the same way as a cassette tape. An electromagnet is dragged along the tape, and the desired signal is played through the wire of the electromagnet. This imparts a magnetic signature into the tape. During playback you draw an electromagnet across the now magnetized tape, and it will induce a current with the same signal as was originally used to magnetize the tape.",
+    "domain": "construction",
+    "audience": "beginner"
+  },
+  {
+    "id": "goo-gone-work-everyday-life",
+    "concept": "Goo Gone work",
+    "analogy": "According to Goo-Gone's MSDS (material safety data sheet), it is about 95% hydrotreated light petroleum distillates. This is similar to liquid paraffin or naphthalene, both of which are extracted from crude oil via distillation, the same way we get gasoline from crude oil. It's a solvent, with a bit of citrus oil to make it smell nice.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "some-pictures-from-the-late-19-everyday-life",
+    "concept": "some pictures from the late 1950s through the late 1960s look so clear",
+    "analogy": "There's been good cameras and shitty cameras forever. Old 1950s Professional Speed-Graphic cameras used absolutely huge negatives, so were pretty high quality, but cheap 35mm equipment also existed. Over time the trend in picture taking was to cheap and convenient (witness how many point and shoot 35mm and APS cameras there were a decade or two ago), not quality. Just like the trend from uncompressed CDs to MP3 files with lossy compression. The trend is still going on with the switch to cell phone cameras. Although they're getting better to the point that they're better than some cheap point and shoot cameras, right now they're not anywhere close to a thousand dollar DSLR.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "when-two-hydrogen-atoms-fuse-t-sports",
+    "concept": "When two hydrogen atoms fuse the energy released come from mass",
+    "analogy": "Since nobody has answered this yet, it's because of the [nuclear binding energy] (_URL_0_). Basically, a small component of the mass of each hydrogen atom is stored potential energy, and that potential energy is released when the atoms fuse into helium. Note that mass and energy are equivalent and related through e = mc^2 . It's like having two magnets come together. When they are apart, they have very slightly more mass than when they are together, because they have potential energy from being \"high up\" in a magnetic field. When the magnets come together, energy is released in the form of heat and sound. If you had a sensitive enough scale, you would notice the mass of the magnets to be slightly less when together.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "a-sound-get-quieter-as-you-get-sports",
+    "concept": "a sound get quieter as you get farther away",
+    "analogy": "Imagine I give you a baseball and some plasticine and ask you to cover the ball with the plasticine.  Once you've done that, I take all the plasticine you used and ask you to cover a ball twice as big. You'll still be able to do it, but you'll really have to make the plasticine thin. That's because the same amount of plasticine has to cover more area. Sound works the same way. A sound goes out equally in all directions, so the farther you are away from the source of the sound, the less energy (loudness) there will be.  In the same way the plasticine gets thinner, the sound gets quieter.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "a-wireless-phone-charger-work-sports",
+    "concept": "a wireless phone charger work",
+    "analogy": "The charging base has an electromagnetic transmitter, and in your phone is a receiver that is connected to your battery charging circuit. basically, they are both magnets. Electricity and magnetism are related, and you can use the difference of potential and oscillation (think of it as a magnetic vibration) to generate electricity. So think of it like this - the plug in the wall brings the electricity to the charging base, which changes it in to a magnetic field. The receiver in your phone converts this magnetic field back to electricity which it uses to charge your phone.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "can-someone-explain-the-specif-everyday-life",
+    "concept": "Can someone explain the specific mechanism for how we develop a resistance to th",
+    "analogy": "You, personally, don't become resistant to antibiotics. The microbes you try to kill with antibiotics do. Some of the bacteria inside you have mutations in their genome. Let's say that some are more resistant to heat and some to penicillin. The heat resistance doesn't matter. Your temperature will never ever get above 42 degrees Celsius, so those bacteria live, reproduce and die just like the rest. Now, if you're hit with a large dose of penicillin, every other bacteria *but* the penicillin-resistant ones die. Suddenly there's zero competition for the resistant ones, and they start reproducing quickly.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "voyager-spacecraft-sent-images-everyday-life",
+    "concept": "voyager spacecraft sent images of Uranus and Neptune",
+    "analogy": "Voyager broke down each image into a series of numbers representing the dots that make up the picture, and sent streams of numbers back to Earth by radio, where they were reassembled into pictures. Pretty much the same way pictures are sent through the Internet today.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-value-of-money-go-down-whe-everyday-life",
+    "concept": "the value of money go down when printed",
+    "analogy": "Imagine that you have 10 pieces of silver in your pocket. Now, you take those pieces of silver out of your pocket and you cut them all in half. Now you have twenty pieces of silver, but really, you don't have any more silver than you did before, it's just in more pieces. Printing paper money basically works the same way. It doesn't create any more value, it just creates more money, but each piece is worth a little bit less than it used to be.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "can-someone-please-explain-the-sports",
+    "concept": "Can someone please explain the Chaos Theory LI5 please",
+    "analogy": "Let's say you have a ball on a smooth floor. You roll it away from you in some direction and watch where it ends up. Now, you start again, rolling it *almost* the same direction with *almost* the same force. It should end up at just about the same place it ended up the first time. That is, *unless* it hits a rough patch in the floor, or the ball isn't perfectly spherical, or any number of minor variations in the environment conspire to change where it ends up. In that case, the small change in your starting conditions (starting place, initial force, et cetera) can produce *very* different results in where the ball ends up. This sensitivity of the outcome to starting conditions is called chaos, and chaos theory is the branch of mathematics that deals with describing chaotic systems.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "cartridge-style-video-games-wo-everyday-life",
+    "concept": "cartridge style video games work",
+    "analogy": "carts had all of the data on chips that were mounted on a circuit board with connector strips on it (similar to pins but flattened). The gaming system had a reader where those connector strips attached and it was like the whole system was a big circuit board. Think of it like if you had one game on a thumb drive that auto-executed when you plugged it into your USB drive. That's not much different.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "older-people-suffering-from-de-everyday-life",
+    "concept": "older people suffering from dementia etc",
+    "analogy": "I'm a Healthcare Assistant and take bloods from dementia sufferers. Dementia is in simple terms confusion. They have all thier past memories(long term) but thier short term memory is crumbing.  So imagine for example Dr has asked little Mrs Smith for a blood test, you and I know it's just routine to check she's okay, to her she has no idea what's going on there's just this woman asking to put a needle in her arm, naturally they get scared then get violent or agitated. Most dementia sufferers live in the past and if you try to bring them to the present they get confused and scared and who wouldn't get angry or violent, to them its like everything is big new and scary and everyone isn't making sense.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "dyson-air-multiplier-bladeless-nature",
+    "concept": "Dyson Air Multiplier (bladeless fan)",
+    "analogy": "In the base, there is a normal fan, which pushes the air up to the ring and evenly distributes it through a slot on the inside edge of the fan. The air exiting through this slot \"pulls\" the air around it with it, which is the \"15x\" increase in air flow. It's just surrounding air getting caught in the drift.   EDIT: Analogy time! Imagine a [lazy river](_URL_0_) at a swimming pool. There are jets that push water along the outside, but obviously there is more water moving than what the jets are pushing out. The jets push out water at a high speed, which pulls the water in the pool along with it, creating a current.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-difference-between-pixel-a-everyday-life",
+    "concept": "The difference between pixel- and vector-based images",
+    "analogy": "Raster images (those made up of pixels) have a fixed size. It's like taking a piece of graph paper and coloring in the squares. If you want to make a picture bigger, you only have as much information as was in the original pixels. This makes the image blocky or fuzzy when you zoom in or try to blow it up. Vector images, OTOH, are made up of lines and curves that are mathematically defined. If you ever want to change the size, the vector engine recomputes things. You can scale vector images 'perfectly' at any scale. Raster images are easier to display & better at capturing photographic detail. Vector images can be significantly more work to create.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "some-songs-have-high-pitched-b-music",
+    "concept": "some songs have high pitched beeps in the background",
+    "analogy": "It's used in the same way all samples are. it is supposed to add to the overall song and expand on the underlying rhythm and/or melody. Layering on top of the base track when a new verse comes into play is a good way to refresh what is inherently repetitive. Think of it as a digital triangle",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "there-so-many-neo-nazis-in-rus-everyday-life",
+    "concept": "there so many Neo-Nazis in Russia",
+    "analogy": "Neo-nazism in Russia isn't about adherence to Germanic Nazism. \"Nazi\" is short for \"Nationalsozialismus\", German for national socialism. The neo-nazis in Russia are nationalistic socialists, who share an adherence to violence and ethnic identity.  It's like having a nuclear weapon, it's fine if you have it, but not when the other guy does, and their thinking makes for a lot of \"other guys\". Edit :  Little-n nazism (nazism in general) tends to arise when there are harsh economic climates and people suffer as a result of those economic problems - when the government is unable to prevent widespread hunger, homelessness, illness, etcetera, and is seen as corrupt and unaccountable. Russia's government is just that way.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-brain-know-where-to-grow-n-nature",
+    "concept": "the brain know where to grow new nerves into a transplanted organ",
+    "analogy": "It's not a brain work to grow nerves. Surgeons manually connect main nerves in transplanted organs, and smaller one just grow themselves. Part of them won't connect to anything, but part will connect with nerves in new organ.  Brain will just learn what reaction will be given if he send signal to this nerves and \"reprogram\" it's functions according to it.  It's like when you wear glasses that show everything upside down - first you will be confused, but in few days brain will learn how to interpret this and you will see normally once again.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "difference-between-special-and-music",
+    "concept": "Difference between Special and General Relativity",
+    "analogy": "Special relativity describes flat space; general relativity describes curved space. Note that general relativity is a superset of special. It's not an evolutionary step - GR doesn't replace SR like GR replaced Newton. On a scale where the curvature of space is approximately zero, things behave just like SR says.  Note that all other forces and particles inhabit space, so SR is really a statement about the geometry that applies to all forces and particles. Although it was first discovered in the context of electromagnetism, it's not unique to electromagnetism.",
+    "domain": "music",
+    "audience": "beginner"
+  },
+  {
+    "id": "wireless-speakers-work-everyday-life",
+    "concept": "wireless speakers work",
+    "analogy": "Just like radio. There is a transmitter and a reciever. In the case of Bluetooth, the transmitter is something like a smartphone. Then the speaker recieves the signal, and amplifies it.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "whats-the-difference-between-a-everyday-life",
+    "concept": "What's the difference between a flash drive and external hard drive",
+    "analogy": "An external hard disk is called as such because it utilizes a Hard Disk Drive (HDD). One of these drives has a metal platter with different magnetic sections, called sectors, that are read by a small magnetic sensor called a head on the end of an actuator arm. Many people are now moving over to flash storage, however, which is what a flash drive utilizes and thus is named for. Flash storage does not contain moving parts but rather is similar to a large grid of capacitors and transistors that are used to keep data. It is faster to access than an HDD because you do not need to wait for the disk to spin to the correct location. It can decay, however, unlike an HDD. The more an area of flash is written the more it wears out and eventually it will fail.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "gradients-work-in-tatoos-nature",
+    "concept": "gradients work in tatoos",
+    "analogy": "Hi there i tattoo and its exactly how they said. The needles dont need to penetrate too deep and the more times you go over it the darker it becomes you want to go from lightest to dark. You cant take dark back. We water down the black in different amounts or whatever colors and just like water color painting we blend in the shading/colors. White is not the proper way to do a greyscale tattoo. White is meant for accenting and highlighting. Multiple needles at different sizes are also key to this process with the right amount of voltage and speed, and plenty of lubrication for the skin to not be damaged.",
+    "domain": "nature",
+    "audience": "intermediate"
+  },
+  {
+    "id": "the-3d-effect-created-in-movie-everyday-life",
+    "concept": "the 3D effect created in movies",
+    "analogy": "You need a second camera that is filming from a slightly different perspective, just like humans can see in three dimensions because they have two eyes set slightly apart. (In computer animation you can arbitrarily create a second perspective on a scene, so it's easier but it still requires extra rendering to produce the film.) You play back footage from both perspectives at the same time, but the viewer wears polarized lenses which filter the image so that the left eye sees one thing and the right eye another. You may recall older 3D using colored lenses for the same purpose. You can also process a standard film to give it computer-generated 3D effects. This is a lot cheaper than filming a real 3D movie, but the result tends to be ugly.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "nuclear-launch-codes-work-exac-sports",
+    "concept": "nuclear launch codes work exactly, and can just about anyone use it",
+    "analogy": "This was covered in part by This American Life recently.  _URL_0_ \"So, here's the thing about the codes that people don't realize. It's not like he has a piece of paper in his pocket. It's like, here are the nuclear codes. It doesn't work that way. How it works is, there's a military officer that walks around with what's called a Football. That officer, he's got more experience than I do. And at the end of the day, if the president goes off the handle and says, nuke these guys because I don't like them, we're taught, in the military, as officers, that we have a moral obligation to refuse orders that are not moral. So if my commander tells me to do that, and it is not moral, I have an obligation to tell him to [BLEEP] off.\"",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "gba-roms-actually-work-sports",
+    "concept": "GBA ROMS actually work",
+    "analogy": "This is actually very straightforward.  The ROMs are basically the software that's usually on the cartridge (or whatever medium).  They don't get recoded to run on a PC (or android, or whatever). People use emulators that pretend to be a Gameboy or DS or whatever, and the ROM thinks it's running natively.  And you can search to find answers to how emulators work.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-weight-of-gravity-in-pound-everyday-life",
+    "concept": "the weight of gravity in pounds and how to find it",
+    "analogy": "Gravity is a force, while weight is the effect of gravity on a given mass. You cannot convert gravity in to weight. It's like asking me to tell you the speed of your car using only the measurement of how much gas you have in the tank.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "we-so-good-at-telling-apart-di-nature",
+    "concept": "we so good at telling apart different people",
+    "analogy": "We're biologically pre-disposed to be able to tell human faces apart (especially the ethnicities we grew up around). I'm not sure what studies have proved this to be the same in other animals, but they obviously can. Dogs can tell each other apart from their scent (and I imagine other species as well, given a strong scent). I believe it's because due to natural selection, those who could tell different people apart (friend or foe) would have a survival advantage, and at this point it's just so ingrained in us.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "want-to-learn-c-can-someone-ex-everyday-life",
+    "concept": "Want to learn C#; can someone explain the different versions of C#",
+    "analogy": "These explains the versions of C# in relation to the .NET frameworks. _URL_0_ _URL_1_ You'll want Express for Windows Desktop. The \"Windows\" one is misleading and only for lesser \"Windows Store Apps\" ie not proper full blown programs. Also, because there's no direct equivalent of this in Java it's worth mentioning an extension to the language called LINQ. I think you'll love it. _URL_2_ See how you can replace complex if statements with very small pieces of code? It's like SQL for your code.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "when-floating-in-space-everyday-life",
+    "concept": "When floating in space",
+    "analogy": "You would feel as though you were falling. \"Zero-gravity\" actually means you are in free fall, or in a motion that imitates free fall, such as the planes that fly in steep parabolic arcs to simulate zero-g for short periods of time without having to go into orbit. Imagine you jump down an elevator shaft that just goes on forever. That's what being in zero-g feels like, and that is why people often feel sick/throw up when experiencing it.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "if-a-person-was-shrunk-down-to-everyday-life",
+    "concept": "If a person was shrunk down to fit in the palm of one's hand",
+    "analogy": "I would imagine so. Itty bitty vocal folds and all that. To quote from [Wikipedia](_URL_0_):  The perceived pitch of a person's voice is determined by a number of different factors, most importantly the fundamental frequency of the sound generated by the larynx. The fundamental frequency is influenced by the ***length, size, and tension of the vocal folds.*** This frequency averages about 125 Hz in an adult male, 210 Hz in adult females, and over 300 Hz in children.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  },
+  {
+    "id": "humans-attracted-to-the-foreig-nature",
+    "concept": "humans attracted to the foreign",
+    "analogy": "Biologically, animals are attracted to members outside their clan to increase their gene diversity. It decreases the odds that your children would be born with 2 recessive genes for any trait. If humans didn't keep records or strong family ties, and you just met the cute girl down the street that looks similar to you, how would you be sure she wasn't your second cousin?",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "an-e-reader-screen-flicker-so--nature",
+    "concept": "an e-reader screen flicker so badly on each refresh",
+    "analogy": "There are two reasons for this. The pixels of an e-reader is based on the physical movement of the pigments to the back or the front of the screen. These pigments can get stuck just like an old etch & sketch. To prevent this the e-reader will flicker the screen to get the pigments unstuck. The other reason is that to keep the cost and the power drain down it is fitted with a slow CPU and memory. Typesetting and display processing is rather expensive processes that requires some processing power to do. The slow CPU may take some time to render the next page for you.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-reddit-enhancement-suite-r-everyday-life",
+    "concept": "the Reddit Enhancement Suite (RES) work",
+    "analogy": "Works in the same way as greasemonkey scripts; RES is javascript that alters the html returned from the server.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "the-history-of-math-so-separat-everyday-life",
+    "concept": "the history of math so separated from math itself in education",
+    "analogy": "Because it doesn't teach you math.  Flip it around. Imagine you are studying literature but before you can get to the actual writing you have to spend 20 percent of the class on linguistics. Imagine you are studying medicine but spend part of the class learning the mechancs about how an mri works. Imagine taking a mechanics class and learning about the life and times of Henry ford.  It's not relevant. It might inspire you but it doesn't teach you.  But if it interests you, the Internet is available. _URL_0_ Edit: OP originally was talking about differential equations (college/university math). My answer would be different in the context of elementary or pre-calculus high school math.",
+    "domain": "everyday life",
+    "audience": "advanced"
+  },
+  {
+    "id": "why-dont-i-notice-myself-falli-nature",
+    "concept": "Why don't I notice myself falling asleep",
+    "analogy": "Your brain shuts down most functions while going into sleep mode. The function we're most interested in here is the long term memory. For example can you remember the dreams you had the last 7 days? How about last night? Probably not. You do however typically remember those dreams right as you wake up.  It kind of works the same way. The part of your brain that store's memories gets shut down. Thus you are not able to recollect the act of falling asleep.",
+    "domain": "nature",
+    "audience": "beginner"
+  },
+  {
+    "id": "if-electrons-and-protons-are-o-everyday-life",
+    "concept": "If electrons and protons are oppositely charged",
+    "analogy": "Electron degeneracy pressure and the pauli exclusion principle. The force of this is greater than the electromgnetic force. Two fermions cant occupy the same quantum state, unless gravity overcomes this as in a nuetron star.  ELI5 eseentially the force attracting protons and electrons is weaker than one that is keeping them apart. Think of it like an airplane- how can it fly if gravity is attracting it. Well the force of lift is overcoming the force of gravity. No different with electrons and protons.",
+    "domain": "everyday life",
+    "audience": "advanced"
+  },
+  {
+    "id": "are-current-microwaves-ovens-m-everyday-life",
+    "concept": "Are current microwaves ovens much different than the ones from the 80s",
+    "analogy": "A little more robust and elegant in their electrical design, but they work the same way. A lot of components in things like microwaves get switched out over time as we become more and more capable of doing things digitally and don't have to rely on analog. This results in better performance, more even heating in this case, and more energy efficiency, but essentially, no. It's the same thing.  edit: phrasing",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-doesnt-a-pistol-shrimps-sn-sports",
+    "concept": "Why doesn't a pistol shrimp's snap boil water",
+    "analogy": "Not enough energy to. It's like lighting a match in a snow storm and expecting it to melt everything. Sure, the match is hot, but theres a lot more cold than there is hot.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "our-feet-have-arches-everyday-life",
+    "concept": "our feet have arches",
+    "analogy": "The entire purpose of the arch is to act as a spring to help absorb the impact from walking. Walking puts a ton of stress on your bones and if you run, it's worse. Imagine driving a car without it's springs. Every bump would be slamming into the frame basically. Eventually, you'll wear things out much faster. Also, it may help store up a little energy in your step and 'spring' you forward.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "cyber-bullying-such-a-problem--sports",
+    "concept": "cyber-bullying such a problem? Can't people just step away from their computers",
+    "analogy": "I imagine that for lots of people, social networking has become an integral part of their life. In fact, it is part of their social circle. I hang out with dudes over Teamspeak that I play games with. Sometimes we meet IRL and hang out, it is also great when you can drive to another country and have a place to sleep etc.  So basically, someone is bullying you in your social circle, and it is not easy to step away from all that and the connections you have through it.",
+    "domain": "sports",
+    "audience": "beginner"
+  },
+  {
+    "id": "why-planets-rotate-on-a-flat-p-everyday-life",
+    "concept": "why planets rotate on a flat plain",
+    "analogy": "The solar system was developed from a cloud of gas. That cloud of gas condensed and started to spin for whatever reason (gravimetrics are very interesting.) The condensing and spinning flattened out the cloud. The center became the sun, and the remainder of the cloud that wasn't taken into the sun became the 8 major planets of the solar system, all in the same plane that the original gas cloud condensed and spun into. Now, interestingly enough, Uranus, the 7th planet, is tilted almost 90 degrees to the plane of it's orbit. It sort of 'rolls' around the solar system, instead of spinning like a top. This is due to some event in it's history. It is suspected some sort of collision, but we really don't actually know. We can only theorize. It still orbits similar to the other 7 planets.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "electric-cars-and-hybrids-everyday-life",
+    "concept": "electric cars and hybrids",
+    "analogy": "The power tools and such might be using brushed motors which are notoriously louder than the brushless design I would imagine a serious car would use.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "what-happens-physiologically-s-everyday-life",
+    "concept": "What happens--physiologically-speaking--when someone returning to riding a bicyc",
+    "analogy": "A few things. Just like you form calluses on your toes, heals, hands, etc. Your tissue also toughens in response to the added stress targeted in that area. Your sensory also becomes a bit dulled as use goes on just like you get used to wearing glasses for example.",
+    "domain": "everyday life",
+    "audience": "beginner"
+  },
+  {
+    "id": "how-solar-panels-work-everyday-life",
+    "concept": "How solar panels work",
+    "analogy": "2 layers of silicon crystals are laid on top of each other. One layer likes having extra electrons, the other layer likes giving up electrons. The sun's energy bounces electrons all over but in general they move towards the top layer causing a negative charge to build up and since it took those from the bottom, the bottom is positively charged. At that point its like a weak battery and just needs some metal leads to go to a motor our light or DC to AC inverter.",
+    "domain": "everyday life",
+    "audience": "intermediate"
+  }
+]

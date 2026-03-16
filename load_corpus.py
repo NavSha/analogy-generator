@@ -1,11 +1,9 @@
 import json
 import chromadb
-from chromadb.utils import embedding_functions
 
 CORPUS_FILE = "corpus.json"
 CHROMA_PATH = "./chroma_data"
 COLLECTION_NAME = "analogies"
-MODEL_NAME = "all-MiniLM-L6-v2"
 
 
 def load():
@@ -13,27 +11,34 @@ def load():
         entries = json.load(f)
 
     client = chromadb.PersistentClient(path=CHROMA_PATH)
-    ef = embedding_functions.SentenceTransformerEmbeddingFunction(
-        model_name=MODEL_NAME
-    )
+
+    # Delete existing collection to avoid stale data
+    try:
+        client.delete_collection(name=COLLECTION_NAME)
+    except Exception:
+        pass
 
     collection = client.get_or_create_collection(
         name=COLLECTION_NAME,
-        embedding_function=ef,
     )
 
-    collection.upsert(
-        ids=[e["id"] for e in entries],
-        documents=[f"{e['concept']}. {e['analogy']}" for e in entries],
-        metadatas=[
-            {
-                "concept": e["concept"],
-                "analogy": e["analogy"],
-                "category": e.get("category", "Uncategorized"),
-            }
-            for e in entries
-        ],
-    )
+    # Batch upsert to avoid timeouts during embedding
+    batch_size = 50
+    for i in range(0, len(entries), batch_size):
+        batch = entries[i:i + batch_size]
+        collection.upsert(
+            ids=[e["id"] for e in batch],
+            documents=[f"{e['concept']}. {e['analogy']}" for e in batch],
+            metadatas=[
+                {
+                    "concept": e["concept"],
+                    "analogy": e["analogy"],
+                    "category": e.get("category", "Uncategorized"),
+                }
+                for e in batch
+            ],
+        )
+        print(f"  Loaded batch {i // batch_size + 1} ({min(i + batch_size, len(entries))}/{len(entries)})")
 
     print(f"Loaded {len(entries)} analogies into ChromaDB.")
     print(f"Collection '{COLLECTION_NAME}' now has {collection.count()} entries.")

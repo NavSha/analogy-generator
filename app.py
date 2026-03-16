@@ -5,18 +5,12 @@ from datetime import date
 
 from flask import Flask, render_template, request, jsonify
 import chromadb
-from chromadb.utils import embedding_functions
 
 CHROMA_PATH = "./chroma_data"
 COLLECTION_NAME = "analogies"
-MODEL_NAME = "all-MiniLM-L6-v2"
 ANALYTICS_FILE = "analytics.json"
 
 app = Flask(__name__)
-
-ef = embedding_functions.SentenceTransformerEmbeddingFunction(
-    model_name=MODEL_NAME
-)
 
 
 def get_collection():
@@ -25,7 +19,6 @@ def get_collection():
         client = chromadb.PersistentClient(path=CHROMA_PATH)
         col = client.get_collection(
             name=COLLECTION_NAME,
-            embedding_function=ef,
         )
         if col.count() == 0:
             return None

@@ -29,6 +29,7 @@ def load():
             {
                 "concept": e["concept"],
                 "analogy": e["analogy"],
+                "category": e.get("category", "Uncategorized"),
             }
             for e in entries
         ],

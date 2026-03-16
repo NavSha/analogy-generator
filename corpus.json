@@ -2,1141 +2,1771 @@
   {
     "id": "api-everyday-001",
     "concept": "API (Application Programming Interface)",
-    "analogy": "An API is like a waiter in a restaurant. You don't go into the kitchen yourself \u2014 the waiter takes your order, brings it to the kitchen, and returns with your food. Similarly, an API takes your request to a system and brings back the response, without you needing to know how the kitchen works."
+    "analogy": "An API is like a waiter in a restaurant. You don't go into the kitchen yourself — the waiter takes your order, brings it to the kitchen, and returns with your food. Similarly, an API takes your request to a system and brings back the response, without you needing to know how the kitchen works.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "api-cooking-001",
     "concept": "API (Application Programming Interface)",
-    "analogy": "An API is like a recipe card that only lists what ingredients you need to provide and what dish you'll get back. You don't need to know the chef's techniques \u2014 just follow the interface."
+    "analogy": "An API is like a recipe card that only lists what ingredients you need to provide and what dish you'll get back. You don't need to know the chef's techniques — just follow the interface.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "api-sports-001",
     "concept": "API (Application Programming Interface)",
-    "analogy": "An API is like the scoreboard at a stadium. It gives you the information you need (score, time, stats) without requiring you to understand how the timing systems, sensors, and databases behind it work."
+    "analogy": "An API is like the scoreboard at a stadium. It gives you the information you need (score, time, stats) without requiring you to understand how the timing systems, sensors, and databases behind it work.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "recursion-everyday-001",
     "concept": "Recursion",
-    "analogy": "Recursion is like standing between two mirrors facing each other. Each mirror reflects the other, creating an infinite series of reflections \u2014 each one a smaller version of the same image. Recursion works the same way: a function calls itself, each time with a slightly smaller problem, until it hits a base case (like the mirrors getting too small to see)."
+    "analogy": "Recursion is like standing between two mirrors facing each other. Each mirror reflects the other, creating an infinite series of reflections — each one a smaller version of the same image. Recursion works the same way: a function calls itself, each time with a slightly smaller problem, until it hits a base case (like the mirrors getting too small to see).",
+    "category": "Programming Concepts"
   },
   {
     "id": "recursion-cooking-001",
     "concept": "Recursion",
-    "analogy": "Recursion is like a recipe that says 'to make lasagna, make a smaller lasagna and put another layer on top.' You keep making smaller lasagnas until you reach the base case: a single layer. Then you build back up."
+    "analogy": "Recursion is like a recipe that says 'to make lasagna, make a smaller lasagna and put another layer on top.' You keep making smaller lasagnas until you reach the base case: a single layer. Then you build back up.",
+    "category": "Programming Concepts"
   },
   {
     "id": "recursion-nature-001",
     "concept": "Recursion",
-    "analogy": "Recursion is like a fern leaf. If you look at a single branch of a fern, it looks like a miniature version of the whole fern. Each sub-branch repeats the same pattern at a smaller scale \u2014 that's recursion in nature."
+    "analogy": "Recursion is like a fern leaf. If you look at a single branch of a fern, it looks like a miniature version of the whole fern. Each sub-branch repeats the same pattern at a smaller scale — that's recursion in nature.",
+    "category": "Programming Concepts"
   },
   {
     "id": "recursion-sports-001",
     "concept": "Recursion",
-    "analogy": "Recursion is like a tournament bracket. To find the champion, you need the winner of two semi-finals. To find each semi-final winner, you need the winners of quarter-finals. You keep breaking it down until you reach individual matches \u2014 the base case."
+    "analogy": "Recursion is like a tournament bracket. To find the champion, you need the winner of two semi-finals. To find each semi-final winner, you need the winners of quarter-finals. You keep breaking it down until you reach individual matches — the base case.",
+    "category": "Programming Concepts"
   },
   {
     "id": "cache-everyday-001",
     "concept": "Cache",
-    "analogy": "A cache is like keeping your most-used kitchen tools on the counter instead of in a deep drawer. It takes longer to dig through the drawer, so you keep the things you reach for most often within arm's reach."
+    "analogy": "A cache is like keeping your most-used kitchen tools on the counter instead of in a deep drawer. It takes longer to dig through the drawer, so you keep the things you reach for most often within arm's reach.",
+    "category": "Databases & Storage"
   },
   {
     "id": "cache-cooking-001",
     "concept": "Cache",
-    "analogy": "A cache is like a mise en place \u2014 pre-measured, pre-chopped ingredients laid out before cooking. Instead of going back to the fridge and cutting board every time, everything you need is already prepared and at hand."
+    "analogy": "A cache is like a mise en place — pre-measured, pre-chopped ingredients laid out before cooking. Instead of going back to the fridge and cutting board every time, everything you need is already prepared and at hand.",
+    "category": "Databases & Storage"
   },
   {
     "id": "cache-sports-001",
     "concept": "Cache",
-    "analogy": "A cache is like a quarterback's pre-snap read. Instead of analyzing every defender after the snap, they memorize key formations beforehand. When they see a familiar setup, they already know where to throw \u2014 no need to recalculate."
+    "analogy": "A cache is like a quarterback's pre-snap read. Instead of analyzing every defender after the snap, they memorize key formations beforehand. When they see a familiar setup, they already know where to throw — no need to recalculate.",
+    "category": "Databases & Storage"
   },
   {
     "id": "encryption-everyday-001",
     "concept": "Encryption",
-    "analogy": "Encryption is like sending a letter in a locked box. Anyone can see the box being delivered, but only the person with the right key can open it and read the letter inside."
+    "analogy": "Encryption is like sending a letter in a locked box. Anyone can see the box being delivered, but only the person with the right key can open it and read the letter inside.",
+    "category": "Programming Concepts"
   },
   {
     "id": "encryption-music-001",
     "concept": "Encryption",
-    "analogy": "Encryption is like writing a song in a made-up language. Anyone can hear the melody, but only someone who knows the language can understand the lyrics. The 'key' is knowledge of that language."
+    "analogy": "Encryption is like writing a song in a made-up language. Anyone can hear the melody, but only someone who knows the language can understand the lyrics. The 'key' is knowledge of that language.",
+    "category": "Programming Concepts"
   },
   {
     "id": "encryption-cooking-001",
     "concept": "Encryption",
-    "analogy": "Encryption is like a secret family recipe where the ingredients are written in code. 'Add 3 cups of sunshine' might mean '3 cups of lemon juice.' Without the decoder, no one can replicate the dish."
+    "analogy": "Encryption is like a secret family recipe where the ingredients are written in code. 'Add 3 cups of sunshine' might mean '3 cups of lemon juice.' Without the decoder, no one can replicate the dish.",
+    "category": "Programming Concepts"
   },
   {
     "id": "load-balancing-everyday-001",
     "concept": "Load balancing",
-    "analogy": "Load balancing is like a grocery store opening new checkout lanes when lines get long. Instead of everyone waiting in one lane, customers are distributed across multiple lanes so everyone gets served faster."
+    "analogy": "Load balancing is like a grocery store opening new checkout lanes when lines get long. Instead of everyone waiting in one lane, customers are distributed across multiple lanes so everyone gets served faster.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "load-balancing-sports-001",
     "concept": "Load balancing",
-    "analogy": "Load balancing is like a basketball coach distributing minutes across players. If one player plays the entire game, they'll burn out. By rotating players in and out, the team maintains performance throughout the game."
+    "analogy": "Load balancing is like a basketball coach distributing minutes across players. If one player plays the entire game, they'll burn out. By rotating players in and out, the team maintains performance throughout the game.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "load-balancing-cooking-001",
     "concept": "Load balancing",
-    "analogy": "Load balancing is like a head chef assigning dishes across multiple line cooks. If one cook gets all the orders, the kitchen slows down. By distributing orders evenly, food comes out faster and more reliably."
+    "analogy": "Load balancing is like a head chef assigning dishes across multiple line cooks. If one cook gets all the orders, the kitchen slows down. By distributing orders evenly, food comes out faster and more reliably.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "version-control-everyday-001",
     "concept": "Version control",
-    "analogy": "Version control is like Google Docs' version history, but much more powerful. You can see every change ever made, who made it, go back to any previous version, and even create parallel 'what if' versions of the document without affecting the original."
+    "analogy": "Version control is like Google Docs' version history, but much more powerful. You can see every change ever made, who made it, go back to any previous version, and even create parallel 'what if' versions of the document without affecting the original.",
+    "category": "Git & Version Control"
   },
   {
     "id": "version-control-construction-001",
     "concept": "Version control",
-    "analogy": "Version control is like keeping every revision of architectural blueprints. If a new design causes structural problems, you can pull out the previous revision and see exactly what changed. You can even have two teams working on different blueprint variations simultaneously."
+    "analogy": "Version control is like keeping every revision of architectural blueprints. If a new design causes structural problems, you can pull out the previous revision and see exactly what changed. You can even have two teams working on different blueprint variations simultaneously.",
+    "category": "Git & Version Control"
   },
   {
     "id": "ml-training-cooking-001",
     "concept": "Machine learning model training",
-    "analogy": "Training a machine learning model is like learning to cook by taste-testing. You make a dish, taste it (evaluate), adjust the seasoning (update parameters), and try again. Over hundreds of iterations, you learn what combination of ingredients produces the best result \u2014 without anyone giving you the exact recipe."
+    "analogy": "Training a machine learning model is like learning to cook by taste-testing. You make a dish, taste it (evaluate), adjust the seasoning (update parameters), and try again. Over hundreds of iterations, you learn what combination of ingredients produces the best result — without anyone giving you the exact recipe.",
+    "category": "AI & LLM"
   },
   {
     "id": "ml-training-sports-001",
     "concept": "Machine learning model training",
-    "analogy": "Training a model is like a basketball player practicing free throws. Each shot gives feedback \u2014 too far left, too short. Over thousands of shots, they adjust their form until they consistently score. The player doesn't memorize each exact shot; they develop an intuition (a model) for the right motion."
+    "analogy": "Training a model is like a basketball player practicing free throws. Each shot gives feedback — too far left, too short. Over thousands of shots, they adjust their form until they consistently score. The player doesn't memorize each exact shot; they develop an intuition (a model) for the right motion.",
+    "category": "AI & LLM"
   },
   {
     "id": "ml-training-music-001",
     "concept": "Machine learning model training",
-    "analogy": "Training a model is like learning to play guitar by ear. You hear a note, try to match it, hear the difference, and adjust your fingers. Over time, you develop the ability to play songs you've never heard before \u2014 you've learned the patterns, not just memorized specific songs."
+    "analogy": "Training a model is like learning to play guitar by ear. You hear a note, try to match it, hear the difference, and adjust your fingers. Over time, you develop the ability to play songs you've never heard before — you've learned the patterns, not just memorized specific songs.",
+    "category": "AI & LLM"
   },
   {
     "id": "tcp-handshake-everyday-001",
     "concept": "TCP/IP handshake",
-    "analogy": "A TCP handshake is like a phone call. You dial (SYN), the other person says 'Hello?' (SYN-ACK), and you say 'Hi, it's me' (ACK). Only after this three-step exchange do you start the actual conversation. If any step fails, you hang up and try again."
+    "analogy": "A TCP handshake is like a phone call. You dial (SYN), the other person says 'Hello?' (SYN-ACK), and you say 'Hi, it's me' (ACK). Only after this three-step exchange do you start the actual conversation. If any step fails, you hang up and try again.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "tcp-handshake-sports-001",
     "concept": "TCP/IP handshake",
-    "analogy": "A TCP handshake is like the pre-game coin toss ritual. The referee flips the coin (SYN), one captain calls it (SYN-ACK), and the referee confirms the result (ACK). Only after this agreed-upon exchange does the game begin."
+    "analogy": "A TCP handshake is like the pre-game coin toss ritual. The referee flips the coin (SYN), one captain calls it (SYN-ACK), and the referee confirms the result (ACK). Only after this agreed-upon exchange does the game begin.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "dns-everyday-001",
     "concept": "DNS (Domain Name System)",
-    "analogy": "DNS is like the contacts app on your phone. You don't memorize your friend's phone number (192.168.1.1) \u2014 you just tap their name (google.com) and your phone looks up the number for you. DNS does the same thing for the internet."
+    "analogy": "DNS is like the contacts app on your phone. You don't memorize your friend's phone number (192.168.1.1) — you just tap their name (google.com) and your phone looks up the number for you. DNS does the same thing for the internet.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "dns-construction-001",
     "concept": "DNS (Domain Name System)",
-    "analogy": "DNS is like a building directory in a lobby. You don't need to know that Acme Corp is on floor 14, suite 1402. You look up the company name in the directory and it tells you where to go. DNS translates human-friendly website names into the actual server addresses."
+    "analogy": "DNS is like a building directory in a lobby. You don't need to know that Acme Corp is on floor 14, suite 1402. You look up the company name in the directory and it tells you where to go. DNS translates human-friendly website names into the actual server addresses.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "git-branching-nature-001",
     "concept": "Git branching",
-    "analogy": "Git branching is like a tree growing new branches. The trunk is your main code. When you want to try something new, you grow a branch off to the side. If the branch bears fruit (the feature works), you graft it back onto the trunk. If not, you prune it \u2014 the trunk is unaffected."
+    "analogy": "Git branching is like a tree growing new branches. The trunk is your main code. When you want to try something new, you grow a branch off to the side. If the branch bears fruit (the feature works), you graft it back onto the trunk. If not, you prune it — the trunk is unaffected.",
+    "category": "Git & Version Control"
   },
   {
     "id": "git-branching-cooking-001",
     "concept": "Git branching",
-    "analogy": "Git branching is like splitting a batch of soup into two pots. You experiment with new spices in one pot while keeping the original untouched. If the experiment tastes great, you use that recipe going forward. If not, you still have the original."
+    "analogy": "Git branching is like splitting a batch of soup into two pots. You experiment with new spices in one pot while keeping the original untouched. If the experiment tastes great, you use that recipe going forward. If not, you still have the original.",
+    "category": "Git & Version Control"
   },
   {
     "id": "overfitting-sports-001",
     "concept": "Overfitting in machine learning",
-    "analogy": "Overfitting is like a tennis player who only practices against one opponent. They learn every quirk and habit of that opponent and dominate them \u2014 but lose to everyone else. They memorized one opponent instead of learning general tennis skills."
+    "analogy": "Overfitting is like a tennis player who only practices against one opponent. They learn every quirk and habit of that opponent and dominate them — but lose to everyone else. They memorized one opponent instead of learning general tennis skills.",
+    "category": "AI & LLM"
   },
   {
     "id": "overfitting-cooking-001",
     "concept": "Overfitting in machine learning",
-    "analogy": "Overfitting is like memorizing one specific recipe so precisely that you measure ingredients to the milligram \u2014 but you can't improvise or adapt when an ingredient is missing. You learned the recipe, not how to cook."
+    "analogy": "Overfitting is like memorizing one specific recipe so precisely that you measure ingredients to the milligram — but you can't improvise or adapt when an ingredient is missing. You learned the recipe, not how to cook.",
+    "category": "AI & LLM"
   },
   {
     "id": "overfitting-music-001",
     "concept": "Overfitting in machine learning",
-    "analogy": "Overfitting is like a musician who can play one song perfectly note-for-note but can't jam or improvise. They memorized the recording instead of learning the underlying music theory."
+    "analogy": "Overfitting is like a musician who can play one song perfectly note-for-note but can't jam or improvise. They memorized the recording instead of learning the underlying music theory.",
+    "category": "AI & LLM"
   },
   {
     "id": "middleware-everyday-001",
     "concept": "Middleware",
-    "analogy": "Middleware is like airport security between the check-in desk and the gate. Every passenger (request) has to pass through it. Security doesn't handle flights or check-ins \u2014 it just inspects, validates, and either lets you through or stops you. Middleware sits between the request and your application, doing similar inspection and processing."
+    "analogy": "Middleware is like airport security between the check-in desk and the gate. Every passenger (request) has to pass through it. Security doesn't handle flights or check-ins — it just inspects, validates, and either lets you through or stops you. Middleware sits between the request and your application, doing similar inspection and processing.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "middleware-cooking-001",
     "concept": "Middleware",
-    "analogy": "Middleware is like a food taster in a royal kitchen. Every dish passes through the taster between the chef and the king. The taster doesn't cook or eat the meal \u2014 they just check it and pass it along (or reject it). Middleware inspects and processes requests before they reach your main application."
+    "analogy": "Middleware is like a food taster in a royal kitchen. Every dish passes through the taster between the chef and the king. The taster doesn't cook or eat the meal — they just check it and pass it along (or reject it). Middleware inspects and processes requests before they reach your main application.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "rate-limiting-everyday-001",
     "concept": "Rate limiting",
-    "analogy": "Rate limiting is like a bouncer at a club who only lets in 10 people per minute. Even if 100 people show up at once, the bouncer controls the flow to prevent overcrowding. If you've already entered too many times tonight, you're told to come back later."
+    "analogy": "Rate limiting is like a bouncer at a club who only lets in 10 people per minute. Even if 100 people show up at once, the bouncer controls the flow to prevent overcrowding. If you've already entered too many times tonight, you're told to come back later.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "rate-limiting-nature-001",
     "concept": "Rate limiting",
-    "analogy": "Rate limiting is like a dam on a river. The river might surge after heavy rain, but the dam controls how much water flows downstream at any given time, preventing floods. Rate limiting does the same for server requests."
+    "analogy": "Rate limiting is like a dam on a river. The river might surge after heavy rain, but the dam controls how much water flows downstream at any given time, preventing floods. Rate limiting does the same for server requests.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "how-the-internet-works-everyday-life",
     "concept": "How the internet works",
-    "analogy": "The internet is like a postal system for data. Your message gets split into postcards (packets), each stamped with the destination address. They may travel different routes through sorting offices (routers), but they all arrive and get reassembled into the original letter at the other end."
+    "analogy": "The internet is like a postal system for data. Your message gets split into postcards (packets), each stamped with the destination address. They may travel different routes through sorting offices (routers), but they all arrive and get reassembled into the original letter at the other end.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "publickey-cryptography-everyday-life",
     "concept": "Public-key cryptography",
-    "analogy": "Public-key encryption is like a mailbox on the street. Anyone can drop a letter in through the slot (encrypt with the public key), but only the person with the mailbox key can open it and read the letter (decrypt with the private key)."
+    "analogy": "Public-key encryption is like a mailbox on the street. Anyone can drop a letter in through the slot (encrypt with the public key), but only the person with the mailbox key can open it and read the letter (decrypt with the private key).",
+    "category": "Programming Concepts"
   },
   {
     "id": "lossy-compression-everyday-life",
     "concept": "Lossy compression",
-    "analogy": "Lossy compression is like summarizing a novel into a short synopsis. You keep the essential plot but lose the vivid descriptions and minor subplots. You can't reconstruct the original book from the summary, but for most purposes the synopsis tells you what you need to know."
+    "analogy": "Lossy compression is like summarizing a novel into a short synopsis. You keep the essential plot but lose the vivid descriptions and minor subplots. You can't reconstruct the original book from the summary, but for most purposes the synopsis tells you what you need to know.",
+    "category": "Hardware"
   },
   {
     "id": "file-compression-ziprar-everyday-life",
     "concept": "File compression (ZIP/RAR)",
-    "analogy": "File compression is like vacuum-sealing clothes for travel. The clothes are still all there \u2014 you haven't thrown anything away \u2014 they just take up less space in your suitcase. When you unzip, everything puffs back to its original size."
+    "analogy": "File compression is like vacuum-sealing clothes for travel. The clothes are still all there — you haven't thrown anything away — they just take up less space in your suitcase. When you unzip, everything puffs back to its original size.",
+    "category": "Hardware"
   },
   {
     "id": "file-compression-for-transfer-everyday-life",
     "concept": "File compression for transfer",
-    "analogy": "Sending a folder as a ZIP file is like packing many small boxes into one large shipping container. It's easier to ship one container than track dozens of individual packages, and the post office handles one delivery instead of many."
+    "analogy": "Sending a folder as a ZIP file is like packing many small boxes into one large shipping container. It's easier to ship one container than track dozens of individual packages, and the post office handles one delivery instead of many.",
+    "category": "Hardware"
   },
   {
     "id": "image-upscaling-everyday-life",
     "concept": "Image upscaling",
-    "analogy": "Upscaling a small image is like trying to enlarge a mosaic by adding tiles. You can guess what colors should fill the gaps, but you're inventing detail that was never there. The result may look plausible but it's the computer's best guess, not the real picture."
+    "analogy": "Upscaling a small image is like trying to enlarge a mosaic by adding tiles. You can guess what colors should fill the gaps, but you're inventing detail that was never there. The result may look plausible but it's the computer's best guess, not the real picture.",
+    "category": "Hardware"
   },
   {
     "id": "image-downscaling-everyday-life",
     "concept": "Image downscaling",
-    "analogy": "Downscaling an image is like looking at a city from an airplane. You can still see the general layout \u2014 parks, rivers, major roads \u2014 but individual buildings and cars are too small to distinguish. The information is simplified, not distorted."
+    "analogy": "Downscaling an image is like looking at a city from an airplane. You can still see the general layout — parks, rivers, major roads — but individual buildings and cars are too small to distinguish. The information is simplified, not distorted.",
+    "category": "Hardware"
   },
   {
     "id": "pixel-vs-vector-graphics-everyday-life",
     "concept": "Pixel vs vector graphics",
-    "analogy": "Pixel images are like mosaic tile art \u2014 zoom in and you see individual squares. Vector images are like stencils \u2014 they're mathematical shapes that stay crisp no matter how large you draw them, because you're scaling the instructions, not the dots."
+    "analogy": "Pixel images are like mosaic tile art — zoom in and you see individual squares. Vector images are like stencils — they're mathematical shapes that stay crisp no matter how large you draw them, because you're scaling the instructions, not the dots.",
+    "category": "Hardware"
   },
   {
     "id": "download-vs-upload-speed-everyday-life",
     "concept": "Download vs upload speed",
-    "analogy": "Download and upload speeds are like a highway with unequal lanes. Your ISP builds six lanes coming toward your house (download) but only one lane going out (upload), because most people consume far more content than they send."
+    "analogy": "Download and upload speeds are like a highway with unequal lanes. Your ISP builds six lanes coming toward your house (download) but only one lane going out (upload), because most people consume far more content than they send.",
+    "category": "Hardware"
   },
   {
     "id": "website-overloading-ddos-cooking",
     "concept": "Website overloading (DDoS)",
-    "analogy": "A DDoS attack is like thousands of people calling the same pizza shop at once. The phone lines are jammed, so real customers can't get through. Nobody's breaking in \u2014 they're just overwhelming the capacity to serve legitimate orders."
+    "analogy": "A DDoS attack is like thousands of people calling the same pizza shop at once. The phone lines are jammed, so real customers can't get through. Nobody's breaking in — they're just overwhelming the capacity to serve legitimate orders.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "net-neutrality-everyday-life",
     "concept": "Net neutrality",
-    "analogy": "Net neutrality is like a highway where all cars travel at the same speed limit regardless of who manufactured them. Without it, the highway owner could create a fast lane for certain brands and slow everyone else down unless they pay extra."
+    "analogy": "Net neutrality is like a highway where all cars travel at the same speed limit regardless of who manufactured them. Without it, the highway owner could create a fast lane for certain brands and slow everyone else down unless they pay extra.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "isp-peering-disputes-verizon-everyday-life",
     "concept": "ISP peering disputes (Verizon vs Netflix)",
-    "analogy": "ISP peering disputes are like two shipping companies arguing over who pays to maintain the bridge connecting their territories. When they disagree, trucks (your data) get stuck in traffic at the border crossing."
+    "analogy": "ISP peering disputes are like two shipping companies arguing over who pays to maintain the bridge connecting their territories. When they disagree, trucks (your data) get stuck in traffic at the border crossing.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "network-backdoors-construction",
     "concept": "Network backdoors",
-    "analogy": "A network backdoor is like a secret service entrance to a building that bypasses all security checks. Useful for maintenance, dangerous if someone unauthorized finds it \u2014 because they walk right in without anyone noticing."
+    "analogy": "A network backdoor is like a secret service entrance to a building that bypasses all security checks. Useful for maintenance, dangerous if someone unauthorized finds it — because they walk right in without anyone noticing.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "os-memory-management-everyday-life",
     "concept": "OS memory management",
-    "analogy": "The OS manages RAM like a librarian manages desk space. When a student (program) sits down, the librarian assigns them a section. When they leave, that section is freed up. The librarian tracks who's sitting where so no one overwrites another student's work."
+    "analogy": "The OS manages RAM like a librarian manages desk space. When a student (program) sits down, the librarian assigns them a section. When they leave, that section is freed up. The librarian tracks who's sitting where so no one overwrites another student's work.",
+    "category": "Hardware"
   },
   {
     "id": "ram-management-free-ram-is-wa-cooking",
     "concept": "RAM management (free RAM is wasted RAM)",
-    "analogy": "Free RAM is wasted RAM, like empty tables in a restaurant during rush hour. The system keeps recently used data in RAM (seats diners at open tables) because it's faster than fetching from disk (making them wait in line outside). Truly free RAM isn't helping anyone."
+    "analogy": "Free RAM is wasted RAM, like empty tables in a restaurant during rush hour. The system keeps recently used data in RAM (seats diners at open tables) because it's faster than fetching from disk (making them wait in line outside). Truly free RAM isn't helping anyone.",
+    "category": "Hardware"
   },
   {
     "id": "pc-overclocking-everyday-life",
     "concept": "PC overclocking",
-    "analogy": "Overclocking is like running a car engine at higher RPMs than the manufacturer recommends. You get more speed, but the engine runs hotter, wears out faster, and might break down if you push too hard without better cooling."
+    "analogy": "Overclocking is like running a car engine at higher RPMs than the manufacturer recommends. You get more speed, but the engine runs hotter, wears out faster, and might break down if you push too hard without better cooling.",
+    "category": "Hardware"
   },
   {
     "id": "computer-overheating-sports",
     "concept": "Computer overheating",
-    "analogy": "Computer overheating is like running a marathon in a winter coat. The processor generates heat with every calculation, and if the cooling system can't carry that heat away fast enough, components slow themselves down (thermal throttling) or shut off to avoid permanent damage."
+    "analogy": "Computer overheating is like running a marathon in a winter coat. The processor generates heat with every calculation, and if the cooling system can't carry that heat away fast enough, components slow themselves down (thermal throttling) or shut off to avoid permanent damage.",
+    "category": "Hardware"
   },
   {
     "id": "division-by-zero-in-computing-everyday-life",
     "concept": "Division by zero in computing",
-    "analogy": "Dividing by zero is like asking 'how many times does nothing fit into something?' The question has no meaningful answer, so the computer throws an error rather than guessing \u2014 like a calculator displaying 'ERROR' because the math itself is broken."
+    "analogy": "Dividing by zero is like asking 'how many times does nothing fit into something?' The question has no meaningful answer, so the computer throws an error rather than guessing — like a calculator displaying 'ERROR' because the math itself is broken.",
+    "category": "Programming Concepts"
   },
   {
     "id": "logarithmic-time-complexity-everyday-life",
     "concept": "Logarithmic time complexity",
-    "analogy": "Logarithmic time is like finding a word in a dictionary. You don't read every page \u2014 you open to the middle, see if your word is before or after, and repeat. Each step cuts the remaining pages in half, so even a million-page dictionary only takes about 20 steps."
+    "analogy": "Logarithmic time is like finding a word in a dictionary. You don't read every page — you open to the middle, see if your word is before or after, and repeat. Each step cuts the remaining pages in half, so even a million-page dictionary only takes about 20 steps.",
+    "category": "Programming Concepts"
   },
   {
     "id": "machine-learning-algorithms-everyday-life",
     "concept": "Machine learning algorithms",
-    "analogy": "A machine learning algorithm is like a student who learns by doing thousands of practice exams. They never see the actual test, but by recognizing patterns in practice questions, they can make educated guesses on new problems they've never encountered."
+    "analogy": "A machine learning algorithm is like a student who learns by doing thousands of practice exams. They never see the actual test, but by recognizing patterns in practice questions, they can make educated guesses on new problems they've never encountered.",
+    "category": "AI & LLM"
   },
   {
     "id": "assembly-language-programming-everyday-life",
     "concept": "Assembly language programming",
-    "analogy": "Programming in assembly is like giving someone driving directions one tiny step at a time: 'Turn the steering wheel 15 degrees left. Press the gas pedal 2 centimeters. Wait 3 seconds.' It's precise and fast, but exhausting compared to just saying 'turn left at the light.'"
+    "analogy": "Programming in assembly is like giving someone driving directions one tiny step at a time: 'Turn the steering wheel 15 degrees left. Press the gas pedal 2 centimeters. Wait 3 seconds.' It's precise and fast, but exhausting compared to just saying 'turn left at the light.'",
+    "category": "Hardware"
   },
   {
     "id": "c-language-versions-cooking",
     "concept": "C# language versions",
-    "analogy": "C# versions are like annual editions of a cookbook. Each new edition adds new recipes and better techniques, but all your old recipes still work. You don't need to throw away your old dishes \u2014 you just get more options in the newer book."
+    "analogy": "C# versions are like annual editions of a cookbook. Each new edition adds new recipes and better techniques, but all your old recipes still work. You don't need to throw away your old dishes — you just get more options in the newer book.",
+    "category": "Programming Concepts"
   },
   {
     "id": "lcd-display-technology-everyday-life",
     "concept": "LCD display technology",
-    "analogy": "An LCD screen works like thousands of tiny window blinds. Behind them is a constant backlight. Each blind (pixel) can twist to let through more or less light, and color filters in front tint that light red, green, or blue. Together, they form a picture."
+    "analogy": "An LCD screen works like thousands of tiny window blinds. Behind them is a constant backlight. Each blind (pixel) can twist to let through more or less light, and color filters in front tint that light red, green, or blue. Together, they form a picture.",
+    "category": "Hardware"
   },
   {
     "id": "eink-display-refresh-everyday-life",
     "concept": "E-ink display refresh",
-    "analogy": "An E-ink screen is like an Etch A Sketch \u2014 it holds the image with no power, but to change the picture, it has to shake all the tiny particles and rearrange them. That shake is the flicker you see on every page turn."
+    "analogy": "An E-ink screen is like an Etch A Sketch — it holds the image with no power, but to change the picture, it has to shake all the tiny particles and rearrange them. That shake is the flicker you see on every page turn.",
+    "category": "Hardware"
   },
   {
     "id": "wifi-signal-propagation-construction",
     "concept": "Wi-Fi signal propagation",
-    "analogy": "Wi-Fi signals travel through walls like sound travels through a closed door \u2014 you can still hear it, but it's muffled. Each wall absorbs some signal. Thick concrete is like a soundproof room; thin drywall barely dampens it at all."
+    "analogy": "Wi-Fi signals travel through walls like sound travels through a closed door — you can still hear it, but it's muffled. Each wall absorbs some signal. Thick concrete is like a soundproof room; thin drywall barely dampens it at all.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "wifi-connection-caching-everyday-life",
     "concept": "Wi-Fi connection caching",
-    "analogy": "Your phone showing Wi-Fi briefly after the router dies is like a GPS still showing your position for a few seconds after entering a tunnel. The device is displaying its last known state and hasn't yet realized the connection is gone."
+    "analogy": "Your phone showing Wi-Fi briefly after the router dies is like a GPS still showing your position for a few seconds after entering a tunnel. The device is displaying its last known state and hasn't yet realized the connection is gone.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "wireless-data-transmission-everyday-life",
     "concept": "Wireless data transmission",
-    "analogy": "Wireless data transfer is like a very fast flickering flashlight sending Morse code. The transmitter rapidly switches radio waves on and off in patterns, and the receiver decodes those patterns back into data \u2014 just at billions of flashes per second."
+    "analogy": "Wireless data transfer is like a very fast flickering flashlight sending Morse code. The transmitter rapidly switches radio waves on and off in patterns, and the receiver decodes those patterns back into data — just at billions of flashes per second.",
+    "category": "Hardware"
   },
   {
     "id": "flash-drive-vs-hard-drive-everyday-life",
     "concept": "Flash drive vs hard drive",
-    "analogy": "A flash drive is like a sticky note \u2014 small, portable, stores a quick message. An external hard drive is like a filing cabinet \u2014 bulkier, but holds vastly more documents. Flash drives have no moving parts (instant access); hard drives have spinning platters (slightly slower but much more storage per dollar)."
+    "analogy": "A flash drive is like a sticky note — small, portable, stores a quick message. An external hard drive is like a filing cabinet — bulkier, but holds vastly more documents. Flash drives have no moving parts (instant access); hard drives have spinning platters (slightly slower but much more storage per dollar).",
+    "category": "Hardware"
   },
   {
     "id": "hard-drive-storage-density-everyday-life",
     "concept": "Hard drive storage density",
-    "analogy": "Increasing hard drive density each year is like writing smaller and smaller handwriting on the same size paper. Better tools (finer pens, magnifying glasses) let you fit more words per page without needing a bigger sheet."
+    "analogy": "Increasing hard drive density each year is like writing smaller and smaller handwriting on the same size paper. Better tools (finer pens, magnifying glasses) let you fit more words per page without needing a bigger sheet.",
+    "category": "Hardware"
   },
   {
     "id": "digital-audio-output-music",
     "concept": "Digital audio output",
-    "analogy": "Digital audio output is like translating sheet music into sound. The digital file contains precise instructions (samples) describing the sound wave at thousands of points per second. The DAC (digital-to-analog converter) reads these instructions and recreates the original wave for your speakers."
+    "analogy": "Digital audio output is like translating sheet music into sound. The digital file contains precise instructions (samples) describing the sound wave at thousands of points per second. The DAC (digital-to-analog converter) reads these instructions and recreates the original wave for your speakers.",
+    "category": "Hardware"
   },
   {
     "id": "inertial-reference-frames-jum-everyday-life",
     "concept": "Inertial reference frames (jumping in a plane)",
-    "analogy": "You land in the same spot when jumping in a plane because you, the air, and the plane are all moving at 500 mph together. Jumping adds a little upward speed but doesn't change your forward speed. It's like jumping inside a smoothly moving train \u2014 you share its velocity."
+    "analogy": "You land in the same spot when jumping in a plane because you, the air, and the plane are all moving at 500 mph together. Jumping adds a little upward speed but doesn't change your forward speed. It's like jumping inside a smoothly moving train — you share its velocity.",
+    "category": "Hardware"
   },
   {
     "id": "containerization-docker-cooking",
     "concept": "Containerization (Docker)",
-    "analogy": "Docker containers are like food trucks. Each truck has everything it needs inside \u2014 kitchen, ingredients, equipment \u2014 and can set up anywhere. It doesn't matter if the parking lot runs Windows or Linux; the truck works the same way. That's containerization: packaging an app with all its dependencies so it runs identically everywhere."
+    "analogy": "Docker containers are like food trucks. Each truck has everything it needs inside — kitchen, ingredients, equipment — and can set up anywhere. It doesn't matter if the parking lot runs Windows or Linux; the truck works the same way. That's containerization: packaging an app with all its dependencies so it runs identically everywhere.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "database-index-everyday-life",
     "concept": "Database index",
-    "analogy": "A database index is like the index at the back of a textbook. Without it, finding every mention of 'photosynthesis' means reading every page. With it, you jump straight to pages 47, 103, and 256. The tradeoff: the index takes up space and needs updating whenever you add content."
+    "analogy": "A database index is like the index at the back of a textbook. Without it, finding every mention of 'photosynthesis' means reading every page. With it, you jump straight to pages 47, 103, and 256. The tradeoff: the index takes up space and needs updating whenever you add content.",
+    "category": "Databases & Storage"
   },
   {
     "id": "how-programmers-think-cooking",
     "concept": "How programmers think",
-    "analogy": "Programmers think by decomposing problems \u2014 like a chef breaking a complex dish into prep steps. They identify patterns ('this is similar to a problem I've solved'), build abstractions ('I'll make a reusable sauce base'), and work iteratively ('taste and adjust'). The skill isn't typing code \u2014 it's thinking in systems."
+    "analogy": "Programmers think by decomposing problems — like a chef breaking a complex dish into prep steps. They identify patterns ('this is similar to a problem I've solved'), build abstractions ('I'll make a reusable sauce base'), and work iteratively ('taste and adjust'). The skill isn't typing code — it's thinking in systems.",
+    "category": "Programming Concepts"
   },
   {
     "id": "tokens-and-tokenization-everyday-life",
     "concept": "Tokens and tokenization",
-    "analogy": "Tokens are how an AI reads text \u2014 not word by word, but in chunks, like how you might read 'un-believe-able' as three pieces. Common words are one token, rare words get split into fragments. The AI doesn't see letters or words \u2014 it sees a sequence of these puzzle pieces."
+    "analogy": "Tokens are how an AI reads text — not word by word, but in chunks, like how you might read 'un-believe-able' as three pieces. Common words are one token, rare words get split into fragments. The AI doesn't see letters or words — it sees a sequence of these puzzle pieces.",
+    "category": "AI & LLM"
   },
   {
     "id": "context-window-everyday-life",
     "concept": "Context window",
-    "analogy": "A context window is the AI's short-term memory \u2014 like a whiteboard with limited space. Everything you've said in the conversation is written on it. Once the board is full, the oldest notes get erased to make room. A bigger context window means a bigger whiteboard."
+    "analogy": "A context window is the AI's short-term memory — like a whiteboard with limited space. Everything you've said in the conversation is written on it. Once the board is full, the oldest notes get erased to make room. A bigger context window means a bigger whiteboard.",
+    "category": "AI & LLM"
   },
   {
     "id": "temperature-llm-sampling-cooking",
     "concept": "Temperature (LLM sampling)",
-    "analogy": "Temperature controls how creative vs predictable the AI is. Low temperature is like asking a chef to make their signature dish \u2014 you get the most likely, reliable answer. High temperature is like saying 'surprise me' \u2014 the chef experiments, sometimes brilliantly, sometimes oddly."
+    "analogy": "Temperature controls how creative vs predictable the AI is. Low temperature is like asking a chef to make their signature dish — you get the most likely, reliable answer. High temperature is like saying 'surprise me' — the chef experiments, sometimes brilliantly, sometimes oddly.",
+    "category": "AI & LLM"
   },
   {
     "id": "prompt-engineering-everyday-life",
     "concept": "Prompt engineering",
-    "analogy": "Prompt engineering is like giving directions to a very capable but very literal assistant. 'Write me something about dogs' gets a generic result. 'Write a 200-word vet's guide to puppy nutrition for first-time owners' gets exactly what you need. The skill is in how precisely you ask."
+    "analogy": "Prompt engineering is like giving directions to a very capable but very literal assistant. 'Write me something about dogs' gets a generic result. 'Write a 200-word vet's guide to puppy nutrition for first-time owners' gets exactly what you need. The skill is in how precisely you ask.",
+    "category": "AI & LLM"
   },
   {
     "id": "ai-hallucination-everyday-life",
     "concept": "AI hallucination",
-    "analogy": "AI hallucination is like a confident student who never says 'I don't know.' When the AI doesn't have the answer, it doesn't stay silent \u2014 it generates plausible-sounding text that follows the pattern of real answers. It's not lying; it's a pattern-completion machine that has no concept of truth."
+    "analogy": "AI hallucination is like a confident student who never says 'I don't know.' When the AI doesn't have the answer, it doesn't stay silent — it generates plausible-sounding text that follows the pattern of real answers. It's not lying; it's a pattern-completion machine that has no concept of truth.",
+    "category": "AI & LLM"
   },
   {
     "id": "rag-retrieval-augmented-gener-everyday-life",
     "concept": "RAG (Retrieval-Augmented Generation)",
-    "analogy": "RAG is like giving a student an open-book exam instead of asking them to answer from memory. Before the AI responds, it searches a knowledge base for relevant documents and includes them in its context. The AI still writes the answer, but now it has reference material to draw from."
+    "analogy": "RAG is like giving a student an open-book exam instead of asking them to answer from memory. Before the AI responds, it searches a knowledge base for relevant documents and includes them in its context. The AI still writes the answer, but now it has reference material to draw from.",
+    "category": "AI & LLM"
   },
   {
     "id": "embeddings-everyday-life",
     "concept": "Embeddings",
-    "analogy": "Embeddings convert words into coordinates on a map. Similar concepts end up near each other \u2014 'king' and 'queen' are close, 'king' and 'banana' are far apart. This lets computers measure meaning mathematically, like measuring distance on a map instead of arguing about what words mean."
+    "analogy": "Embeddings convert words into coordinates on a map. Similar concepts end up near each other — 'king' and 'queen' are close, 'king' and 'banana' are far apart. This lets computers measure meaning mathematically, like measuring distance on a map instead of arguing about what words mean.",
+    "category": "AI & LLM"
   },
   {
     "id": "fine-tuning-vs-prompting-cooking",
     "concept": "Fine-tuning vs prompting",
-    "analogy": "Prompting is like giving a skilled chef verbal instructions for tonight's dish. Fine-tuning is like sending that chef to culinary school for a specific cuisine \u2014 it permanently changes how they cook. Prompting is quick and flexible; fine-tuning is expensive but deeply changes the model's behavior."
+    "analogy": "Prompting is like giving a skilled chef verbal instructions for tonight's dish. Fine-tuning is like sending that chef to culinary school for a specific cuisine — it permanently changes how they cook. Prompting is quick and flexible; fine-tuning is expensive but deeply changes the model's behavior.",
+    "category": "AI & LLM"
   },
   {
     "id": "streaming-responses-everyday-life",
     "concept": "Streaming responses",
-    "analogy": "Streaming an AI response is like watching someone write on a whiteboard in real time versus waiting for them to finish and then revealing the board. The total time is similar, but streaming feels faster because you start reading immediately instead of staring at a blank screen."
+    "analogy": "Streaming an AI response is like watching someone write on a whiteboard in real time versus waiting for them to finish and then revealing the board. The total time is similar, but streaming feels faster because you start reading immediately instead of staring at a blank screen.",
+    "category": "AI & LLM"
   },
   {
     "id": "ai-guardrails-and-safety-filte-sports",
     "concept": "AI guardrails and safety filters",
-    "analogy": "AI guardrails are like bumpers in a bowling lane. They don't change how you throw the ball, but they keep it from going into the gutter. Safety filters check the AI's input and output against rules, blocking or modifying responses that cross predefined boundaries."
+    "analogy": "AI guardrails are like bumpers in a bowling lane. They don't change how you throw the ball, but they keep it from going into the gutter. Safety filters check the AI's input and output against rules, blocking or modifying responses that cross predefined boundaries.",
+    "category": "AI & LLM"
   },
   {
     "id": "frontend-vs-backend-cooking",
     "concept": "Frontend vs backend",
-    "analogy": "Frontend is everything the customer sees in a restaurant \u2014 the menu, the decor, the plating. Backend is the kitchen \u2014 where the actual cooking happens, invisible to diners. A beautiful frontend with a broken backend is a gorgeous restaurant with no chef."
+    "analogy": "Frontend is everything the customer sees in a restaurant — the menu, the decor, the plating. Backend is the kitchen — where the actual cooking happens, invisible to diners. A beautiful frontend with a broken backend is a gorgeous restaurant with no chef.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "http-requests-and-responses-cooking",
     "concept": "HTTP requests and responses",
-    "analogy": "An HTTP request is like ordering at a counter. You walk up (connect), say what you want (request), and the server either hands you your food (200 OK), says they're out (404 Not Found), or the kitchen catches fire (500 Server Error). Every webpage is the result of this exchange."
+    "analogy": "An HTTP request is like ordering at a counter. You walk up (connect), say what you want (request), and the server either hands you your food (200 OK), says they're out (404 Not Found), or the kitchen catches fire (500 Server Error). Every webpage is the result of this exchange.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "json-everyday-life",
     "concept": "JSON",
-    "analogy": "JSON is a universal language for data, like a standardized shipping label. No matter what's in the box, the label always follows the same format: name, address, weight. Computers that speak different programming languages can all read JSON, making it the common tongue of the web."
+    "analogy": "JSON is a universal language for data, like a standardized shipping label. No matter what's in the box, the label always follows the same format: name, address, weight. Computers that speak different programming languages can all read JSON, making it the common tongue of the web.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "rest-api-vs-graphql-cooking",
     "concept": "REST API vs GraphQL",
-    "analogy": "A REST API is like a set menu \u2014 there are fixed dishes (endpoints) and you get what's listed. GraphQL is like a build-your-own-bowl \u2014 you specify exactly which ingredients you want and get only those. REST is simpler; GraphQL is more flexible but requires more setup."
+    "analogy": "A REST API is like a set menu — there are fixed dishes (endpoints) and you get what's listed. GraphQL is like a build-your-own-bowl — you specify exactly which ingredients you want and get only those. REST is simpler; GraphQL is more flexible but requires more setup.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "authentication-and-oauth-everyday-life",
     "concept": "Authentication and OAuth",
-    "analogy": "OAuth is like a hotel key card system. Instead of giving every app your master password (room key), you log in once with Google/GitHub (front desk), and they issue a limited key card that only opens specific doors. The app never sees your actual password."
+    "analogy": "OAuth is like a hotel key card system. Instead of giving every app your master password (room key), you log in once with Google/GitHub (front desk), and they issue a limited key card that only opens specific doors. The app never sees your actual password.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "cookies-and-sessions-everyday-life",
     "concept": "Cookies and sessions",
-    "analogy": "Cookies are like a wristband at an amusement park. The first time you enter (log in), you get a wristband (cookie). On every ride after that, you just flash your wristband instead of buying a new ticket. The session is the park's record of which wristband belongs to which visitor."
+    "analogy": "Cookies are like a wristband at an amusement park. The first time you enter (log in), you get a wristband (cookie). On every ride after that, you just flash your wristband instead of buying a new ticket. The session is the park's record of which wristband belongs to which visitor.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "cors-cross-origin-resource-sh-everyday-life",
     "concept": "CORS (Cross-Origin Resource Sharing)",
-    "analogy": "CORS errors happen when your frontend tries to fetch data from a different server, like a student trying to borrow a book from another school's library. The other school's librarian (server) has a list of approved schools. If yours isn't on it, you get rejected \u2014 even if the book is publicly available."
+    "analogy": "CORS errors happen when your frontend tries to fetch data from a different server, like a student trying to borrow a book from another school's library. The other school's librarian (server) has a list of approved schools. If yours isn't on it, you get rejected — even if the book is publicly available.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "websockets-everyday-life",
     "concept": "WebSockets",
-    "analogy": "Regular HTTP is like sending letters \u2014 you write, send, wait for a reply. WebSockets are like a phone call \u2014 once connected, both sides can talk freely at any time without re-dialing. That's why chat apps and live dashboards use WebSockets: they need instant, two-way communication."
+    "analogy": "Regular HTTP is like sending letters — you write, send, wait for a reply. WebSockets are like a phone call — once connected, both sides can talk freely at any time without re-dialing. That's why chat apps and live dashboards use WebSockets: they need instant, two-way communication.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "webhooks-everyday-life",
     "concept": "Webhooks",
-    "analogy": "A webhook is like asking a store to call you when your order is ready, instead of calling them every 5 minutes to check. Instead of your app constantly polling 'anything new?', the external service pushes a notification to your URL the moment something happens."
+    "analogy": "A webhook is like asking a store to call you when your order is ready, instead of calling them every 5 minutes to check. Instead of your app constantly polling 'anything new?', the external service pushes a notification to your URL the moment something happens.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "environment-variables-and-secr-everyday-life",
     "concept": "Environment variables and secrets",
-    "analogy": "Environment variables are like the combination to a safe written on a sticky note inside the manager's office \u2014 not in the store's public handbook. API keys and passwords live in env variables so they never end up in your code, which might be shared publicly on GitHub."
+    "analogy": "Environment variables are like the combination to a safe written on a sticky note inside the manager's office — not in the store's public handbook. API keys and passwords live in env variables so they never end up in your code, which might be shared publicly on GitHub.",
+    "category": "Programming Concepts"
   },
   {
     "id": "localhost-and-ports-construction",
     "concept": "Localhost and ports",
-    "analogy": "Localhost is your computer pretending to be a server \u2014 like rehearsing a play in your living room before performing on stage. The port number (e.g., :3000) is like an apartment number in a building \u2014 it tells traffic which app to go to, since many apps can run on your machine simultaneously."
+    "analogy": "Localhost is your computer pretending to be a server — like rehearsing a play in your living room before performing on stage. The port number (e.g., :3000) is like an apartment number in a building — it tells traffic which app to go to, since many apps can run on your machine simultaneously.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "html-css-and-javascript-everyday-life",
     "concept": "HTML, CSS, and JavaScript",
-    "analogy": "HTML is the skeleton of a webpage \u2014 the bones and structure. CSS is the skin and clothing \u2014 colors, fonts, layout. JavaScript is the muscles and nervous system \u2014 it makes things move, react, and change. You can have a page with just HTML (a skeleton), but it takes all three for a living, interactive site."
+    "analogy": "HTML is the skeleton of a webpage — the bones and structure. CSS is the skin and clothing — colors, fonts, layout. JavaScript is the muscles and nervous system — it makes things move, react, and change. You can have a page with just HTML (a skeleton), but it takes all three for a living, interactive site.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "dom-document-object-model-construction",
     "concept": "DOM (Document Object Model)",
-    "analogy": "The DOM is the browser's live blueprint of your webpage. It takes your HTML file and builds a tree of objects in memory \u2014 like turning architectural plans into an actual LEGO model. JavaScript can rearrange the LEGO pieces (DOM nodes) without rewriting the original plans."
+    "analogy": "The DOM is the browser's live blueprint of your webpage. It takes your HTML file and builds a tree of objects in memory — like turning architectural plans into an actual LEGO model. JavaScript can rearrange the LEGO pieces (DOM nodes) without rewriting the original plans.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "local-storage-vs-session-stora-sports",
     "concept": "Local storage vs session storage",
-    "analogy": "Local storage is like a locker at the gym \u2014 your stuff stays there until you clean it out, even if you leave and come back tomorrow. Session storage is like a coat check \u2014 your stuff is held only while you're at the event. Close the browser tab, and session storage is gone."
+    "analogy": "Local storage is like a locker at the gym — your stuff stays there until you clean it out, even if you leave and come back tomorrow. Session storage is like a coat check — your stuff is held only while you're at the event. Close the browser tab, and session storage is gone.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "query-parameters-and-url-struc-everyday-life",
     "concept": "Query parameters and URL structure",
-    "analogy": "A URL with query parameters like `?sort=price&color=red` is like a library request slip. The base URL says which shelf (page) you want, and the parameters are your specific preferences \u2014 'sorted by price, only red ones.' The server reads the slip and customizes what it sends back."
+    "analogy": "A URL with query parameters like `?sort=price&color=red` is like a library request slip. The base URL says which shelf (page) you want, and the parameters are your specific preferences — 'sorted by price, only red ones.' The server reads the slip and customizes what it sends back.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "responsive-design-nature",
     "concept": "Responsive design",
-    "analogy": "Responsive design is like water filling different-shaped containers. The same content rearranges itself to fit a phone screen, tablet, or desktop \u2014 stacking vertically on narrow screens, spreading horizontally on wide ones. Media queries are the rules that say 'if the container is this size, arrange like this.'"
+    "analogy": "Responsive design is like water filling different-shaped containers. The same content rearranges itself to fit a phone screen, tablet, or desktop — stacking vertically on narrow screens, spreading horizontally on wide ones. Media queries are the rules that say 'if the container is this size, arrange like this.'",
+    "category": "Web Fundamentals"
   },
   {
     "id": "client-side-vs-server-side-ren-construction",
     "concept": "Client-side vs server-side rendering",
-    "analogy": "Server-side rendering is like getting a fully assembled IKEA shelf delivered. Client-side rendering is like getting the flat-pack \u2014 your browser (the customer) assembles it using JavaScript. SSR shows content faster initially; CSR can feel more interactive once it loads."
+    "analogy": "Server-side rendering is like getting a fully assembled IKEA shelf delivered. Client-side rendering is like getting the flat-pack — your browser (the customer) assembles it using JavaScript. SSR shows content faster initially; CSR can feel more interactive once it loads.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "crud-operations-everyday-life",
     "concept": "CRUD operations",
-    "analogy": "CRUD \u2014 Create, Read, Update, Delete \u2014 is the four things you can do with any piece of data, like the four things you can do with a contact in your phone: add a new one, look one up, change a number, or delete it. Almost every app is just CRUD wrapped in a nice interface."
+    "analogy": "CRUD — Create, Read, Update, Delete — is the four things you can do with any piece of data, like the four things you can do with a contact in your phone: add a new one, look one up, change a number, or delete it. Almost every app is just CRUD wrapped in a nice interface.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "http-status-codes-cooking",
     "concept": "HTTP status codes",
-    "analogy": "HTTP status codes are like a waiter's short replies. 200 means 'here's your order.' 301 means 'that dish moved to a new menu, I'll bring you there.' 404 means 'we don't have that.' 500 means 'the kitchen is on fire.' The number tells your browser what happened without needing a full explanation."
+    "analogy": "HTTP status codes are like a waiter's short replies. 200 means 'here's your order.' 301 means 'that dish moved to a new menu, I'll bring you there.' 404 means 'we don't have that.' 500 means 'the kitchen is on fire.' The number tells your browser what happened without needing a full explanation.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "routing-web-construction",
     "concept": "Routing (web)",
-    "analogy": "Routing is like a building's directory in the lobby. When you visit `/about`, the router says 'that's the second floor.' When you visit `/products/shoes`, it says 'third floor, aisle 4.' It maps URL paths to the right page or function, so each address shows the correct content."
+    "analogy": "Routing is like a building's directory in the lobby. When you visit `/about`, the router says 'that's the second floor.' When you visit `/products/shoes`, it says 'third floor, aisle 4.' It maps URL paths to the right page or function, so each address shows the correct content.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "package-managers-npmpip-cooking",
     "concept": "Package managers (npm/pip)",
-    "analogy": "A package manager is like a grocery delivery service for code. Instead of growing your own tomatoes (writing every library from scratch), you order them from npm or pip. The package manager fetches the right version, handles dependencies ('this recipe also needs basil'), and keeps everything organized."
+    "analogy": "A package manager is like a grocery delivery service for code. Instead of growing your own tomatoes (writing every library from scratch), you order them from npm or pip. The package manager fetches the right version, handles dependencies ('this recipe also needs basil'), and keeps everything organized.",
+    "category": "Programming Concepts"
   },
   {
     "id": "dependencies-and-version-confl-cooking",
     "concept": "Dependencies and version conflicts",
-    "analogy": "Dependency conflicts are like two recipes that each need a different version of the same ingredient \u2014 one needs fresh basil, the other needs dried. Your project can't have both, so you're stuck until you find a version that satisfies both recipes or swap one out."
+    "analogy": "Dependency conflicts are like two recipes that each need a different version of the same ingredient — one needs fresh basil, the other needs dried. Your project can't have both, so you're stuck until you find a version that satisfies both recipes or swap one out.",
+    "category": "Programming Concepts"
   },
   {
     "id": "cicd-pipelines-construction",
     "concept": "CI/CD pipelines",
-    "analogy": "CI/CD is like a factory assembly line with quality checkpoints. Every time you push code, the pipeline automatically runs tests (quality inspection), builds the app (assembly), and deploys it (ships to the store). If any checkpoint fails, the line stops before a defective product reaches customers."
+    "analogy": "CI/CD is like a factory assembly line with quality checkpoints. Every time you push code, the pipeline automatically runs tests (quality inspection), builds the app (assembly), and deploys it (ships to the store). If any checkpoint fails, the line stops before a defective product reaches customers.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "serverless-functions-everyday-life",
     "concept": "Serverless functions",
-    "analogy": "Serverless is like a taxi vs owning a car. You don't maintain a server (car) that sits idle most of the day. Instead, a cloud provider spins up a function (taxi) only when a request comes in, runs your code, and shuts down. You pay per ride, not for the parked car."
+    "analogy": "Serverless is like a taxi vs owning a car. You don't maintain a server (car) that sits idle most of the day. Instead, a cloud provider spins up a function (taxi) only when a request comes in, runs your code, and shuts down. You pay per ride, not for the parked car.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "sslhttps-certificates-everyday-life",
     "concept": "SSL/HTTPS certificates",
-    "analogy": "An SSL certificate is like a notarized ID for a website. When you see the padlock in your browser, it means a trusted authority verified 'yes, this really is bankofamerica.com, not an imposter.' HTTPS then encrypts the conversation so no one can eavesdrop on the data in transit."
+    "analogy": "An SSL certificate is like a notarized ID for a website. When you see the padlock in your browser, it means a trusted authority verified 'yes, this really is bankofamerica.com, not an imposter.' HTTPS then encrypts the conversation so no one can eavesdrop on the data in transit.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "sql-vs-nosql-databases-everyday-life",
     "concept": "SQL vs NoSQL databases",
-    "analogy": "SQL databases are like spreadsheets \u2014 structured rows and columns, everything neatly organized, great for data with clear relationships. NoSQL databases are like filing cabinets of folders \u2014 each folder can contain different things, flexible and fast for unstructured or rapidly changing data."
+    "analogy": "SQL databases are like spreadsheets — structured rows and columns, everything neatly organized, great for data with clear relationships. NoSQL databases are like filing cabinets of folders — each folder can contain different things, flexible and fast for unstructured or rapidly changing data.",
+    "category": "Databases & Storage"
   },
   {
     "id": "database-migrations-construction",
     "concept": "Database migrations",
-    "analogy": "A database migration is like renovating an occupied building. You can't demolish and rebuild \u2014 people live there (data exists). Instead, you carefully add a new room (column), move furniture (transform data), or knock out a wall (change schema) while keeping everything running."
+    "analogy": "A database migration is like renovating an occupied building. You can't demolish and rebuild — people live there (data exists). Instead, you carefully add a new room (column), move furniture (transform data), or knock out a wall (change schema) while keeping everything running.",
+    "category": "Databases & Storage"
   },
   {
     "id": "latency-vs-throughput-everyday-life",
     "concept": "Latency vs throughput",
-    "analogy": "Latency is how long one car takes to drive through a tunnel. Throughput is how many cars pass through per hour. A narrow tunnel has low throughput but could have low latency. A wide tunnel handles many cars (high throughput) but each car might still take the same time (same latency)."
+    "analogy": "Latency is how long one car takes to drive through a tunnel. Throughput is how many cars pass through per hour. A narrow tunnel has low throughput but could have low latency. A wide tunnel handles many cars (high throughput) but each car might still take the same time (same latency).",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "cdn-content-delivery-network-cooking",
     "concept": "CDN (Content Delivery Network)",
-    "analogy": "A CDN is like a franchise restaurant chain. Instead of everyone ordering from one central kitchen (origin server), copies of the food are pre-made at local branches worldwide. Customers get served from the nearest location, so delivery is faster and the central kitchen isn't overwhelmed."
+    "analogy": "A CDN is like a franchise restaurant chain. Instead of everyone ordering from one central kitchen (origin server), copies of the food are pre-made at local branches worldwide. Customers get served from the nearest location, so delivery is faster and the central kitchen isn't overwhelmed.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "logging-and-observability-everyday-life",
     "concept": "Logging and observability",
-    "analogy": "Logging is like a security camera system for your app. You can't watch every room in real time, but when something goes wrong, you rewind the footage (logs) to see what happened. Observability adds dashboards \u2014 like a control room showing vital signs in real time, not just after the fact."
+    "analogy": "Logging is like a security camera system for your app. You can't watch every room in real time, but when something goes wrong, you rewind the footage (logs) to see what happened. Observability adds dashboards — like a control room showing vital signs in real time, not just after the fact.",
+    "category": "Programming Concepts"
   },
   {
     "id": "git-commits-everyday-life",
     "concept": "Git commits",
-    "analogy": "A commit is like a save point in a video game. It captures a snapshot of your entire project at that moment. If you mess up later, you can always load a previous save. The commit message is a note to your future self: 'saved right before I fought the boss.'"
+    "analogy": "A commit is like a save point in a video game. It captures a snapshot of your entire project at that moment. If you mess up later, you can always load a previous save. The commit message is a note to your future self: 'saved right before I fought the boss.'",
+    "category": "Git & Version Control"
   },
   {
     "id": "git-staging-area-everyday-life",
     "concept": "Git staging area",
-    "analogy": "The staging area is like a packing table before you ship a box. You don't throw everything into the box at once \u2014 you place items on the table (stage files), check that you have the right things, then seal the box (commit). It lets you be selective about what goes into each save point."
+    "analogy": "The staging area is like a packing table before you ship a box. You don't throw everything into the box at once — you place items on the table (stage files), check that you have the right things, then seal the box (commit). It lets you be selective about what goes into each save point.",
+    "category": "Git & Version Control"
   },
   {
     "id": "pull-requests-everyday-life",
     "concept": "Pull requests",
-    "analogy": "A pull request is like submitting a draft for peer review. You've written your changes on a separate branch (your draft), and now you're asking the team to review it before it gets merged into the main document. Reviewers can comment, suggest edits, or approve it for publishing."
+    "analogy": "A pull request is like submitting a draft for peer review. You've written your changes on a separate branch (your draft), and now you're asking the team to review it before it gets merged into the main document. Reviewers can comment, suggest edits, or approve it for publishing.",
+    "category": "Git & Version Control"
   },
   {
     "id": "git-stash-everyday-life",
     "concept": "Git stash",
-    "analogy": "Git stash is like sweeping everything off your desk into a drawer when someone needs your workspace. Your work-in-progress is safely stored but out of sight. When you're ready, you pull it back out of the drawer and continue exactly where you left off."
+    "analogy": "Git stash is like sweeping everything off your desk into a drawer when someone needs your workspace. Your work-in-progress is safely stored but out of sight. When you're ready, you pull it back out of the drawer and continue exactly where you left off.",
+    "category": "Git & Version Control"
   },
   {
     "id": "merge-conflicts-everyday-life",
     "concept": "Merge conflicts",
-    "analogy": "A merge conflict is like two people editing the same paragraph of a document simultaneously. Git can auto-merge changes to different paragraphs, but when two edits touch the same lines, it stops and says 'I can't decide which version to keep \u2014 you pick.'"
+    "analogy": "A merge conflict is like two people editing the same paragraph of a document simultaneously. Git can auto-merge changes to different paragraphs, but when two edits touch the same lines, it stops and says 'I can't decide which version to keep — you pick.'",
+    "category": "Git & Version Control"
   },
   {
     "id": "technical-debt-nature",
     "concept": "Technical debt",
-    "analogy": "Technical debt is like taking a shortcut through a muddy field instead of walking around on the path. You arrive faster today, but now there's mud tracked everywhere that you'll eventually have to clean up. The longer you wait, the harder it dries and the more work it takes."
+    "analogy": "Technical debt is like taking a shortcut through a muddy field instead of walking around on the path. You arrive faster today, but now there's mud tracked everywhere that you'll eventually have to clean up. The longer you wait, the harder it dries and the more work it takes.",
+    "category": "Programming Concepts"
   },
   {
     "id": "refactoring-everyday-life",
     "concept": "Refactoring",
-    "analogy": "Refactoring is like reorganizing a messy closet. The clothes (functionality) don't change \u2014 you still own the same shirts and pants. But now everything is sorted, folded, and easy to find. The outside looks the same; the inside is dramatically easier to work with."
+    "analogy": "Refactoring is like reorganizing a messy closet. The clothes (functionality) don't change — you still own the same shirts and pants. But now everything is sorted, folded, and easy to find. The outside looks the same; the inside is dramatically easier to work with.",
+    "category": "Programming Concepts"
   },
   {
     "id": "open-source-licensing-cooking",
     "concept": "Open source licensing",
-    "analogy": "Open source licenses are like sharing a recipe. MIT license says 'use it however you want, just credit me.' GPL says 'you can use it, but if you modify and share it, your version must also be open.' Some let you commercialize freely; others require you to share back."
+    "analogy": "Open source licenses are like sharing a recipe. MIT license says 'use it however you want, just credit me.' GPL says 'you can use it, but if you modify and share it, your version must also be open.' Some let you commercialize freely; others require you to share back.",
+    "category": "Programming Concepts"
   },
   {
     "id": "cpu-vs-gpu-everyday-life",
     "concept": "CPU vs GPU",
-    "analogy": "A CPU is like a brilliant professor who solves one complex problem at a time very quickly. A GPU is like a classroom of 1,000 students who can each solve a simple math problem simultaneously. AI workloads are millions of simple calculations, which is why GPUs dominate \u2014 they throw thousands of workers at the task in parallel."
+    "analogy": "A CPU is like a brilliant professor who solves one complex problem at a time very quickly. A GPU is like a classroom of 1,000 students who can each solve a simple math problem simultaneously. AI workloads are millions of simple calculations, which is why GPUs dominate — they throw thousands of workers at the task in parallel.",
+    "category": "Hardware"
   },
   {
     "id": "cpu-cores-and-threads-everyday-life",
     "concept": "CPU cores and threads",
-    "analogy": "CPU cores are like checkout lanes at a grocery store. More cores means more lanes open simultaneously. Threads are like each cashier handling two customers by alternating between them while one bags groceries. An 8-core, 16-thread CPU has 8 lanes, each juggling 2 customers."
+    "analogy": "CPU cores are like checkout lanes at a grocery store. More cores means more lanes open simultaneously. Threads are like each cashier handling two customers by alternating between them while one bags groceries. An 8-core, 16-thread CPU has 8 lanes, each juggling 2 customers.",
+    "category": "Hardware"
   },
   {
     "id": "clock-speed-ghz-nature",
     "concept": "Clock speed (GHz)",
-    "analogy": "Clock speed is the heartbeat of a processor \u2014 how many times per second it can tick through instructions. 3 GHz means 3 billion ticks per second. A faster clock doesn't always mean faster performance (a cheetah's heart beats fast, but an elephant carries more per step), but within the same chip design, higher is faster."
+    "analogy": "Clock speed is the heartbeat of a processor — how many times per second it can tick through instructions. 3 GHz means 3 billion ticks per second. A faster clock doesn't always mean faster performance (a cheetah's heart beats fast, but an elephant carries more per step), but within the same chip design, higher is faster.",
+    "category": "Hardware"
   },
   {
     "id": "ssd-vs-hdd-music",
     "concept": "SSD vs HDD",
-    "analogy": "An HDD is like a record player \u2014 a needle reads data off a spinning platter, so it has to physically move to find information. An SSD is like a USB stick \u2014 no moving parts, just electronic chips. SSDs find data instantly (no waiting for the platter to spin around), which is why they feel so much faster."
+    "analogy": "An HDD is like a record player — a needle reads data off a spinning platter, so it has to physically move to find information. An SSD is like a USB stick — no moving parts, just electronic chips. SSDs find data instantly (no waiting for the platter to spin around), which is why they feel so much faster.",
+    "category": "Hardware"
   },
   {
     "id": "vram-video-ram-construction",
     "concept": "VRAM (Video RAM)",
-    "analogy": "VRAM is the GPU's personal desk space. When running a local AI model, the entire model needs to fit on this desk. If the model is too big for the VRAM, it's like trying to spread a king-size blueprint on a card table \u2014 it either won't fit or you have to keep folding and unfolding sections, which is painfully slow."
+    "analogy": "VRAM is the GPU's personal desk space. When running a local AI model, the entire model needs to fit on this desk. If the model is too big for the VRAM, it's like trying to spread a king-size blueprint on a card table — it either won't fit or you have to keep folding and unfolding sections, which is painfully slow.",
+    "category": "Hardware"
   },
   {
     "id": "bandwidth-vs-latency-everyday-life",
     "concept": "Bandwidth vs latency",
-    "analogy": "Bandwidth is the width of a highway \u2014 how many cars can travel side by side. Latency is the length of the highway \u2014 how long one car takes to reach the destination. A wide highway (high bandwidth) doesn't help if the road is 1,000 miles long (high latency). You need both to be good for a fast experience."
+    "analogy": "Bandwidth is the width of a highway — how many cars can travel side by side. Latency is the length of the highway — how long one car takes to reach the destination. A wide highway (high bandwidth) doesn't help if the road is 1,000 miles long (high latency). You need both to be good for a fast experience.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "binary-bits-and-bytes-everyday-life",
     "concept": "Binary, bits, and bytes",
-    "analogy": "Computers think in binary (0s and 1s) because transistors are tiny switches \u2014 on or off. One switch is a bit. Eight switches together (a byte) can represent 256 different values \u2014 enough for one letter. A megabyte is a million of these groups, a gigabyte is a billion. It's all just switches at the bottom."
+    "analogy": "Computers think in binary (0s and 1s) because transistors are tiny switches — on or off. One switch is a bit. Eight switches together (a byte) can represent 256 different values — enough for one letter. A megabyte is a million of these groups, a gigabyte is a billion. It's all just switches at the bottom.",
+    "category": "Hardware"
   },
   {
     "id": "chip-architecture-arm-vs-x86-everyday-life",
     "concept": "Chip architecture (ARM vs x86)",
-    "analogy": "ARM and x86 are like two different languages that CPUs speak. x86 (Intel/AMD) has a huge vocabulary \u2014 powerful but complex and power-hungry. ARM (Apple Silicon, phones) uses a smaller, simpler vocabulary that runs cooler and sips battery. Software compiled for one can't run on the other without a translator (emulator)."
+    "analogy": "ARM and x86 are like two different languages that CPUs speak. x86 (Intel/AMD) has a huge vocabulary — powerful but complex and power-hungry. ARM (Apple Silicon, phones) uses a smaller, simpler vocabulary that runs cooler and sips battery. Software compiled for one can't run on the other without a translator (emulator).",
+    "category": "Hardware"
   },
   {
     "id": "thermal-throttling-sports",
     "concept": "Thermal throttling",
-    "analogy": "Thermal throttling is your computer's self-preservation instinct. When the CPU gets too hot, it voluntarily slows down \u2014 like a runner slowing from a sprint to a jog to avoid heatstroke. Performance drops, but the chip survives. Better cooling lets it sprint longer before throttling kicks in."
+    "analogy": "Thermal throttling is your computer's self-preservation instinct. When the CPU gets too hot, it voluntarily slows down — like a runner slowing from a sprint to a jog to avoid heatstroke. Performance drops, but the chip survives. Better cooling lets it sprint longer before throttling kicks in.",
+    "category": "Hardware"
   },
   {
     "id": "storage-tiers-registers-cach-construction",
     "concept": "Storage tiers (registers, cache, RAM, disk)",
-    "analogy": "Computer storage is a speed-vs-size pyramid. At the top: registers (a Post-it note on the CPU's desk \u2014 tiny but instant). Then cache (a drawer in the desk). Then RAM (a filing cabinet across the room). Then disk (a warehouse across town). Each level is bigger but slower to access, so the computer keeps its most-used data as close as possible."
+    "analogy": "Computer storage is a speed-vs-size pyramid. At the top: registers (a Post-it note on the CPU's desk — tiny but instant). Then cache (a drawer in the desk). Then RAM (a filing cabinet across the room). Then disk (a warehouse across town). Each level is bigger but slower to access, so the computer keeps its most-used data as close as possible.",
+    "category": "Databases & Storage"
   },
   {
     "id": "tokens-and-tokenization-v2",
     "concept": "Tokens and tokenization",
-    "analogy": "Tokens are to an AI what syllables are to a reader sounding out a word. The AI breaks 'unbelievable' into chunks like 'un-believ-able' \u2014 common words are one chunk, unusual ones get split. The model's 'vocabulary' is these chunks, not whole words."
+    "analogy": "Tokens are to an AI what syllables are to a reader sounding out a word. The AI breaks 'unbelievable' into chunks like 'un-believ-able' — common words are one chunk, unusual ones get split. The model's 'vocabulary' is these chunks, not whole words.",
+    "category": "AI & LLM"
   },
   {
     "id": "context-window-v2",
     "concept": "Context window",
-    "analogy": "A context window is like a conversation on a phone with limited battery. Everything said so far drains the battery. Once it dies, the oldest parts of the conversation are forgotten. A larger battery (bigger context) lets you have a longer, more coherent discussion."
+    "analogy": "A context window is like a conversation on a phone with limited battery. Everything said so far drains the battery. Once it dies, the oldest parts of the conversation are forgotten. A larger battery (bigger context) lets you have a longer, more coherent discussion.",
+    "category": "AI & LLM"
   },
   {
     "id": "temperature-llm-sampling-v2",
     "concept": "Temperature (LLM sampling)",
-    "analogy": "Temperature is like the dial on a creative writing workshop. Turn it to zero and every participant writes the most obvious, predictable sentence. Crank it up and they take wild creative risks \u2014 some brilliant, some nonsensical. The sweet spot depends on whether you need reliability or novelty."
+    "analogy": "Temperature is like the dial on a creative writing workshop. Turn it to zero and every participant writes the most obvious, predictable sentence. Crank it up and they take wild creative risks — some brilliant, some nonsensical. The sweet spot depends on whether you need reliability or novelty.",
+    "category": "AI & LLM"
   },
   {
     "id": "prompt-engineering-v2",
     "concept": "Prompt engineering",
-    "analogy": "Prompt engineering is like briefing a contractor. 'Build me something nice' gets unpredictable results. 'Build a 10x12 deck with cedar planks, railing on three sides, and two steps down to the yard' gets exactly what you want. The more precise the brief, the better the output."
+    "analogy": "Prompt engineering is like briefing a contractor. 'Build me something nice' gets unpredictable results. 'Build a 10x12 deck with cedar planks, railing on three sides, and two steps down to the yard' gets exactly what you want. The more precise the brief, the better the output.",
+    "category": "AI & LLM"
   },
   {
     "id": "ai-hallucination-v2",
     "concept": "AI hallucination",
-    "analogy": "An AI hallucinating is like autocomplete on your phone finishing a sentence with something grammatically correct but factually wrong. The model predicts what words should come next based on patterns, not based on checking whether the statement is true."
+    "analogy": "An AI hallucinating is like autocomplete on your phone finishing a sentence with something grammatically correct but factually wrong. The model predicts what words should come next based on patterns, not based on checking whether the statement is true.",
+    "category": "AI & LLM"
   },
   {
     "id": "rag-retrieval-augmented-gener-v2",
     "concept": "RAG (Retrieval-Augmented Generation)",
-    "analogy": "RAG is like a lawyer who researches case law before writing their argument. Instead of relying solely on what they remember from law school (training data), they pull relevant precedents (retrieved documents) and weave them into their response."
+    "analogy": "RAG is like a lawyer who researches case law before writing their argument. Instead of relying solely on what they remember from law school (training data), they pull relevant precedents (retrieved documents) and weave them into their response.",
+    "category": "AI & LLM"
   },
   {
     "id": "embeddings-v2",
     "concept": "Embeddings",
-    "analogy": "Embeddings are like GPS coordinates for meaning. Just as latitude and longitude place any location on a map, embeddings place any word or sentence in a mathematical space where distance equals similarity. 'Happy' and 'joyful' are neighbors; 'happy' and 'carburetor' are continents apart."
+    "analogy": "Embeddings are like GPS coordinates for meaning. Just as latitude and longitude place any location on a map, embeddings place any word or sentence in a mathematical space where distance equals similarity. 'Happy' and 'joyful' are neighbors; 'happy' and 'carburetor' are continents apart.",
+    "category": "AI & LLM"
   },
   {
     "id": "fine-tuning-vs-prompting-v2",
     "concept": "Fine-tuning vs prompting",
-    "analogy": "Prompting is like giving a general-purpose translator a phrase book for a specific meeting. Fine-tuning is like sending them to live in that country for a year. One is quick and temporary; the other permanently reshapes how they communicate."
+    "analogy": "Prompting is like giving a general-purpose translator a phrase book for a specific meeting. Fine-tuning is like sending them to live in that country for a year. One is quick and temporary; the other permanently reshapes how they communicate.",
+    "category": "AI & LLM"
   },
   {
     "id": "streaming-responses-v2",
     "concept": "Streaming responses",
-    "analogy": "Streaming an AI response is like a waiter bringing your courses as they're ready, rather than waiting until every dish is done and bringing them all at once. You start eating (reading) sooner, even though the full meal takes the same time to prepare."
+    "analogy": "Streaming an AI response is like a waiter bringing your courses as they're ready, rather than waiting until every dish is done and bringing them all at once. You start eating (reading) sooner, even though the full meal takes the same time to prepare.",
+    "category": "AI & LLM"
   },
   {
     "id": "ai-guardrails-and-safety-filte-v2",
     "concept": "AI guardrails and safety filters",
-    "analogy": "Guardrails on an AI are like childproof caps on medicine bottles. The contents are useful but potentially dangerous if misused. The caps don't change the medicine \u2014 they add a layer of friction that prevents the most common accidental misuses."
+    "analogy": "Guardrails on an AI are like childproof caps on medicine bottles. The contents are useful but potentially dangerous if misused. The caps don't change the medicine — they add a layer of friction that prevents the most common accidental misuses.",
+    "category": "AI & LLM"
   },
   {
     "id": "machine-learning-algorithms-v2",
     "concept": "Machine learning algorithms",
-    "analogy": "A machine learning algorithm learns like a child sorting shapes. At first it guesses randomly, but each mistake provides feedback. Over thousands of attempts, it builds internal rules: 'round things go in the round hole.' It never reads the instructions \u2014 it discovers the rules through trial and error."
+    "analogy": "A machine learning algorithm learns like a child sorting shapes. At first it guesses randomly, but each mistake provides feedback. Over thousands of attempts, it builds internal rules: 'round things go in the round hole.' It never reads the instructions — it discovers the rules through trial and error.",
+    "category": "AI & LLM"
   },
   {
     "id": "overfitting-in-machine-learnin-v2",
     "concept": "Overfitting in machine learning",
-    "analogy": "Overfitting is like memorizing a textbook word-for-word instead of understanding the concepts. You'll ace any question pulled directly from the book, but you'll bomb anything that's phrased differently or requires applying the knowledge to a new situation."
+    "analogy": "Overfitting is like memorizing a textbook word-for-word instead of understanding the concepts. You'll ace any question pulled directly from the book, but you'll bomb anything that's phrased differently or requires applying the knowledge to a new situation.",
+    "category": "AI & LLM"
   },
   {
     "id": "frontend-vs-backend-v2",
     "concept": "Frontend vs backend",
-    "analogy": "Frontend is the stage of a theater \u2014 lights, costumes, set design, what the audience sees. Backend is everything backstage \u2014 scripts, cue sheets, pulleys, and the crew making it all work. A great show needs both, but the audience only sees the stage."
+    "analogy": "Frontend is the stage of a theater — lights, costumes, set design, what the audience sees. Backend is everything backstage — scripts, cue sheets, pulleys, and the crew making it all work. A great show needs both, but the audience only sees the stage.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "http-requests-and-responses-v2",
     "concept": "HTTP requests and responses",
-    "analogy": "An HTTP request-response cycle is like a walkie-talkie exchange. Your browser says 'over' (sends a request), the server processes it and replies 'over' (sends a response). Each exchange is independent \u2014 the server doesn't remember previous conversations unless you use cookies or sessions."
+    "analogy": "An HTTP request-response cycle is like a walkie-talkie exchange. Your browser says 'over' (sends a request), the server processes it and replies 'over' (sends a response). Each exchange is independent — the server doesn't remember previous conversations unless you use cookies or sessions.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "json-v2",
     "concept": "JSON",
-    "analogy": "JSON is like a form that any office in the world can read. It uses a simple structure \u2014 labels and values, lists and groups \u2014 that every programming language understands. It's not the only data format, but it's the lingua franca of web APIs."
+    "analogy": "JSON is like a form that any office in the world can read. It uses a simple structure — labels and values, lists and groups — that every programming language understands. It's not the only data format, but it's the lingua franca of web APIs.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "rest-api-vs-graphql-v2",
     "concept": "REST API vs GraphQL",
-    "analogy": "REST is like a vending machine with fixed buttons \u2014 press B3 and you get exactly what's behind B3, nothing more, nothing less. GraphQL is like a deli counter \u2014 you tell them exactly what you want on your sandwich and they build it to order."
+    "analogy": "REST is like a vending machine with fixed buttons — press B3 and you get exactly what's behind B3, nothing more, nothing less. GraphQL is like a deli counter — you tell them exactly what you want on your sandwich and they build it to order.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "authentication-and-oauth-v2",
     "concept": "Authentication and OAuth",
-    "analogy": "OAuth is like a valet parking ticket. You hand over limited access (the valet can drive your car but can't open the trunk) without giving away your actual car key. The app gets a token that lets it do specific things on your behalf without knowing your password."
+    "analogy": "OAuth is like a valet parking ticket. You hand over limited access (the valet can drive your car but can't open the trunk) without giving away your actual car key. The app gets a token that lets it do specific things on your behalf without knowing your password.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "cookies-and-sessions-v2",
     "concept": "Cookies and sessions",
-    "analogy": "Cookies are like a stamp on your hand at a club. Each time you step out and come back, the bouncer checks the stamp instead of re-checking your ID. The stamp (cookie) is on your hand (browser); the guest list (session) is at the door (server)."
+    "analogy": "Cookies are like a stamp on your hand at a club. Each time you step out and come back, the bouncer checks the stamp instead of re-checking your ID. The stamp (cookie) is on your hand (browser); the guest list (session) is at the door (server).",
+    "category": "Web Fundamentals"
   },
   {
     "id": "cors-cross-origin-resource-sh-v2",
     "concept": "CORS (Cross-Origin Resource Sharing)",
-    "analogy": "CORS is like a building's visitor policy. Your office (origin) can access its own files freely, but to access files in another company's office (different origin), that company must have you on their approved visitor list. The browser enforces this policy automatically."
+    "analogy": "CORS is like a building's visitor policy. Your office (origin) can access its own files freely, but to access files in another company's office (different origin), that company must have you on their approved visitor list. The browser enforces this policy automatically.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "websockets-v2",
     "concept": "WebSockets",
-    "analogy": "A WebSocket is like an open phone line between your browser and the server. Instead of hanging up after every question (HTTP), both sides keep the line open and can speak whenever they have something to say \u2014 perfect for chat apps, live scores, or real-time collaboration."
+    "analogy": "A WebSocket is like an open phone line between your browser and the server. Instead of hanging up after every question (HTTP), both sides keep the line open and can speak whenever they have something to say — perfect for chat apps, live scores, or real-time collaboration.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "webhooks-v2",
     "concept": "Webhooks",
-    "analogy": "A webhook is like a doorbell. Instead of constantly checking if someone's at the door (polling), you install a doorbell (webhook) and go about your day. When someone arrives, they press it and you're notified immediately."
+    "analogy": "A webhook is like a doorbell. Instead of constantly checking if someone's at the door (polling), you install a doorbell (webhook) and go about your day. When someone arrives, they press it and you're notified immediately.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "environment-variables-and-secr-v2",
     "concept": "Environment variables and secrets",
-    "analogy": "Environment variables are like a safe behind a painting in a manager's office. The code says 'get the API key from the safe' but never writes the actual key in any document. Different offices (environments) have different safes with different contents."
+    "analogy": "Environment variables are like a safe behind a painting in a manager's office. The code says 'get the API key from the safe' but never writes the actual key in any document. Different offices (environments) have different safes with different contents.",
+    "category": "Programming Concepts"
   },
   {
     "id": "localhost-and-ports-v2",
     "concept": "Localhost and ports",
-    "analogy": "Localhost is like testing a dish in your own kitchen before serving it at a restaurant. Port numbers are burners on the stove \u2014 your web app runs on burner 3000, your database on burner 5432. Each service gets its own burner so they don't interfere."
+    "analogy": "Localhost is like testing a dish in your own kitchen before serving it at a restaurant. Port numbers are burners on the stove — your web app runs on burner 3000, your database on burner 5432. Each service gets its own burner so they don't interfere.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "html-css-and-javascript-v2",
     "concept": "HTML, CSS, and JavaScript",
-    "analogy": "HTML is the blueprint of a house \u2014 where the rooms, doors, and windows go. CSS is the interior design \u2014 paint colors, furniture style, lighting. JavaScript is the electrical and plumbing \u2014 the stuff that makes switches flip, faucets run, and the garage door open when you press a button."
+    "analogy": "HTML is the blueprint of a house — where the rooms, doors, and windows go. CSS is the interior design — paint colors, furniture style, lighting. JavaScript is the electrical and plumbing — the stuff that makes switches flip, faucets run, and the garage door open when you press a button.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "dom-document-object-model-v2",
     "concept": "DOM (Document Object Model)",
-    "analogy": "The DOM is like a puppet version of your HTML. The browser reads your HTML file and builds a live puppet that JavaScript can manipulate \u2014 moving arms, changing clothes, adding hats \u2014 all without rewriting the original script."
+    "analogy": "The DOM is like a puppet version of your HTML. The browser reads your HTML file and builds a live puppet that JavaScript can manipulate — moving arms, changing clothes, adding hats — all without rewriting the original script.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "local-storage-vs-session-stora-v2",
     "concept": "Local storage vs session storage",
-    "analogy": "Local storage is like writing a note in permanent marker on a whiteboard \u2014 it stays until someone deliberately erases it. Session storage is like writing in dry-erase marker \u2014 it disappears when you clean the board (close the tab)."
+    "analogy": "Local storage is like writing a note in permanent marker on a whiteboard — it stays until someone deliberately erases it. Session storage is like writing in dry-erase marker — it disappears when you clean the board (close the tab).",
+    "category": "Web Fundamentals"
   },
   {
     "id": "query-parameters-and-url-struc-v2",
     "concept": "Query parameters and URL structure",
-    "analogy": "Query parameters in a URL are like special instructions on a coffee order. The URL `coffee.com/order` says 'I want coffee.' Adding `?size=large&milk=oat` says 'I want a large oat milk coffee.' The barista (server) reads the slip and customizes accordingly."
+    "analogy": "Query parameters in a URL are like special instructions on a coffee order. The URL `coffee.com/order` says 'I want coffee.' Adding `?size=large&milk=oat` says 'I want a large oat milk coffee.' The barista (server) reads the slip and customizes accordingly.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "responsive-design-v2",
     "concept": "Responsive design",
-    "analogy": "Responsive design is like a newspaper layout that rearranges itself for different page sizes. A broadsheet shows articles in 6 columns; a tabloid reformats to 3; a mobile screen stacks them in 1. Same content, different arrangement depending on the container."
+    "analogy": "Responsive design is like a newspaper layout that rearranges itself for different page sizes. A broadsheet shows articles in 6 columns; a tabloid reformats to 3; a mobile screen stacks them in 1. Same content, different arrangement depending on the container.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "client-side-vs-server-side-ren-v2",
     "concept": "Client-side vs server-side rendering",
-    "analogy": "Server-side rendering is like a restaurant that plates your meal in the kitchen and brings it ready to eat. Client-side rendering ships you the raw ingredients and a recipe \u2014 your browser assembles the page. SSR is faster to first bite; CSR gives you more control over the cooking."
+    "analogy": "Server-side rendering is like a restaurant that plates your meal in the kitchen and brings it ready to eat. Client-side rendering ships you the raw ingredients and a recipe — your browser assembles the page. SSR is faster to first bite; CSR gives you more control over the cooking.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "crud-operations-v2",
     "concept": "CRUD operations",
-    "analogy": "CRUD is the four verbs of any data app: Create (write a new Post-it), Read (look at the Post-it), Update (cross out a line and write a new one), Delete (crumple it up and toss it). Every to-do app, social feed, and admin panel is just CRUD in a nicer outfit."
+    "analogy": "CRUD is the four verbs of any data app: Create (write a new Post-it), Read (look at the Post-it), Update (cross out a line and write a new one), Delete (crumple it up and toss it). Every to-do app, social feed, and admin panel is just CRUD in a nicer outfit.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "http-status-codes-v2",
     "concept": "HTTP status codes",
-    "analogy": "HTTP status codes are like a traffic light system for the web. 2xx is green (all good), 3xx is a detour sign (redirected), 4xx is a 'road closed' sign (you made a wrong turn), and 5xx is an engine failure (the server broke down)."
+    "analogy": "HTTP status codes are like a traffic light system for the web. 2xx is green (all good), 3xx is a detour sign (redirected), 4xx is a 'road closed' sign (you made a wrong turn), and 5xx is an engine failure (the server broke down).",
+    "category": "Web Fundamentals"
   },
   {
     "id": "routing-web-v2",
     "concept": "Routing (web)",
-    "analogy": "Routing is like a switchboard operator from the 1950s. A request comes in for `/products/shoes`, and the router connects it to the right handler \u2014 'I'll patch you through to the shoes department.' Without routing, every URL would reach the same dead end."
+    "analogy": "Routing is like a switchboard operator from the 1950s. A request comes in for `/products/shoes`, and the router connects it to the right handler — 'I'll patch you through to the shoes department.' Without routing, every URL would reach the same dead end.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "sslhttps-certificates-v2",
     "concept": "SSL/HTTPS certificates",
-    "analogy": "HTTPS is like sending a letter in a locked box instead of a postcard. Anyone can read a postcard (HTTP) in transit. With HTTPS, you and the website exchange a unique padlock (SSL certificate) so only you two can open the box. The lock icon in your browser confirms the box is sealed."
+    "analogy": "HTTPS is like sending a letter in a locked box instead of a postcard. Anyone can read a postcard (HTTP) in transit. With HTTPS, you and the website exchange a unique padlock (SSL certificate) so only you two can open the box. The lock icon in your browser confirms the box is sealed.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "middleware-v2",
     "concept": "Middleware",
-    "analogy": "Middleware is like the security checkpoint before you reach the gate at an airport. Your request passes through it on the way in (checking tickets, scanning bags) and sometimes on the way out. It doesn't fly the plane \u2014 it processes every passenger before they board."
+    "analogy": "Middleware is like the security checkpoint before you reach the gate at an airport. Your request passes through it on the way in (checking tickets, scanning bags) and sometimes on the way out. It doesn't fly the plane — it processes every passenger before they board.",
+    "category": "Web Fundamentals"
   },
   {
     "id": "website-overloading-ddos-v2",
     "concept": "Website overloading (DDoS)",
-    "analogy": "A DDoS attack is like a flash mob blocking the entrance to a store. Nobody's stealing anything \u2014 they're just standing in the doorway so real customers can't get in. The store is fine inside; it's the entrance that's jammed."
+    "analogy": "A DDoS attack is like a flash mob blocking the entrance to a store. Nobody's stealing anything — they're just standing in the doorway so real customers can't get in. The store is fine inside; it's the entrance that's jammed.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "how-the-internet-works-v2",
     "concept": "How the internet works",
-    "analogy": "The internet works like a relay race for data. Your message is split into packets, each handed off from router to router (like relay runners), each choosing the fastest available path. They may arrive out of order but get reassembled at the finish line."
+    "analogy": "The internet works like a relay race for data. Your message is split into packets, each handed off from router to router (like relay runners), each choosing the fastest available path. They may arrive out of order but get reassembled at the finish line.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "public-key-cryptography-v2",
     "concept": "Public-key cryptography",
-    "analogy": "Public-key cryptography is like a suggestion box. Anyone can slip a note through the slot (encrypt with the public key), but only the person with the key to the box can read the notes (decrypt with the private key). The slot is public; the key is private."
+    "analogy": "Public-key cryptography is like a suggestion box. Anyone can slip a note through the slot (encrypt with the public key), but only the person with the key to the box can read the notes (decrypt with the private key). The slot is public; the key is private.",
+    "category": "Programming Concepts"
   },
   {
     "id": "net-neutrality-v2",
     "concept": "Net neutrality",
-    "analogy": "Net neutrality is like the postal service treating all letters equally regardless of who sent them. Without it, the post office could deliver Amazon's letters overnight while holding your local shop's letters for a week \u2014 unless they pay extra for priority."
+    "analogy": "Net neutrality is like the postal service treating all letters equally regardless of who sent them. Without it, the post office could deliver Amazon's letters overnight while holding your local shop's letters for a week — unless they pay extra for priority.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "download-vs-upload-speed-v2",
     "concept": "Download vs upload speed",
-    "analogy": "Download vs upload speed is like a funnel \u2014 wide end down. ISPs make the pipe fatter for incoming data because most people consume (stream, browse) far more than they produce (upload files, video call). The asymmetry matches typical usage patterns."
+    "analogy": "Download vs upload speed is like a funnel — wide end down. ISPs make the pipe fatter for incoming data because most people consume (stream, browse) far more than they produce (upload files, video call). The asymmetry matches typical usage patterns.",
+    "category": "Hardware"
   },
   {
     "id": "network-backdoors-v2",
     "concept": "Network backdoors",
-    "analogy": "A network backdoor is like a hidden door in a bank vault that bypasses the main lock. It might have been built for maintenance, but if a thief discovers it, they walk right past all the security. That's why backdoors are considered critical vulnerabilities."
+    "analogy": "A network backdoor is like a hidden door in a bank vault that bypasses the main lock. It might have been built for maintenance, but if a thief discovers it, they walk right past all the security. That's why backdoors are considered critical vulnerabilities.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "os-memory-management-v2",
     "concept": "OS memory management",
-    "analogy": "The OS manages memory like an air traffic controller manages runways. Each program requests a landing slot (memory allocation). The controller tracks which slots are occupied, prevents collisions, and clears slots when planes depart (programs close)."
+    "analogy": "The OS manages memory like an air traffic controller manages runways. Each program requests a landing slot (memory allocation). The controller tracks which slots are occupied, prevents collisions, and clears slots when planes depart (programs close).",
+    "category": "Hardware"
   },
   {
     "id": "ram-management-free-ram-is-wa-v2",
     "concept": "RAM management (free RAM is wasted RAM)",
-    "analogy": "Unused RAM is like empty shelves in a busy kitchen. A smart chef keeps frequently used ingredients on the shelves (cached in RAM) rather than walking to the pantry (disk) each time. Empty shelves aren't 'saving space' \u2014 they're wasting speed."
+    "analogy": "Unused RAM is like empty shelves in a busy kitchen. A smart chef keeps frequently used ingredients on the shelves (cached in RAM) rather than walking to the pantry (disk) each time. Empty shelves aren't 'saving space' — they're wasting speed.",
+    "category": "Hardware"
   },
   {
     "id": "bandwidth-vs-latency-v2",
     "concept": "Bandwidth vs latency",
-    "analogy": "Bandwidth is how many lanes a highway has. Latency is how long the highway is. A 10-lane highway (high bandwidth) doesn't help if it stretches 1,000 miles (high latency). Video calls need low latency (short road); large downloads need high bandwidth (many lanes)."
+    "analogy": "Bandwidth is how many lanes a highway has. Latency is how long the highway is. A 10-lane highway (high bandwidth) doesn't help if it stretches 1,000 miles (high latency). Video calls need low latency (short road); large downloads need high bandwidth (many lanes).",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "latency-vs-throughput-v2",
     "concept": "Latency vs throughput",
-    "analogy": "Latency is how long it takes one person to get through a checkout line. Throughput is how many people get through per hour. Self-checkout might have lower throughput than a fast cashier, but if the lines are shorter, each person's latency is lower."
+    "analogy": "Latency is how long it takes one person to get through a checkout line. Throughput is how many people get through per hour. Self-checkout might have lower throughput than a fast cashier, but if the lines are shorter, each person's latency is lower.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "cdn-content-delivery-network-v2",
     "concept": "CDN (Content Delivery Network)",
-    "analogy": "A CDN is like having photocopies of a popular library book placed in every branch across the city. Instead of everyone driving to the central library (origin server), you pick up the copy from your nearest branch. Same content, much shorter trip."
+    "analogy": "A CDN is like having photocopies of a popular library book placed in every branch across the city. Instead of everyone driving to the central library (origin server), you pick up the copy from your nearest branch. Same content, much shorter trip.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "logging-and-observability-v2",
     "concept": "Logging and observability",
-    "analogy": "Logging is keeping a ship's logbook \u2014 recording events as they happen. Observability is having a full dashboard with radar, GPS, engine gauges, and weather feeds. Logs tell you what happened after the fact; observability lets you see the ship's health in real time."
+    "analogy": "Logging is keeping a ship's logbook — recording events as they happen. Observability is having a full dashboard with radar, GPS, engine gauges, and weather feeds. Logs tell you what happened after the fact; observability lets you see the ship's health in real time.",
+    "category": "Programming Concepts"
   },
   {
     "id": "cicd-pipelines-v2",
     "concept": "CI/CD pipelines",
-    "analogy": "CI/CD is like a test kitchen that automatically quality-checks every new recipe before it goes on the menu. A chef submits a dish (pushes code), the kitchen runs taste tests (automated tests), and if everything passes, it goes straight to diners (production). If a test fails, the dish is sent back."
+    "analogy": "CI/CD is like a test kitchen that automatically quality-checks every new recipe before it goes on the menu. A chef submits a dish (pushes code), the kitchen runs taste tests (automated tests), and if everything passes, it goes straight to diners (production). If a test fails, the dish is sent back.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "serverless-functions-v2",
     "concept": "Serverless functions",
-    "analogy": "Serverless is like hiring a temp worker for exactly one task. They show up, do the job, and leave \u2014 you only pay for the minutes they worked. You don't rent an office for them or worry about their benefits. The cloud provider handles all that."
+    "analogy": "Serverless is like hiring a temp worker for exactly one task. They show up, do the job, and leave — you only pay for the minutes they worked. You don't rent an office for them or worry about their benefits. The cloud provider handles all that.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "load-balancing-v2",
     "concept": "Load balancing",
-    "analogy": "Load balancing is like a host at a busy restaurant who seats new arrivals at the least crowded section. No single waiter gets overwhelmed, and customers get served faster because the work is spread evenly across all available staff."
+    "analogy": "Load balancing is like a host at a busy restaurant who seats new arrivals at the least crowded section. No single waiter gets overwhelmed, and customers get served faster because the work is spread evenly across all available staff.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "rate-limiting-v2",
     "concept": "Rate limiting",
-    "analogy": "Rate limiting is like a bouncer enforcing a 'one drink per 15 minutes' rule. You can keep ordering, but if you go too fast, the bouncer makes you wait. It protects the bar (server) from getting overwhelmed and ensures everyone gets served."
+    "analogy": "Rate limiting is like a bouncer enforcing a 'one drink per 15 minutes' rule. You can keep ordering, but if you go too fast, the bouncer makes you wait. It protects the bar (server) from getting overwhelmed and ensures everyone gets served.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "cache-v2",
     "concept": "Cache",
-    "analogy": "A cache is like keeping your most-used phone numbers memorized. You could look them up in your contacts every time, but for the ones you call daily, remembering them saves the lookup time. The tradeoff: your memory might be outdated if someone changes their number."
+    "analogy": "A cache is like keeping your most-used phone numbers memorized. You could look them up in your contacts every time, but for the ones you call daily, remembering them saves the lookup time. The tradeoff: your memory might be outdated if someone changes their number.",
+    "category": "Databases & Storage"
   },
   {
     "id": "database-index-v2",
     "concept": "Database index",
-    "analogy": "A database index is like alphabetical tabs in a filing cabinet. Without tabs, you'd flip through every folder to find 'Smith.' With tabs, you jump straight to the 'S' section. It costs a bit of extra space (the tabs themselves) but saves enormous search time."
+    "analogy": "A database index is like alphabetical tabs in a filing cabinet. Without tabs, you'd flip through every folder to find 'Smith.' With tabs, you jump straight to the 'S' section. It costs a bit of extra space (the tabs themselves) but saves enormous search time.",
+    "category": "Databases & Storage"
   },
   {
     "id": "sql-vs-nosql-databases-v2",
     "concept": "SQL vs NoSQL databases",
-    "analogy": "SQL is like an Excel spreadsheet with strict column rules \u2014 every row must have the same fields. NoSQL is like a box of index cards \u2014 each card can have different information, making it flexible for varied data, but harder to run structured queries across all cards."
+    "analogy": "SQL is like an Excel spreadsheet with strict column rules — every row must have the same fields. NoSQL is like a box of index cards — each card can have different information, making it flexible for varied data, but harder to run structured queries across all cards.",
+    "category": "Databases & Storage"
   },
   {
     "id": "database-migrations-v2",
     "concept": "Database migrations",
-    "analogy": "A database migration is like changing the plumbing in a house while people are still showering. You can't just rip out the pipes \u2014 you have to carefully reroute water, swap sections one at a time, and make sure nothing leaks during the transition."
+    "analogy": "A database migration is like changing the plumbing in a house while people are still showering. You can't just rip out the pipes — you have to carefully reroute water, swap sections one at a time, and make sure nothing leaks during the transition.",
+    "category": "Databases & Storage"
   },
   {
     "id": "storage-tiers-registers-cach-v2",
     "concept": "Storage tiers (registers, cache, RAM, disk)",
-    "analogy": "Storage tiers are like how you organize things by how often you need them. Keys go in your pocket (register \u2014 instant). Today's to-do list goes on your desk (cache). This month's files go in a desk drawer (RAM). Tax records from 2019 go in the attic (disk). Each level trades access speed for capacity."
+    "analogy": "Storage tiers are like how you organize things by how often you need them. Keys go in your pocket (register — instant). Today's to-do list goes on your desk (cache). This month's files go in a desk drawer (RAM). Tax records from 2019 go in the attic (disk). Each level trades access speed for capacity.",
+    "category": "Databases & Storage"
   },
   {
     "id": "version-control-v2",
     "concept": "Version control",
-    "analogy": "Version control is like Google Docs' version history for your entire project. Every change is saved with a timestamp and author. You can rewind to any point, see who changed what, and work on different versions simultaneously without losing anything."
+    "analogy": "Version control is like Google Docs' version history for your entire project. Every change is saved with a timestamp and author. You can rewind to any point, see who changed what, and work on different versions simultaneously without losing anything.",
+    "category": "Git & Version Control"
   },
   {
     "id": "git-commits-v2",
     "concept": "Git commits",
-    "analogy": "A commit is like taking a polaroid of your project. The photo captures everything at that exact moment. You can keep working and take more photos, and if anything goes wrong, you can always go back and look at (or restore from) any previous photo."
+    "analogy": "A commit is like taking a polaroid of your project. The photo captures everything at that exact moment. You can keep working and take more photos, and if anything goes wrong, you can always go back and look at (or restore from) any previous photo.",
+    "category": "Git & Version Control"
   },
   {
     "id": "git-staging-area-v2",
     "concept": "Git staging area",
-    "analogy": "The staging area is like a shopping cart before checkout. You browse the store (make changes), add specific items to the cart (stage files), review what's in the cart, and then checkout (commit). You don't have to buy everything you touched \u2014 just what's in the cart."
+    "analogy": "The staging area is like a shopping cart before checkout. You browse the store (make changes), add specific items to the cart (stage files), review what's in the cart, and then checkout (commit). You don't have to buy everything you touched — just what's in the cart.",
+    "category": "Git & Version Control"
   },
   {
     "id": "git-branching-v2",
     "concept": "Git branching",
-    "analogy": "Git branching is like making a photocopy of a document to try edits. You scribble all over the copy (branch) without touching the original (main). If the edits work out, you transfer them to the original. If not, you toss the copy \u2014 the original is untouched."
+    "analogy": "Git branching is like making a photocopy of a document to try edits. You scribble all over the copy (branch) without touching the original (main). If the edits work out, you transfer them to the original. If not, you toss the copy — the original is untouched.",
+    "category": "Git & Version Control"
   },
   {
     "id": "pull-requests-v2",
     "concept": "Pull requests",
-    "analogy": "A pull request is like submitting an article to an editor. You've written your piece (branch), and you're asking the editor (team) to review it before it gets published (merged into main). They might approve it, suggest changes, or send it back for a rewrite."
+    "analogy": "A pull request is like submitting an article to an editor. You've written your piece (branch), and you're asking the editor (team) to review it before it gets published (merged into main). They might approve it, suggest changes, or send it back for a rewrite.",
+    "category": "Git & Version Control"
   },
   {
     "id": "git-stash-v2",
     "concept": "Git stash",
-    "analogy": "Git stash is like bookmarking your place in a book and putting it on the shelf. You need to do something else (switch branches), but you don't want to lose your spot. When you come back, you pull the bookmark out and resume exactly where you left off."
+    "analogy": "Git stash is like bookmarking your place in a book and putting it on the shelf. You need to do something else (switch branches), but you don't want to lose your spot. When you come back, you pull the bookmark out and resume exactly where you left off.",
+    "category": "Git & Version Control"
   },
   {
     "id": "merge-conflicts-v2",
     "concept": "Merge conflicts",
-    "analogy": "A merge conflict is like two architects who both redesigned the same room without telling each other. One made it a bedroom, the other a study. Git can't pick for you \u2014 it marks the conflicting area and asks you to decide which design to keep (or combine both)."
+    "analogy": "A merge conflict is like two architects who both redesigned the same room without telling each other. One made it a bedroom, the other a study. Git can't pick for you — it marks the conflicting area and asks you to decide which design to keep (or combine both).",
+    "category": "Git & Version Control"
   },
   {
     "id": "technical-debt-v2",
     "concept": "Technical debt",
-    "analogy": "Technical debt is like using duct tape to fix a leaky pipe. It works right now, but you know you'll have to do a proper repair eventually. The longer you leave it, the more duct tape piles up and the harder the real fix becomes."
+    "analogy": "Technical debt is like using duct tape to fix a leaky pipe. It works right now, but you know you'll have to do a proper repair eventually. The longer you leave it, the more duct tape piles up and the harder the real fix becomes.",
+    "category": "Programming Concepts"
   },
   {
     "id": "refactoring-v2",
     "concept": "Refactoring",
-    "analogy": "Refactoring is like reorganizing your garage. You're not buying new tools or throwing old ones away \u2014 you're arranging everything so you can find what you need faster. The garage holds the same stuff; it's just better organized."
+    "analogy": "Refactoring is like reorganizing your garage. You're not buying new tools or throwing old ones away — you're arranging everything so you can find what you need faster. The garage holds the same stuff; it's just better organized.",
+    "category": "Programming Concepts"
   },
   {
     "id": "open-source-licensing-v2",
     "concept": "Open source licensing",
-    "analogy": "Open source licenses are like rules for a community garden plot. Some say 'take what you want, just mention where it came from.' Others say 'take what you want, but if you grow something new from these seeds, your garden must also be open to everyone.'"
+    "analogy": "Open source licenses are like rules for a community garden plot. Some say 'take what you want, just mention where it came from.' Others say 'take what you want, but if you grow something new from these seeds, your garden must also be open to everyone.'",
+    "category": "Programming Concepts"
   },
   {
     "id": "recursion-v2",
     "concept": "Recursion",
-    "analogy": "Recursion is like looking up a word in the dictionary and finding the definition uses another word you don't know \u2014 so you look that up too. Eventually you hit a word you understand (the base case) and work your way back through all the definitions."
+    "analogy": "Recursion is like looking up a word in the dictionary and finding the definition uses another word you don't know — so you look that up too. Eventually you hit a word you understand (the base case) and work your way back through all the definitions.",
+    "category": "Programming Concepts"
   },
   {
     "id": "encryption-v2",
     "concept": "Encryption",
-    "analogy": "Encryption is like writing a letter in a secret code that only you and your friend know. Anyone who intercepts the letter sees gibberish. The 'key' is the codebook that translates gibberish back into the original message."
+    "analogy": "Encryption is like writing a letter in a secret code that only you and your friend know. Anyone who intercepts the letter sees gibberish. The 'key' is the codebook that translates gibberish back into the original message.",
+    "category": "Programming Concepts"
   },
   {
     "id": "containerization-docker-v2",
     "concept": "Containerization (Docker)",
-    "analogy": "Docker containers are like shipping containers on a cargo ship. It doesn't matter what's inside each container \u2014 electronics, bananas, furniture \u2014 the ship carries them all the same way. Similarly, Docker packages any app so it runs identically on any machine."
+    "analogy": "Docker containers are like shipping containers on a cargo ship. It doesn't matter what's inside each container — electronics, bananas, furniture — the ship carries them all the same way. Similarly, Docker packages any app so it runs identically on any machine.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "file-compression-ziprar-v2",
     "concept": "File compression (ZIP/RAR)",
-    "analogy": "File compression is like abbreviating words in a text message. 'Because' becomes 'bc', 'tomorrow' becomes 'tmrw.' The message is smaller, but the receiver knows how to expand the abbreviations back. ZIP files do this with patterns in data."
+    "analogy": "File compression is like abbreviating words in a text message. 'Because' becomes 'bc', 'tomorrow' becomes 'tmrw.' The message is smaller, but the receiver knows how to expand the abbreviations back. ZIP files do this with patterns in data.",
+    "category": "Hardware"
   },
   {
     "id": "lossy-compression-v2",
     "concept": "Lossy compression",
-    "analogy": "Lossy compression is like retelling a story from memory. You keep the main plot points but lose the exact wording and minor details. Each retelling loses a bit more. The story still makes sense, but it's not identical to the original."
+    "analogy": "Lossy compression is like retelling a story from memory. You keep the main plot points but lose the exact wording and minor details. Each retelling loses a bit more. The story still makes sense, but it's not identical to the original.",
+    "category": "Hardware"
   },
   {
     "id": "division-by-zero-in-computing-v2",
     "concept": "Division by zero in computing",
-    "analogy": "Dividing by zero crashes a program like asking 'how many groups of zero can you pull from ten?' You'd pull forever and never make progress. The computer recognizes this infinite loop and raises an error rather than spinning endlessly."
+    "analogy": "Dividing by zero crashes a program like asking 'how many groups of zero can you pull from ten?' You'd pull forever and never make progress. The computer recognizes this infinite loop and raises an error rather than spinning endlessly.",
+    "category": "Programming Concepts"
   },
   {
     "id": "logarithmic-time-complexity-v2",
     "concept": "Logarithmic time complexity",
-    "analogy": "Logarithmic time is like the '20 questions' game. Each yes-or-no question cuts the remaining possibilities in half. Even with a million options, you need only about 20 questions. That's why binary search is so fast \u2014 each step halves the problem."
+    "analogy": "Logarithmic time is like the '20 questions' game. Each yes-or-no question cuts the remaining possibilities in half. Even with a million options, you need only about 20 questions. That's why binary search is so fast — each step halves the problem.",
+    "category": "Programming Concepts"
   },
   {
     "id": "assembly-language-programming-v2",
     "concept": "Assembly language programming",
-    "analogy": "Programming in assembly is like writing a letter one character at a time on a typewriter while someone dictates. You control every single keystroke, which gives you total precision but takes forever compared to just speaking naturally (high-level languages)."
+    "analogy": "Programming in assembly is like writing a letter one character at a time on a typewriter while someone dictates. You control every single keystroke, which gives you total precision but takes forever compared to just speaking naturally (high-level languages).",
+    "category": "Hardware"
   },
   {
     "id": "how-programmers-think-v2",
     "concept": "How programmers think",
-    "analogy": "Programmers think like architects designing around constraints. 'This wall is load-bearing, so we can't remove it, but we can add a beam.' They see problems as systems of dependencies and look for the smallest change that achieves the goal without breaking everything else."
+    "analogy": "Programmers think like architects designing around constraints. 'This wall is load-bearing, so we can't remove it, but we can add a beam.' They see problems as systems of dependencies and look for the smallest change that achieves the goal without breaking everything else.",
+    "category": "Programming Concepts"
   },
   {
     "id": "package-managers-npmpip-v2",
     "concept": "Package managers (npm/pip)",
-    "analogy": "A package manager is like an app store for code libraries. Instead of building every feature from scratch, you search for a pre-built solution, install it with one command, and the package manager handles updates and compatibility checks."
+    "analogy": "A package manager is like an app store for code libraries. Instead of building every feature from scratch, you search for a pre-built solution, install it with one command, and the package manager handles updates and compatibility checks.",
+    "category": "Programming Concepts"
   },
   {
     "id": "dependencies-and-version-confl-v2",
     "concept": "Dependencies and version conflicts",
-    "analogy": "Dependency conflicts are like a dinner party where one guest is vegan and another insists on steak for every course. Both need to be satisfied, but their requirements clash. The resolution is finding a menu (version) that works for everyone."
+    "analogy": "Dependency conflicts are like a dinner party where one guest is vegan and another insists on steak for every course. Both need to be satisfied, but their requirements clash. The resolution is finding a menu (version) that works for everyone.",
+    "category": "Programming Concepts"
   },
   {
     "id": "cpu-vs-gpu-v2",
     "concept": "CPU vs GPU",
-    "analogy": "A CPU is like a Swiss Army knife \u2014 one tool that does many different tasks well. A GPU is like a box of 1,000 identical screwdrivers \u2014 each can only do one thing, but when you need to drive 1,000 screws at once (AI calculations), the box wins by sheer parallelism."
+    "analogy": "A CPU is like a Swiss Army knife — one tool that does many different tasks well. A GPU is like a box of 1,000 identical screwdrivers — each can only do one thing, but when you need to drive 1,000 screws at once (AI calculations), the box wins by sheer parallelism.",
+    "category": "Hardware"
   },
   {
     "id": "cpu-cores-and-threads-v2",
     "concept": "CPU cores and threads",
-    "analogy": "CPU cores are like chefs in a kitchen. More chefs means more dishes prepared simultaneously. Threads are like each chef alternating between two recipes while one is in the oven \u2014 keeping busy during downtime. 8 cores with 16 threads means 8 chefs each juggling 2 dishes."
+    "analogy": "CPU cores are like chefs in a kitchen. More chefs means more dishes prepared simultaneously. Threads are like each chef alternating between two recipes while one is in the oven — keeping busy during downtime. 8 cores with 16 threads means 8 chefs each juggling 2 dishes.",
+    "category": "Hardware"
   },
   {
     "id": "clock-speed-ghz-v2",
     "concept": "Clock speed (GHz)",
-    "analogy": "Clock speed is like the RPM of an engine. Higher RPM means the engine cycles faster, but it doesn't tell you how much work each cycle does. A sports car at 6,000 RPM and a truck at 6,000 RPM perform very differently \u2014 architecture matters as much as speed."
+    "analogy": "Clock speed is like the RPM of an engine. Higher RPM means the engine cycles faster, but it doesn't tell you how much work each cycle does. A sports car at 6,000 RPM and a truck at 6,000 RPM perform very differently — architecture matters as much as speed.",
+    "category": "Hardware"
   },
   {
     "id": "ssd-vs-hdd-v2",
     "concept": "SSD vs HDD",
-    "analogy": "An SSD is like a light switch \u2014 flip it and the room is lit instantly. An HDD is like a record player \u2014 the needle has to physically travel to the right groove. That mechanical seek time is why HDDs feel sluggish for everyday tasks, even though they store tons of data cheaply."
+    "analogy": "An SSD is like a light switch — flip it and the room is lit instantly. An HDD is like a record player — the needle has to physically travel to the right groove. That mechanical seek time is why HDDs feel sluggish for everyday tasks, even though they store tons of data cheaply.",
+    "category": "Hardware"
   },
   {
     "id": "vram-video-ram-v2",
     "concept": "VRAM (Video RAM)",
-    "analogy": "VRAM is like the counter space in a kitchen. You can own all the ingredients in the world (stored on disk), but you can only actively cook with what fits on the counter (VRAM). A bigger AI model needs more counter space \u2014 run out, and you can't cook the recipe at all."
+    "analogy": "VRAM is like the counter space in a kitchen. You can own all the ingredients in the world (stored on disk), but you can only actively cook with what fits on the counter (VRAM). A bigger AI model needs more counter space — run out, and you can't cook the recipe at all.",
+    "category": "Hardware"
   },
   {
     "id": "binary-bits-and-bytes-v2",
     "concept": "Binary, bits, and bytes",
-    "analogy": "Binary is the simplest possible alphabet \u2014 just two letters: 0 and 1. A bit is one letter. A byte is an 8-letter word. With 8 bits you can spell 256 different 'words,' which is enough to represent any character you'd type. Everything your computer does is sentences written in this two-letter alphabet."
+    "analogy": "Binary is the simplest possible alphabet — just two letters: 0 and 1. A bit is one letter. A byte is an 8-letter word. With 8 bits you can spell 256 different 'words,' which is enough to represent any character you'd type. Everything your computer does is sentences written in this two-letter alphabet.",
+    "category": "Hardware"
   },
   {
     "id": "chip-architecture-arm-vs-x86-v2",
     "concept": "Chip architecture (ARM vs x86)",
-    "analogy": "ARM vs x86 is like metric vs imperial. Both measure the same things, but the systems are incompatible. Software built for one won't run on the other without conversion. ARM (phones, Apple Silicon) prioritizes efficiency; x86 (Intel/AMD) prioritizes raw power."
+    "analogy": "ARM vs x86 is like metric vs imperial. Both measure the same things, but the systems are incompatible. Software built for one won't run on the other without conversion. ARM (phones, Apple Silicon) prioritizes efficiency; x86 (Intel/AMD) prioritizes raw power.",
+    "category": "Hardware"
   },
   {
     "id": "thermal-throttling-v2",
     "concept": "Thermal throttling",
-    "analogy": "Thermal throttling is like a car's rev limiter kicking in. The engine (CPU) could go faster, but the temperature is in the danger zone, so the system automatically caps performance to prevent damage. Better cooling raises the ceiling before throttling kicks in."
+    "analogy": "Thermal throttling is like a car's rev limiter kicking in. The engine (CPU) could go faster, but the temperature is in the danger zone, so the system automatically caps performance to prevent damage. Better cooling raises the ceiling before throttling kicks in.",
+    "category": "Hardware"
   },
   {
     "id": "storage-tiers-registers-cach-v3",
     "concept": "Storage tiers (registers, cache, RAM, disk)",
-    "analogy": "Storage tiers work like a chef's workspace. Spices on the counter (registers) \u2014 grab instantly. Prepped ingredients on the cutting board (cache) \u2014 reach over. Full pantry across the kitchen (RAM) \u2014 walk there. Bulk warehouse (disk) \u2014 drive to it. Speed decreases, capacity increases."
+    "analogy": "Storage tiers work like a chef's workspace. Spices on the counter (registers) — grab instantly. Prepped ingredients on the cutting board (cache) — reach over. Full pantry across the kitchen (RAM) — walk there. Bulk warehouse (disk) — drive to it. Speed decreases, capacity increases.",
+    "category": "Databases & Storage"
   },
   {
     "id": "computer-overheating-v2",
     "concept": "Computer overheating",
-    "analogy": "Computer overheating is like an engine running without oil. Every calculation generates friction (heat), and the cooling system is the oil that carries it away. Block the vents or push the CPU too hard, and heat builds up until the system protects itself by slowing down or shutting off."
+    "analogy": "Computer overheating is like an engine running without oil. Every calculation generates friction (heat), and the cooling system is the oil that carries it away. Block the vents or push the CPU too hard, and heat builds up until the system protects itself by slowing down or shutting off.",
+    "category": "Hardware"
   },
   {
     "id": "pc-overclocking-v2",
     "concept": "PC overclocking",
-    "analogy": "Overclocking is like tuning a guitar string tighter to get a higher note. It works up to a point, but too tight and the string snaps. The CPU runs faster than its rated speed, generating more heat and requiring better cooling to stay stable."
+    "analogy": "Overclocking is like tuning a guitar string tighter to get a higher note. It works up to a point, but too tight and the string snaps. The CPU runs faster than its rated speed, generating more heat and requiring better cooling to stay stable.",
+    "category": "Hardware"
   },
   {
     "id": "flash-drive-vs-hard-drive-v2",
     "concept": "Flash drive vs hard drive",
-    "analogy": "A flash drive is like a wallet \u2014 small, portable, holds a few essentials. An external hard drive is like a suitcase \u2014 heavier, but carries your entire wardrobe. Flash drives sacrifice capacity for convenience; hard drives sacrifice portability for volume."
+    "analogy": "A flash drive is like a wallet — small, portable, holds a few essentials. An external hard drive is like a suitcase — heavier, but carries your entire wardrobe. Flash drives sacrifice capacity for convenience; hard drives sacrifice portability for volume.",
+    "category": "Hardware"
   },
   {
     "id": "hard-drive-storage-density-v2",
     "concept": "Hard drive storage density",
-    "analogy": "Growing hard drive capacity is like printing a newspaper in smaller and smaller font. Same size paper, more words per page. Each generation of drives writes data tracks more tightly, fitting more information in the same physical platter space."
+    "analogy": "Growing hard drive capacity is like printing a newspaper in smaller and smaller font. Same size paper, more words per page. Each generation of drives writes data tracks more tightly, fitting more information in the same physical platter space.",
+    "category": "Hardware"
   },
   {
     "id": "image-upscaling-v2",
     "concept": "Image upscaling",
-    "analogy": "Upscaling a small image is like inflating a small balloon with a drawing on it. The drawing stretches and gets blurry because you're adding rubber (pixels) with no new ink (data). AI upscaling tries to guess what ink should go in the new rubber, but it's still an educated guess."
+    "analogy": "Upscaling a small image is like inflating a small balloon with a drawing on it. The drawing stretches and gets blurry because you're adding rubber (pixels) with no new ink (data). AI upscaling tries to guess what ink should go in the new rubber, but it's still an educated guess.",
+    "category": "Hardware"
   },
   {
     "id": "image-downscaling-v2",
     "concept": "Image downscaling",
-    "analogy": "Downscaling an image is like summarizing a book into a paragraph. You keep the main ideas (overall shapes and colors) but lose the fine details (individual sentences). The summary is much smaller but still conveys the gist."
+    "analogy": "Downscaling an image is like summarizing a book into a paragraph. You keep the main ideas (overall shapes and colors) but lose the fine details (individual sentences). The summary is much smaller but still conveys the gist.",
+    "category": "Hardware"
   },
   {
     "id": "pixel-vs-vector-graphics-v2",
     "concept": "Pixel vs vector graphics",
-    "analogy": "Pixels are like pointillism \u2014 thousands of colored dots that form an image up close but get blocky when enlarged. Vectors are like geometric blueprints \u2014 'draw a circle here, a line there' \u2014 that stay perfectly sharp at any size because they're math, not dots."
+    "analogy": "Pixels are like pointillism — thousands of colored dots that form an image up close but get blocky when enlarged. Vectors are like geometric blueprints — 'draw a circle here, a line there' — that stay perfectly sharp at any size because they're math, not dots.",
+    "category": "Hardware"
   },
   {
     "id": "c-language-versions-v2",
     "concept": "C# language versions",
-    "analogy": "C# versions are like smartphone OS updates. Each new version adds features and improvements, but apps built for older versions still run. You don't need the latest version to get started \u2014 but newer versions make common tasks easier."
+    "analogy": "C# versions are like smartphone OS updates. Each new version adds features and improvements, but apps built for older versions still run. You don't need the latest version to get started — but newer versions make common tasks easier.",
+    "category": "Programming Concepts"
   },
   {
     "id": "digital-audio-output-v2",
     "concept": "Digital audio output",
-    "analogy": "A DAC (digital-to-analog converter) is like a player piano reading a punch roll. The digital file is the roll with precise hole patterns (samples). The DAC reads each hole and presses the corresponding key, recreating the original music as a continuous sound wave."
+    "analogy": "A DAC (digital-to-analog converter) is like a player piano reading a punch roll. The digital file is the roll with precise hole patterns (samples). The DAC reads each hole and presses the corresponding key, recreating the original music as a continuous sound wave.",
+    "category": "Hardware"
   },
   {
     "id": "e-ink-display-refresh-v2",
     "concept": "E-ink display refresh",
-    "analogy": "E-ink refreshing is like rearranging magnets on a fridge. Each pixel is a capsule of tiny black and white particles that an electric charge pushes up or down. Rearranging all of them at once causes a brief flash \u2014 that flicker you see on every page turn."
+    "analogy": "E-ink refreshing is like rearranging magnets on a fridge. Each pixel is a capsule of tiny black and white particles that an electric charge pushes up or down. Rearranging all of them at once causes a brief flash — that flicker you see on every page turn.",
+    "category": "Hardware"
   },
   {
     "id": "file-compression-for-transfer-v2",
     "concept": "File compression for transfer",
-    "analogy": "Sending a ZIP instead of a folder is like mailing one package instead of 50 letters. The post office handles one delivery, the contents stay together, and nothing gets lost. The recipient opens one box instead of checking the mailbox 50 times."
+    "analogy": "Sending a ZIP instead of a folder is like mailing one package instead of 50 letters. The post office handles one delivery, the contents stay together, and nothing gets lost. The recipient opens one box instead of checking the mailbox 50 times.",
+    "category": "Hardware"
   },
   {
     "id": "isp-peering-disputes-verizon-v2",
     "concept": "ISP peering disputes (Verizon vs Netflix)",
-    "analogy": "ISP peering disputes are like two neighboring countries arguing over who maintains the bridge between them. If neither invests, the bridge gets congested, and the people (data packets) trying to cross suffer the slowdown."
+    "analogy": "ISP peering disputes are like two neighboring countries arguing over who maintains the bridge between them. If neither invests, the bridge gets congested, and the people (data packets) trying to cross suffer the slowdown.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "inertial-reference-frames-jum-v2",
     "concept": "Inertial reference frames (jumping in a plane)",
-    "analogy": "Jumping in a plane and landing in the same spot is like tossing a ball inside a moving car. The ball shares the car's speed, so from your perspective inside, it goes straight up and down. From outside, the ball traces an arc \u2014 same physics, different viewpoint."
+    "analogy": "Jumping in a plane and landing in the same spot is like tossing a ball inside a moving car. The ball shares the car's speed, so from your perspective inside, it goes straight up and down. From outside, the ball traces an arc — same physics, different viewpoint.",
+    "category": "Hardware"
   },
   {
     "id": "lcd-display-technology-v2",
     "concept": "LCD display technology",
-    "analogy": "An LCD pixel is like a sandwich: backlight (bread), liquid crystal layer (filling), and color filter (top bread). The crystal twists to let more or less light through, and the filter tints it red, green, or blue. Thousands of these tiny sandwiches form your screen image."
+    "analogy": "An LCD pixel is like a sandwich: backlight (bread), liquid crystal layer (filling), and color filter (top bread). The crystal twists to let more or less light through, and the filter tints it red, green, or blue. Thousands of these tiny sandwiches form your screen image.",
+    "category": "Hardware"
   },
   {
     "id": "wi-fi-connection-caching-v2",
     "concept": "Wi-Fi connection caching",
-    "analogy": "Your phone briefly showing Wi-Fi after the router dies is like a GPS showing your location for a few seconds inside a tunnel. The device displays its last known state until it actively discovers the connection is gone."
+    "analogy": "Your phone briefly showing Wi-Fi after the router dies is like a GPS showing your location for a few seconds inside a tunnel. The device displays its last known state until it actively discovers the connection is gone.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "wi-fi-signal-propagation-v2",
     "concept": "Wi-Fi signal propagation",
-    "analogy": "Wi-Fi traveling through walls is like shouting through a closed door. A thin door barely muffles your voice (drywall). A thick steel door blocks almost everything (metal walls). The signal doesn't stop \u2014 it just gets weaker with each obstacle."
+    "analogy": "Wi-Fi traveling through walls is like shouting through a closed door. A thin door barely muffles your voice (drywall). A thick steel door blocks almost everything (metal walls). The signal doesn't stop — it just gets weaker with each obstacle.",
+    "category": "Networking & Infrastructure"
   },
   {
     "id": "wireless-data-transmission-v2",
     "concept": "Wireless data transmission",
-    "analogy": "Wireless data transmission is like blinking a flashlight in Morse code, but billions of times per second and with radio waves instead of visible light. The receiver watches the flashes and decodes the pattern back into data."
+    "analogy": "Wireless data transmission is like blinking a flashlight in Morse code, but billions of times per second and with radio waves instead of visible light. The receiver watches the flashes and decodes the pattern back into data.",
+    "category": "Hardware"
+  },
+  {
+    "id": "ab-testing-everyday-001",
+    "concept": "A/B testing",
+    "analogy": "Like taste-testing two recipes with different groups of guests to see which one gets more compliments.",
+    "category": "Data Science"
+  },
+  {
+    "id": "ab-testing-sports-001",
+    "concept": "A/B testing",
+    "analogy": "Like a coach trying two different warm-up routines with different practice squads to see which leads to better game performance.",
+    "category": "Data Science"
+  },
+  {
+    "id": "ab-testing-everyday-002",
+    "concept": "A/B testing",
+    "analogy": "Like a store testing two different window displays on alternating weeks to see which attracts more shoppers.",
+    "category": "Data Science"
+  },
+  {
+    "id": "feature-engineering-everyday-001",
+    "concept": "Feature engineering",
+    "analogy": "Like a detective deciding which clues from a crime scene are actually relevant to solving the case — the right features make the pattern obvious.",
+    "category": "Data Science"
+  },
+  {
+    "id": "feature-engineering-cooking-001",
+    "concept": "Feature engineering",
+    "analogy": "Like a chef selecting and prepping ingredients before cooking — raw data needs to be cleaned, combined, and transformed before a model can use it.",
+    "category": "Data Science"
+  },
+  {
+    "id": "data-pipelines-etl-everyday-001",
+    "concept": "Data pipelines/ETL",
+    "analogy": "Like a water treatment plant — raw water (data) flows in, gets filtered, purified, and tested (transformed), then distributed to homes (loaded into a warehouse).",
+    "category": "Data Science"
+  },
+  {
+    "id": "data-pipelines-etl-everyday-002",
+    "concept": "Data pipelines/ETL",
+    "analogy": "Like an assembly line where raw materials enter one end and finished products come out the other, with quality checks at each station.",
+    "category": "Data Science"
+  },
+  {
+    "id": "data-lakes-vs-warehouses-everyday-001",
+    "concept": "Data lakes vs data warehouses",
+    "analogy": "Like a lake vs a library — a data lake stores everything in its raw form (like dumping all books into a pile), while a warehouse organizes data into shelves and categories for easy retrieval.",
+    "category": "Data Science"
+  },
+  {
+    "id": "data-lakes-vs-warehouses-everyday-002",
+    "concept": "Data lakes vs data warehouses",
+    "analogy": "Like a junk drawer vs a filing cabinet — both store things, but the filing cabinet requires you to organize upfront.",
+    "category": "Data Science"
+  },
+  {
+    "id": "bias-in-data-everyday-001",
+    "concept": "Bias in data",
+    "analogy": "Like training a food critic who only eats Italian restaurants — they'll think all good food is Italian because that's all they've experienced.",
+    "category": "Data Science"
+  },
+  {
+    "id": "bias-in-data-everyday-002",
+    "concept": "Bias in data",
+    "analogy": "Like a hiring panel that only interviews candidates from one university — the resulting team reflects that bias, not actual talent distribution.",
+    "category": "Data Science"
+  },
+  {
+    "id": "p-values-everyday-001",
+    "concept": "P-values",
+    "analogy": "Like asking \"if the coin were fair, how surprising would this result be?\" A low p-value means \"very surprising\" — enough to suspect the coin is loaded.",
+    "category": "Data Science"
+  },
+  {
+    "id": "p-values-everyday-002",
+    "concept": "P-values",
+    "analogy": "Like a smoke detector — it doesn't prove there's a fire, but when it goes off (low p-value), it's worth investigating.",
+    "category": "Data Science"
+  },
+  {
+    "id": "correlation-vs-causation-everyday-001",
+    "concept": "Correlation vs causation",
+    "analogy": "Like noticing that ice cream sales and drowning deaths both rise in summer — ice cream doesn't cause drowning, they share a common cause (hot weather).",
+    "category": "Data Science"
+  },
+  {
+    "id": "correlation-vs-causation-everyday-002",
+    "concept": "Correlation vs causation",
+    "analogy": "Like observing that people who carry lighters are more likely to get lung cancer — the lighter doesn't cause cancer, smoking does.",
+    "category": "Data Science"
+  },
+  {
+    "id": "outliers-everyday-001",
+    "concept": "Outliers",
+    "analogy": "Like one student scoring 100% on a test everyone else failed — it could be a genius or someone who cheated, but either way it skews the class average dramatically.",
+    "category": "Data Science"
+  },
+  {
+    "id": "outliers-everyday-002",
+    "concept": "Outliers",
+    "analogy": "Like a giraffe at a dog show — it's technically a data point, but it doesn't represent the population you're studying.",
+    "category": "Data Science"
+  },
+  {
+    "id": "data-normalization-everyday-001",
+    "concept": "Data normalization",
+    "analogy": "Like converting all currencies to USD before comparing prices across countries — without a common scale, you can't meaningfully compare values.",
+    "category": "Data Science"
+  },
+  {
+    "id": "data-normalization-cooking-001",
+    "concept": "Data normalization",
+    "analogy": "Like adjusting recipe quantities to serve the same number of people before comparing ingredient proportions.",
+    "category": "Data Science"
+  },
+  {
+    "id": "train-test-split-everyday-001",
+    "concept": "Train/test split",
+    "analogy": "Like studying with practice exams but saving one exam you've never seen for the real test — if you peek at the test beforehand, your score doesn't reflect what you've actually learned.",
+    "category": "Data Science"
+  },
+  {
+    "id": "train-test-split-sports-001",
+    "concept": "Train/test split",
+    "analogy": "Like a coach practicing plays against the B-team but measuring success against rival teams they haven't practiced against.",
+    "category": "Data Science"
+  },
+  {
+    "id": "cross-validation-sports-001",
+    "concept": "Cross-validation",
+    "analogy": "Like rotating who plays goalkeeper in practice — everyone gets a turn in every position, giving you a more complete picture of each player's ability than a single tryout.",
+    "category": "Data Science"
+  },
+  {
+    "id": "cross-validation-everyday-001",
+    "concept": "Cross-validation",
+    "analogy": "Like a restaurant getting reviewed by ten different critics instead of one — the average across all reviews is more reliable than any single opinion.",
+    "category": "Data Science"
+  },
+  {
+    "id": "infrastructure-as-code-everyday-001",
+    "concept": "Infrastructure as Code",
+    "analogy": "Like having architectural blueprints instead of building a house from memory — if the house burns down, you can rebuild it exactly from the plans.",
+    "category": "DevOps"
+  },
+  {
+    "id": "infrastructure-as-code-cooking-001",
+    "concept": "Infrastructure as Code",
+    "analogy": "Like a recipe for your server setup — instead of manually clicking through AWS, you write code that creates the same environment every time.",
+    "category": "DevOps"
+  },
+  {
+    "id": "kubernetes-everyday-001",
+    "concept": "Kubernetes",
+    "analogy": "Like a cruise ship director who decides which passengers go to which dining room, reroutes people when a restaurant closes, and opens new restaurants when demand surges.",
+    "category": "DevOps"
+  },
+  {
+    "id": "kubernetes-everyday-002",
+    "concept": "Kubernetes",
+    "analogy": "Like an air traffic controller for containers — it decides where each container lands, restarts crashed ones, and scales up when traffic increases.",
+    "category": "DevOps"
+  },
+  {
+    "id": "monitoring-alerting-everyday-001",
+    "concept": "Monitoring/alerting",
+    "analogy": "Like a car dashboard — speedometer, fuel gauge, engine temp. You don't check the engine directly while driving; you watch the gauges and investigate when a warning light appears.",
+    "category": "DevOps"
+  },
+  {
+    "id": "monitoring-alerting-everyday-002",
+    "concept": "Monitoring/alerting",
+    "analogy": "Like a baby monitor — you don't stand over the crib all night, but you're alerted immediately if something needs attention.",
+    "category": "DevOps"
+  },
+  {
+    "id": "incident-management-everyday-001",
+    "concept": "Incident management",
+    "analogy": "Like a hospital ER — when a patient arrives, you triage (assess severity), stabilize (stop the bleeding), diagnose (find root cause), and do a post-mortem (prevent it from happening again).",
+    "category": "DevOps"
+  },
+  {
+    "id": "incident-management-everyday-002",
+    "concept": "Incident management",
+    "analogy": "Like a fire department response — detect the fire, contain it, put it out, investigate the cause, and update the fire code.",
+    "category": "DevOps"
+  },
+  {
+    "id": "slas-slos-everyday-001",
+    "concept": "SLAs/SLOs",
+    "analogy": "Like a pizza delivery guarantee — \"30 minutes or it's free\" is the SLA (promise to customers). The internal goal of \"deliver in 25 minutes\" is the SLO (target the team aims for, with buffer).",
+    "category": "DevOps"
+  },
+  {
+    "id": "slas-slos-everyday-002",
+    "concept": "SLAs/SLOs",
+    "analogy": "Like a train schedule — the published timetable is the SLA, the internal target of running 2 minutes early is the SLO.",
+    "category": "DevOps"
+  },
+  {
+    "id": "blue-green-deployments-everyday-001",
+    "concept": "Blue-green deployments",
+    "analogy": "Like a theater with two identical stages — while the audience watches a show on the blue stage, stagehands set up the next show on the green stage. When ready, you just redirect the audience.",
+    "category": "DevOps"
+  },
+  {
+    "id": "blue-green-deployments-cooking-001",
+    "concept": "Blue-green deployments",
+    "analogy": "Like having two identical kitchens in a restaurant — you prepare the new menu in the idle kitchen and switch service over instantly.",
+    "category": "DevOps"
+  },
+  {
+    "id": "canary-releases-everyday-001",
+    "concept": "Canary releases",
+    "analogy": "Like miners sending a canary into the mine before entering themselves — you deploy the new version to 1% of users first, and if something goes wrong, only a small group is affected.",
+    "category": "DevOps"
+  },
+  {
+    "id": "canary-releases-cooking-001",
+    "concept": "Canary releases",
+    "analogy": "Like a restaurant offering a new dish as a daily special before adding it to the permanent menu.",
+    "category": "DevOps"
+  },
+  {
+    "id": "observability-everyday-001",
+    "concept": "Observability",
+    "analogy": "Like a doctor who can diagnose illness from symptoms, test results, and patient history combined — not just one metric, but the full picture of logs, metrics, and traces.",
+    "category": "DevOps"
+  },
+  {
+    "id": "observability-everyday-002",
+    "concept": "Observability",
+    "analogy": "Like having security cameras, motion sensors, AND door logs in a building — any single system tells part of the story, but together they show exactly what happened.",
+    "category": "DevOps"
+  },
+  {
+    "id": "runbooks-everyday-001",
+    "concept": "Runbooks",
+    "analogy": "Like a pilot's emergency checklist — when an engine fails, you don't improvise, you follow the step-by-step procedure that's been tested and validated.",
+    "category": "DevOps"
+  },
+  {
+    "id": "runbooks-everyday-002",
+    "concept": "Runbooks",
+    "analogy": "Like a recipe for handling production incidents — step 1: check the logs, step 2: restart the service, step 3: escalate if not resolved in 10 minutes.",
+    "category": "DevOps"
+  },
+  {
+    "id": "chaos-engineering-everyday-001",
+    "concept": "Chaos engineering",
+    "analogy": "Like a fire drill for your servers — you intentionally set small fires (break things) during business hours so you discover weaknesses before a real disaster strikes at 3 AM.",
+    "category": "DevOps"
+  },
+  {
+    "id": "chaos-engineering-everyday-002",
+    "concept": "Chaos engineering",
+    "analogy": "Like crash-testing cars before selling them — you deliberately break things in a controlled way to find and fix weaknesses.",
+    "category": "DevOps"
+  },
+  {
+    "id": "user-stories-everyday-001",
+    "concept": "User stories",
+    "analogy": "Like writing a restaurant review from the diner's perspective — \"As a hungry customer, I want to see the menu online so I can decide what to order before arriving.\"",
+    "category": "Product Management"
+  },
+  {
+    "id": "user-stories-everyday-002",
+    "concept": "User stories",
+    "analogy": "Like a movie pitch told from the audience's perspective — it keeps the focus on what the user needs, not on technical implementation details.",
+    "category": "Product Management"
+  },
+  {
+    "id": "product-market-fit-everyday-001",
+    "concept": "Product-market fit",
+    "analogy": "Like finding the right key for a lock — you can have a beautifully crafted key, but if it doesn't fit the lock (market need), it's useless.",
+    "category": "Product Management"
+  },
+  {
+    "id": "product-market-fit-music-001",
+    "concept": "Product-market fit",
+    "analogy": "Like a band that finally finds their audience — they might be technically skilled, but product-market fit is when people actually want to hear what they're playing.",
+    "category": "Product Management"
+  },
+  {
+    "id": "mvp-everyday-001",
+    "concept": "MVP (Minimum Viable Product)",
+    "analogy": "Like a food truck before opening a restaurant — you test your menu with minimal investment to see if people actually want your food before signing a lease.",
+    "category": "Product Management"
+  },
+  {
+    "id": "mvp-everyday-002",
+    "concept": "MVP (Minimum Viable Product)",
+    "analogy": "Like a movie trailer — it shows just enough to gauge interest before investing millions in full production.",
+    "category": "Product Management"
+  },
+  {
+    "id": "sprints-agile-everyday-001",
+    "concept": "Sprints/Agile",
+    "analogy": "Like planning a road trip in two-week segments instead of mapping every rest stop for the whole journey — you decide the next stretch, drive it, reassess, and plan the next one based on what you've learned.",
+    "category": "Product Management"
+  },
+  {
+    "id": "sprints-agile-cooking-001",
+    "concept": "Sprints/Agile",
+    "analogy": "Like cooking in courses rather than preparing every dish at once — you serve the appetizer, get feedback, and adjust the main course accordingly.",
+    "category": "Product Management"
+  },
+  {
+    "id": "backlog-grooming-everyday-001",
+    "concept": "Backlog grooming",
+    "analogy": "Like cleaning out your closet regularly — you decide what still fits (relevant), what needs altering (refined), and what goes to charity (removed). Without grooming, the closet overflows with items you'll never wear.",
+    "category": "Product Management"
+  },
+  {
+    "id": "backlog-grooming-cooking-001",
+    "concept": "Backlog grooming",
+    "analogy": "Like a chef reviewing next week's menu — removing dishes that aren't selling, refining popular ones, and adding seasonal specials.",
+    "category": "Product Management"
+  },
+  {
+    "id": "okrs-everyday-001",
+    "concept": "OKRs (Objectives and Key Results)",
+    "analogy": "Like a GPS navigation — the objective is the destination (\"drive to Chicago\"), and key results are the mile markers that tell you you're on track (\"pass Indianapolis by noon, reach I-90 by 3 PM\").",
+    "category": "Product Management"
+  },
+  {
+    "id": "okrs-sports-001",
+    "concept": "OKRs (Objectives and Key Results)",
+    "analogy": "Like a fitness goal — the objective is \"get healthier,\" and key results are measurable: \"run a 5K in under 30 minutes, do 20 push-ups, lose 5 pounds.\"",
+    "category": "Product Management"
+  },
+  {
+    "id": "north-star-metric-everyday-001",
+    "concept": "North star metric",
+    "analogy": "Like a compass heading for a ship — you might adjust sails, change speed, or navigate around obstacles, but you always check that you're still heading north.",
+    "category": "Product Management"
+  },
+  {
+    "id": "north-star-metric-cooking-001",
+    "concept": "North star metric",
+    "analogy": "Like a restaurant measuring \"meals that get finished\" rather than just \"customers served\" — it captures true value delivered, not just activity.",
+    "category": "Product Management"
+  },
+  {
+    "id": "feature-flags-everyday-001",
+    "concept": "Feature flags",
+    "analogy": "Like light switches for features in your app — you can flip them on for some users and off for others without redeploying code. If a feature causes problems, just flip the switch off.",
+    "category": "Product Management"
+  },
+  {
+    "id": "feature-flags-cooking-001",
+    "concept": "Feature flags",
+    "analogy": "Like a restaurant's specials board — dishes can appear and disappear without reprinting the entire menu.",
+    "category": "Product Management"
+  },
+  {
+    "id": "stakeholder-management-everyday-001",
+    "concept": "Stakeholder management",
+    "analogy": "Like being a wedding planner — the couple wants a beach wedding, the parents want a church, and the budget says city hall. Your job is to understand everyone's priorities, negotiate compromises, and keep everyone informed.",
+    "category": "Product Management"
+  },
+  {
+    "id": "stakeholder-management-music-001",
+    "concept": "Stakeholder management",
+    "analogy": "Like a conductor leading an orchestra — each section has its own part and priorities, and you need to keep them all in sync toward the same performance.",
+    "category": "Product Management"
+  },
+  {
+    "id": "roadmap-prioritization-everyday-001",
+    "concept": "Roadmap prioritization",
+    "analogy": "Like packing a suitcase for a trip — you can't bring everything, so you prioritize based on what you'll actually need, the weather, and how long you'll be gone. The \"nice to haves\" stay home.",
+    "category": "Product Management"
+  },
+  {
+    "id": "roadmap-prioritization-everyday-002",
+    "concept": "Roadmap prioritization",
+    "analogy": "Like triage in an ER — you sort features by urgency and impact, not by who asked first or who shouted loudest. Some things need to happen now; others can wait.",
+    "category": "Product Management"
+  },
+  {
+    "id": "product-discovery-everyday-001",
+    "concept": "Product discovery",
+    "analogy": "Like a detective investigating a case — before building anything, you gather evidence (user interviews, data), form hypotheses, and test them cheaply before committing resources.",
+    "category": "Product Management"
+  },
+  {
+    "id": "product-discovery-cooking-001",
+    "concept": "Product discovery",
+    "analogy": "Like a chef visiting local farmers' markets before designing a menu — you need to understand what's available and what people are hungry for.",
+    "category": "Product Management"
+  },
+  {
+    "id": "technical-feasibility-everyday-001",
+    "concept": "Technical feasibility",
+    "analogy": "Like an architect checking if the soil can support the building before drawing up plans — the product idea might be beautiful, but if the technical foundation can't support it, it won't stand.",
+    "category": "Product Management"
+  },
+  {
+    "id": "technical-feasibility-everyday-002",
+    "concept": "Technical feasibility",
+    "analogy": "Like a movie director consulting with the VFX team about whether a scene is achievable within budget and timeline.",
+    "category": "Product Management"
   }
 ]

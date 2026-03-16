@@ -1,4 +1,7 @@
 import os
+import json as json_lib
+import hashlib
+from datetime import date
 
 from flask import Flask, render_template, request, jsonify
 import chromadb
@@ -7,6 +10,7 @@ from chromadb.utils import embedding_functions
 CHROMA_PATH = "./chroma_data"
 COLLECTION_NAME = "analogies"
 MODEL_NAME = "all-MiniLM-L6-v2"
+ANALYTICS_FILE = "analytics.json"
 
 app = Flask(__name__)
 
@@ -41,8 +45,28 @@ def concepts():
     if collection is None:
         return jsonify([])
     all_meta = collection.get()["metadatas"]
+    category = request.args.get("category")
+    if category:
+        all_meta = [m for m in all_meta if m.get("category") == category]
     names = sorted(set(m["concept"] for m in all_meta))
     return jsonify(names)
+
+
+@app.route("/categories")
+def categories():
+    collection = get_collection()
+    if collection is None:
+        return jsonify([])
+    all_meta = collection.get()["metadatas"]
+    cat_concepts = {}
+    for m in all_meta:
+        cat = m.get("category", "Uncategorized")
+        cat_concepts.setdefault(cat, set()).add(m["concept"])
+    result = sorted(
+        [{"name": cat, "count": len(concepts)} for cat, concepts in cat_concepts.items()],
+        key=lambda x: x["name"],
+    )
+    return jsonify(result)
 
 
 @app.route("/search", methods=["POST"])
@@ -55,6 +79,8 @@ def search():
     concept = data.get("concept", "").strip()
     if not concept:
         return jsonify({"error": "Please provide a concept."}), 400
+
+    log_search(concept)
 
     n_results = min(data.get("n_results", 5), 20)
     exclude_ids = set(data.get("exclude_ids", []))
@@ -83,10 +109,54 @@ def search():
                 "id": doc_id,
                 "concept": meta["concept"],
                 "analogy": analogy_text,
+                "category": meta.get("category", "Uncategorized"),
                 "distance": round(distance, 4),
             })
 
     return jsonify({"results": analogies})
+
+
+@app.route("/daily")
+def daily():
+    collection = get_collection()
+    if collection is None:
+        return jsonify({"error": "Corpus not loaded."}), 503
+    all_data = collection.get()
+    total = len(all_data["ids"])
+    day_hash = int(hashlib.md5(date.today().isoformat().encode()).hexdigest(), 16)
+    idx = day_hash % total
+    meta = all_data["metadatas"][idx]
+    return jsonify({
+        "id": all_data["ids"][idx],
+        "concept": meta["concept"],
+        "analogy": meta["analogy"],
+        "category": meta.get("category", "Uncategorized"),
+    })
+
+
+@app.route("/analytics")
+def analytics():
+    if not os.path.exists(ANALYTICS_FILE):
+        return jsonify({"top_concepts": []})
+    with open(ANALYTICS_FILE) as f:
+        entries = json_lib.load(f)
+    counts = {}
+    for e in entries:
+        q = e.get("query", "")
+        counts[q] = counts.get(q, 0) + 1
+    top = sorted(counts.items(), key=lambda x: -x[1])[:20]
+    return jsonify({"top_concepts": [{"concept": c, "searches": s} for c, s in top]})
+
+
+def log_search(query):
+    entries = []
+    if os.path.exists(ANALYTICS_FILE):
+        with open(ANALYTICS_FILE) as f:
+            entries = json_lib.load(f)
+    entries.append({"query": query, "timestamp": date.today().isoformat()})
+    entries = entries[-10000:]  # cap at 10k entries
+    with open(ANALYTICS_FILE, "w") as f:
+        json_lib.dump(entries, f)
 
 
 if __name__ == "__main__":

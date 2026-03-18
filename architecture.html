@@ -678,7 +678,7 @@
   <header>
     <div class="tag">System Architecture</div>
     <h1>Analogy Generator</h1>
-    <p>Retrieval-based analogy engine: hand-crafted corpus, semantic embedding with MiniLM, and vector search via ChromaDB. 228 entries across 105 concepts.</p>
+    <p>Retrieval-based analogy engine: hand-crafted corpus, ONNX MiniLM embeddings, and vector search via ChromaDB. 295 entries across 138 concepts in 10 categories. Deployed on Railway.</p>
   </header>
 
   <div class="tabs">
@@ -706,15 +706,15 @@
             <div class="node-details-inner">
               <div class="detail-row">
                 <div class="detail-label">Size</div>
-                <div class="detail-value"><code>228</code> entries across <code>105</code> unique concepts, each with 2+ analogy variants</div>
+                <div class="detail-value"><code>295</code> entries across <code>138</code> unique concepts, each with 2+ analogy variants</div>
               </div>
               <div class="detail-row">
                 <div class="detail-label">Structure</div>
-                <div class="detail-value">Each entry: <code>{ id, concept, analogy }</code></div>
+                <div class="detail-value">Each entry: <code>{ id, concept, analogy, category }</code></div>
               </div>
               <div class="detail-row">
                 <div class="detail-label">Categories</div>
-                <div class="detail-value">AI/LLM, Web, Networking, Databases, Git, Programming, Hardware</div>
+                <div class="detail-value">AI/LLM, Web, Networking, Databases, Git, Programming, Hardware, Data Science, DevOps, Product Management</div>
               </div>
               <div class="detail-row">
                 <div class="detail-label">Audience</div>
@@ -751,7 +751,7 @@
             <div class="node-details-inner">
               <div class="detail-row">
                 <div class="detail-label">Model</div>
-                <div class="detail-value"><code>all-MiniLM-L6-v2</code> &mdash; 384-dim sentence embeddings via SentenceTransformers</div>
+                <div class="detail-value"><code>all-MiniLM-L6-v2</code> &mdash; 384-dim sentence embeddings via ONNX Runtime (ChromaDB default)</div>
               </div>
               <div class="detail-row">
                 <div class="detail-label">Documents</div>
@@ -759,7 +759,7 @@
               </div>
               <div class="detail-row">
                 <div class="detail-label">Metadata</div>
-                <div class="detail-value">concept and analogy text stored alongside vectors for retrieval</div>
+                <div class="detail-value">concept, analogy, and category stored alongside vectors for retrieval</div>
               </div>
               <div class="detail-row">
                 <div class="detail-label">Storage</div>
@@ -796,7 +796,7 @@
             <div class="node-details-inner">
               <div class="detail-row">
                 <div class="detail-label">Collection</div>
-                <div class="detail-value"><code>"analogies"</code> &mdash; 228 embedded documents + metadata</div>
+                <div class="detail-value"><code>"analogies"</code> &mdash; 295 embedded documents + metadata (concept, analogy, category)</div>
               </div>
               <div class="detail-row">
                 <div class="detail-label">Index</div>
@@ -832,7 +832,7 @@
             <div class="node-icon source">&#128187;</div>
             <div>
               <div class="node-title">Browser</div>
-              <div class="node-subtitle">Autocomplete search with "Explain another way"</div>
+              <div class="node-subtitle">Daily analogy, category pills, autocomplete, copy &amp; share</div>
             </div>
             <div class="node-badge">CLIENT</div>
             <div class="node-expand">&#9662;</div>
@@ -844,16 +844,20 @@
                 <div class="detail-value"><code>templates/index.html</code> served at <code>/</code></div>
               </div>
               <div class="detail-row">
-                <div class="detail-label">Autocomplete</div>
-                <div class="detail-value">Fetches <code>GET /concepts</code> on load, filters client-side as user types (substring match, max 7 suggestions)</div>
+                <div class="detail-label">On load</div>
+                <div class="detail-value">Fetches <code>GET /concepts</code>, <code>GET /categories</code>, and <code>GET /daily</code></div>
+              </div>
+              <div class="detail-row">
+                <div class="detail-label">Categories</div>
+                <div class="detail-value">Clickable pills filter autocomplete via <code>GET /concepts?category=...</code>, placeholder updates to show active filter</div>
               </div>
               <div class="detail-row">
                 <div class="detail-label">Search</div>
-                <div class="detail-value"><code>POST /search</code> with <code>{ concept, n_results, exclude_ids }</code></div>
+                <div class="detail-value"><code>POST /search</code> with <code>{ concept, n_results, exclude_ids }</code>. "Explain another way" tracks seen IDs client-side</div>
               </div>
               <div class="detail-row">
-                <div class="detail-label">Another way</div>
-                <div class="detail-value">Tracks seen IDs client-side, passes them as <code>exclude_ids</code> to get a different analogy for the same concept</div>
+                <div class="detail-label">Features</div>
+                <div class="detail-value">Copy to clipboard, daily analogy card (hides on search), category tag on result cards</div>
               </div>
             </div>
           </div>
@@ -886,15 +890,19 @@
             <div class="node-details-inner">
               <div class="detail-row">
                 <div class="detail-label">Routes</div>
-                <div class="detail-value"><code>GET /</code> serves index.html<br><code>GET /concepts</code> returns unique concept names<br><code>POST /search</code> handles queries</div>
+                <div class="detail-value"><code>GET /</code> index &middot; <code>GET /concepts</code> (with <code>?category=</code> filter) &middot; <code>GET /categories</code> &middot; <code>POST /search</code> &middot; <code>GET /daily</code> &middot; <code>GET /analytics</code></div>
               </div>
               <div class="detail-row">
                 <div class="detail-label">Logic</div>
-                <div class="detail-value">Validates input, excludes previously seen IDs, deduplicates results by analogy text, returns concept + analogy + distance</div>
+                <div class="detail-value">Validates input, excludes seen IDs, deduplicates by analogy text, logs searches to <code>analytics.json</code>, returns concept + analogy + category + distance</div>
               </div>
               <div class="detail-row">
                 <div class="detail-label">Embedding</div>
-                <div class="detail-value"><code>SentenceTransformerEmbeddingFunction</code> (<code>all-MiniLM-L6-v2</code>) loaded once at startup for query encoding</div>
+                <div class="detail-value">ChromaDB default ONNX embedding function (<code>all-MiniLM-L6-v2</code>) — lightweight, no PyTorch needed</div>
+              </div>
+              <div class="detail-row">
+                <div class="detail-label">Deploy</div>
+                <div class="detail-value">Docker + gunicorn on Railway. <code>start.sh</code> rebuilds ChromaDB from <code>corpus.json</code> on each startup</div>
               </div>
             </div>
           </div>
@@ -918,7 +926,7 @@
             <div class="node-icon store">&#128218;</div>
             <div>
               <div class="node-title">ChromaDB</div>
-              <div class="node-subtitle">Vector similarity search over 228 analogy entries</div>
+              <div class="node-subtitle">Vector similarity search over 295 analogy entries</div>
             </div>
             <div class="node-badge">STORE</div>
             <div class="node-expand">&#9662;</div>
@@ -935,7 +943,7 @@
               </div>
               <div class="detail-row">
                 <div class="detail-label">Metadata</div>
-                <div class="detail-value">Each result returns concept, analogy text, and distance score</div>
+                <div class="detail-value">Each result returns concept, analogy text, category, and distance score</div>
               </div>
               <div class="detail-row">
                 <div class="detail-label">Storage</div>
